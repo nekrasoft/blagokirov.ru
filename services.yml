@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<yml_catalog date="2025-09-20 18:39">
+  <shop>
+    <name>БлагоСервис</name>
+    <company>БлагоСервис</company>
+    <url>https://blagokirov.ru/</url>
+
+    <currencies>
+      <currency id="RUB" rate="1"/>
+    </currencies>
+
+    <categories>
+      <category id="1">Вывоз мусора</category>
+      <category id="2">Контейнеры</category>
+      <category id="3">Демонтаж построек</category>
+      <category id="4">Утилизация отходов</category>
+    </categories>
+
+    <sets>
+      <set id="s1">
+        <name>Вывоз мусора в Кирове</name>
+        <url>https://blagokirov.ru</url>
+      </set>
+      <set id="s2">
+        <name>Демонтаж зданий в Кирове</name>
+        <url>https://blagokirov.ru</url>
+      </set>
+      <set id="s3">
+        <name>Аренда контейнеров в Кирове</name>
+        <url>https://blagokirov.ru</url>
+      </set>
+      <set id="s4">
+        <name>Аренда бункеров в Кирове</name>
+        <url>https://blagokirov.ru</url>
+      </set>
+      <set id="s5">
+        <name>Утилизация отходов в Кирове</name>
+        <url>https://blagokirov.ru</url>
+      </set>
+    </sets>
+
+    <offers>
+      <offer id="blago-001">
+        <name>Вывоз мусора в Кирове — БлагоСервис</name>
+        <url>https://blagokirov.ru/</url>
+        <price from="true">3500</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://blagokirov.ru/assets/blago-truck.jpg</picture>
+        <description>Честность. Надёжность. Оперативность.</description>
+        <adult>false</adult>
+        <sales_notes>за куб</sales_notes>
+
+        <set-ids>s1,s2,s5</set-ids>
+
+        <!-- Произвольные характеристики -->
+        <param name="Рейтинг">4</param>
+        <param name="Число отзывов">1</param>
+        <param name="Годы опыта">11</param>
+        <param name="Регион">Киров</param>
+        <param name="Конверсия">1.935</param>
+        <param name="Работа по адресу">да</param>
+        <param name="Бригада">да</param>
+        <param name="Работа по договору">да</param>
+        <param name="Наличный расчет">да</param>
+        <param name="Безналичный расчет">да</param>
+      </offer>
+
+      <offer id="blago-002">
+        <name>Аренда контейнеров и бункеров — БлагоСервис</name>
+        <url>https://blagokirov.ru/</url>
+        <price from="true">8000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://blagokirov.ru/assets/blago-bunker4.jpg</picture>
+        <description>Постоплата, вывоз в течение суток после заявки.</description>
+        <adult>false</adult>
+        <sales_notes>за бункер</sales_notes>
+
+        <set-ids>s3,s4</set-ids>
+
+        <param name="Рейтинг">4</param>
+        <param name="Число отзывов">1</param>
+        <param name="Годы опыта">11</param>
+        <param name="Регион">Киров</param>
+        <param name="Конверсия">1.935</param>
+        <param name="Работа по адресу">да</param>
+        <param name="Бригада">да</param>
+        <param name="Работа по договору">да</param>
+        <param name="Наличный расчет">да</param>
+        <param name="Безналичный расчет">да</param>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>

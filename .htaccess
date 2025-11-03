@@ -1,0 +1,66 @@
+IndexIgnore *
+Options +FollowSymlinks
+Options -Indexes
+
+RewriteEngine On
+
+# Базовый путь
+RewriteBase /
+
+# Если запрашивается существующий файл или директория, не перезаписывать
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Убрать слэш в конце URL (кроме корня)
+RewriteCond %{REQUEST_URI} !^/$
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [R=301,L]
+
+RewriteCond %{HTTPS} =off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
+
+RewriteCond %{HTTP_HOST} ^www.blago-kirov.ru$
+RewriteRule ^(.*)$ https://blagokirov.ru/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^blago-kirov.ru$
+RewriteRule ^(.*)$ https://blagokirov.ru/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www.blagokirov.ru$
+RewriteRule ^(.*)$ https://blagokirov.ru/$1 [R=301,L]
+
+
+# Перенаправление на index.php в папках услуг
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} ^/(vyvoz-musora|demontazh-postroek|arenda-kontejnerov|raschistka-uchastka)/?$
+RewriteRule ^([^/]+)/?$ $1/index.php [L]
+
+# Настройки PHP
+php_value upload_max_filesize 10M
+php_value post_max_size 10M
+php_value max_execution_time 300
+
+# Кодировка по умолчанию
+AddDefaultCharset UTF-8
+
+# Защита от просмотра файлов конфигурации
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|sql|config\.php)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# BEGIN WordPress
+# Директивы (строки) между `BEGIN WordPress` и `END WordPress`
+# созданы автоматически и подлежат изменению только через фильтры WordPress.
+# Сделанные вручную изменения между этими маркерами будут перезаписаны.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

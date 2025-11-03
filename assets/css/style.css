@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'pf_agora_slab_prolight';
+    src: url('../fonts/pfagoraslabpro-light-aqua.eot');
+    src: url('../fonts/pfagoraslabpro-light-aqua.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfagoraslabpro-light-aqua.woff') format('woff'),
+         url('../fonts/pfagoraslabpro-light-aqua.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pf_agora_slab_promedium';
+    src: url('../fonts/pfagoraslabpro-medium-aqua.eot');
+    src: url('../fonts/pfagoraslabpro-medium-aqua.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfagoraslabpro-medium-aqua.woff') format('woff'),
+         url('../fonts/pfagoraslabpro-medium-aqua.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pf_agora_slab_proregular';
+    src: url('../fonts/pfagoraslabpro-reg-aqua.eot');
+    src: url('../fonts/pfagoraslabpro-reg-aqua.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pfagoraslabpro-reg-aqua.woff') format('woff'),
+         url('../fonts/pfagoraslabpro-reg-aqua.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cuprumffuregular';
+    src: url('../fonts/cuprum-webfont.eot');
+    src: url('../fonts/cuprum-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cuprum-webfont.woff') format('woff'),
+         url('../fonts/cuprum-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;}
+
+::selection {
+background: #ffc688; /* Safari */
+}
+::-moz-selection {
+background: #ffc688; /* Firefox */
+}
+
+
+#form_bg {
+    position:relative;
+    padding:10px;
+    background:url(../img/form.png) no-repeat;
+    width:331px;
+    height:310px;
+    z-index:999;}
+
+#cover {
+    position:absolute;
+    top:0;
+    width:100%;
+    height:339%;
+    background:rgba(17, 17, 17, 0.4);
+    z-index:4;}
+
+#blockform {
+    width:290px;
+    padding:10px;
+    text-align:center;}
+
+#blockform h3 {
+    margin-bottom:10px;
+    font-family: 'pf_agora_slab_proregular';
+    font-size:16px;
+    font-weight:normal;
+    color: #333;
+    line-height:18px;}
+
+#blockform h3 span {
+    margin-bottom:10px;
+    font-family: 'pf_agora_slab_proregular';
+    font-size:24px;
+    font-weight:normal;
+    color: #333;
+    line-height:22px;}
+
+#blockform p {
+    margin-top: -10px;
+    font-family: 'pf_agora_slab_prolight';
+    font-size: 13px;
+    color: #111;
+    text-shadow: none
+    text-transform:uppercase;}
+
+.sub_button {
+    background:url(../img/big-button.png);
+    width:283px;
+    height:42px;
+    border:none;
+    font-family: 'cuprumffuregular';
+    font-size:17px;
+    text-transform:uppercase;
+    color:#fff;}
+
+.sub_button:hover {
+    margin-top:4px;
+    background: url(../img/big-button-hover.png);
+    width:283px;
+    height:38px;
+    border:none;}
+
+#block2 {
+    position:relative;
+    padding:35px;
+    margin-left:-25px;
+    background:url(../img/block2_bg.png) no-repeat;
+    width:951px;
+    height:351px;
+    z-index:5;}
+
+#block2 .span7 p {
+    margin-top:3px;
+    font-family: 'pf_agora_slab_proregular';
+    font-size:24px;
+    line-height:27px;
+    color:#fff;
+    text-shadow:1px 1px 2px #111;}
+
+#block2 .span7 p span{
+    font-family: 'pf_agora_slab_proregular';
+    font-size:40px;}
+
+.time {
+    text-align:center;
+    padding-top:20px;
+    background:url(../img/timerblock.png) no-repeat;
+    width:63px;
+    height:63px;
+    color:#fff;
+    font-size:36px;
+    font-family: 'pf_agora_slab_proregular';
+    z-index:1;}
+
+.timer span.cuprum {
+    position: absolute;
+    font-size: 18px;
+    color:#FFF;
+    margin: -15px 0 0 3px;
+    font-family: 'pf_agora_slab_proregular';}
+
+.timecontainer {
+    position:relative;
+    right: 137px;}
+
+.modal-header h3 {
+    text-align:center;
+    font-weight:normal;
+    font-family: 'cuprumffuregular';
+    font-size:23px;}
+
+.modal-header h4 {
+    text-align:center;
+    font-weight:normal;
+    font-family: 'cuprumffuregular';
+    font-size:17px;}
+
+.modal.short {
+  margin-left: -150px;
+}
+
+#down-btn {
+    position:absolute;
+    text-align:center;
+    left:50%;
+    padding-top:24px;
+    margin:-55px 0 50px -185px;
+    background:url(../img/down.png) no-repeat;
+    width:370px;
+    height:104px;
+    -webkit-transition: all 200ms linear;
+        -moz-transition: all 200ms linear;
+        -ms-transition: all 200ms linear;
+        -o-transition: all 200ms linear;
+        transition: all 200ms linear;}
+
+#down-btn p {
+    font-size:24px;
+    color: #666;}
+
+#down-btn:hover p {
+    font-size:24px;
+    color: #51d5f0;}
+
+#down-btn img {
+    margin-top:0px;
+    -webkit-transition: all 500ms linear;
+        -moz-transition: all 500ms linear;
+        -ms-transition: all 500ms linear;
+        -o-transition: all 500ms linear;
+        transition: all 500ms linear;}
+
+#down-btn:hover img {
+    margin-top:5px;
+    -webkit-transition: all 200ms linear;
+        -moz-transition: all 200ms linear;
+        -ms-transition: all 200ms linear;
+        -o-transition: all 200ms linear;
+        transition: all 200ms linear;}
+
+#down-btn:hover {
+    background:url(../img/down_hover.png) no-repeat;
+    width:370px;
+    height:104px;
+    -webkit-transition: all 200ms linear;
+        -moz-transition: all 200ms linear;
+        -ms-transition: all 200ms linear;
+        -o-transition: all 200ms linear;
+        transition: all 200ms linear;}

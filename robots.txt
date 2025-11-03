@@ -1,0 +1,4 @@
+User-agent: *
+Host: blagokirov.ru
+
+Sitemap: https://blagokirov.ru/sitemap.xml
