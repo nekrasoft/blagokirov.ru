@@ -248,7 +248,7 @@ include '../includes/header.php';
     ?>
 
     <!-- Призыв к действию -->
-    <section style="background: linear-gradient(135deg, #ff6b6b 0%, #ee5a52 100%); color: #fff; padding: 40px 20px;
+    <section style="background: linear-gradient(135deg, #28a745 0%, #20c997 100%); color: #fff; padding: 40px 20px;
                     border-radius: 10px; margin-bottom: 50px;">
         <div style="max-width: 1200px; margin: 0 auto;">
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start;">
@@ -261,12 +261,12 @@ include '../includes/header.php';
                     </p>
                     <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;">
                         <a href="<?php echo format_phone_link(PHONE_1); ?>"
-                           style="display: inline-block; background: #fff; color: #ff6b6b; padding: 15px 40px;
+                           style="display: inline-block; background: #fff; color: #28a745; padding: 15px 40px;
                                   text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 18px;">
                             <?php echo PHONE_1; ?>
                         </a>
                         <a href="<?php echo format_phone_link(PHONE_2); ?>"
-                           style="display: inline-block; background: #fff; color: #ff6b6b; padding: 15px 40px;
+                           style="display: inline-block; background: #fff; color: #28a745; padding: 15px 40px;
                                   text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 18px;">
                             <?php echo PHONE_2; ?>
                         </a>

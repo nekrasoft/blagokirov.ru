@@ -49,17 +49,25 @@ include '../includes/header.php';
         <h2 style="font-size: 28px; color: #2c3e50; margin-bottom: 20px;">
             Эффективные услуги по вывозу мусора
         </h2>
+        <div style="display: flex; gap: 30px; align-items: flex-start; flex-wrap: wrap;">
+            <div style="flex: 0 0 300px; max-width: 300px; min-width: 220px;">
+                <img src="<?php echo SITE_URL; ?>/assets/vyvoz-musora.jpg" alt="Демонтаж построек"
+                 style="width: 100%; max-width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
 
-        <p style="line-height: 1.8; color: #333; margin-bottom: 20px;">
-            <strong>Благосервис</strong> предлагает экономичные услуги по вывозу мусора, сокращая потребность в транспорте
-            и обеспечивая экологически безопасную утилизацию отходов с помощью наших лицензированных услуг.
-        </p>
+            <div style="flex: 1 1 480px; min-width: 280px;">
+                <p style="line-height: 1.8; color: #333; margin-bottom: 20px;">
+                    <strong>Благосервис</strong> предлагает экономичные услуги по вывозу мусора, сокращая потребность в транспорте
+                    и обеспечивая экологически безопасную утилизацию отходов с помощью наших лицензированных услуг.
+                </p>
 
-        <p style="line-height: 1.8; color: #333; margin-bottom: 20px;">
-            Наше передовое оборудование заменяет несколько стандартных транспортных средств, оптимизируя ваши расходы
-            и обеспечивая надёжную утилизацию отходов. Мы используем современные технологии прессования и умные системы
-            сбора отходов с GPS-отслеживанием для оптимизации маршрутов.
-        </p>
+                <p style="line-height: 1.8; color: #333; margin-bottom: 20px;">
+                    Наше передовое оборудование заменяет несколько стандартных транспортных средств, оптимизируя ваши расходы
+                    и обеспечивая надёжную утилизацию отходов. Мы используем современные технологии прессования и умные системы
+                    сбора отходов с GPS-отслеживанием для оптимизации маршрутов.
+                </p>
+            </div>
+        </div>
     </section>
 
     <!-- Преимущества -->
@@ -140,15 +148,65 @@ include '../includes/header.php';
         </div>
     </section>
 
+    <!-- Дополнительная информация -->
+    <section style="margin-bottom: 50px;">
+        <h2 style="font-size: 28px; color: #2c3e50; margin-bottom: 20px;">
+            Как мы работаем
+        </h2>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
+            <div style="text-align: center; padding: 20px;">
+                <div style="background: #007bff; color: #fff; width: 60px; height: 60px; border-radius: 50%;
+                            display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;
+                            font-size: 24px; font-weight: bold;">1</div>
+                <h3 style="color: #2c3e50; margin-bottom: 10px;">Обращение</h3>
+                <p style="color: #666;">Звонок или заявка на сайте</p>
+            </div>
+
+            <div style="text-align: center; padding: 20px;">
+                <div style="background: #007bff; color: #fff; width: 60px; height: 60px; border-radius: 50%;
+                            display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;
+                            font-size: 24px; font-weight: bold;">2</div>
+                <h3 style="color: #2c3e50; margin-bottom: 10px;">Расчёт</h3>
+                <p style="color: #666;">Оценка объёма и стоимости</p>
+            </div>
+
+            <div style="text-align: center; padding: 20px;">
+                <div style="background: #007bff; color: #fff; width: 60px; height: 60px; border-radius: 50%;
+                            display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;
+                            font-size: 24px; font-weight: bold;">3</div>
+                <h3 style="color: #2c3e50; margin-bottom: 10px;">Вывоз</h3>
+                <p style="color: #666;">Оперативный вывоз мусора</p>
+            </div>
+
+            <div style="text-align: center; padding: 20px;">
+                <div style="background: #007bff; color: #fff; width: 60px; height: 60px; border-radius: 50%;
+                            display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;
+                            font-size: 24px; font-weight: bold;">4</div>
+                <h3 style="color: #2c3e50; margin-bottom: 10px;">Утилизация</h3>
+                <p style="color: #666;">Лицензированная утилизация</p>
+            </div>
+        </div>
+    </section>
+
     <!-- Галерея выполненных работ -->
     <?php
     // Настройка галереи для страницы
     // Добавьте свои изображения и видео Rutube в массив ниже
     $galleryItems = [
         // Примеры - замените на свои данные
-        // ['type' => 'image', 'url' => '/assets/work1.jpg', 'alt' => 'Вывоз мусора', 'title' => 'Проект 1', 'caption' => 'Описание работы'],
-        // ['type' => 'image', 'url' => '/assets/work2.jpg', 'alt' => 'Вывоз мусора 2'],
-        // ['type' => 'video', 'url' => 'https://rutube.ru/video/123456/', 'title' => 'Видео с работой', 'caption' => 'Процесс вывоза мусора'],
+        ['type' => 'image', 'url' => '/assets/vyvoz-musora/vyvoz-musora1.jpg', 'alt' => 'Вывоз мусора', 'title' => 'Киров', 'caption' => 'Устранение несанкционированной свалки'],
+        ['type' => 'image', 'url' => '/assets/vyvoz-musora/vyvoz-musora2.jpg', 'alt' => 'Вывоз мусора', 'title' => 'Киров', 'caption' => 'Устранение несанкционированной свалки'],
+        ['type' => 'image', 'url' => '/assets/vyvoz-musora/vyvoz-musora3.jpg', 'alt' => 'Вывоз мусора', 'title' => 'Киров', 'caption' => 'Устранение несанкционированной свалки'],
+        ['type' => 'image', 'url' => '/assets/vyvoz-musora/vyvoz-musora4.jpg', 'alt' => 'Вывоз мусора', 'title' => 'Киров', 'caption' => 'Устранение несанкционированной свалки'],
+        ['type' => 'image', 'url' => '/assets/vyvoz-musora/vyvoz-musora5.jpg', 'alt' => 'Вывоз мусора', 'title' => 'Киров', 'caption' => 'Устранение несанкционированной свалки'],
+        ['type' => 'image', 'url' => '/assets/vyvoz-musora/vyvoz-musora6.jpg', 'alt' => 'Вывоз мусора', 'title' => 'Киров', 'caption' => 'Устранение несанкционированной свалки'],
+        ['type' => 'image', 'url' => '/assets/vyvoz-musora/vyvoz-musora8.jpg', 'alt' => 'Вывоз мусора', 'title' => 'Киров', 'caption' => 'Устранение несанкционированной свалки'],
+        ['type' => 'image', 'url' => '/assets/vyvoz-musora/vyvoz-musora9.jpg', 'alt' => 'Вывоз мусора', 'title' => 'Киров', 'caption' => 'Устранение несанкционированной свалки'],
+        ['type' => 'image', 'url' => '/assets/vyvoz-musora/vyvoz-musora10.jpg', 'alt' => 'Вывоз мусора', 'title' => 'Киров', 'caption' => 'Вывоз строительного мусора'],
+        ['type' => 'image', 'url' => '/assets/vyvoz-musora/vyvoz-musora11.jpg', 'alt' => 'Вывоз мусора', 'title' => 'Киров', 'caption' => 'Вывоз строительного мусора'],
+        ['type' => 'image', 'url' => '/assets/vyvoz-musora/vyvoz-musora12.jpg', 'alt' => 'Вывоз мусора', 'title' => 'Киров', 'caption' => 'Вывоз строительного мусора'],
+        ['type' => 'image', 'url' => '/assets/vyvoz-musora/vyvoz-musora13.jpg', 'alt' => 'Вывоз мусора', 'title' => 'Киров', 'caption' => 'Демонтаж и вывоз мусора'],
     ];
 
     if (!empty($galleryItems)) {
@@ -212,46 +270,6 @@ include '../includes/header.php';
         </style>
     </section>
 
-    <!-- Дополнительная информация -->
-    <section style="margin-bottom: 50px;">
-        <h2 style="font-size: 28px; color: #2c3e50; margin-bottom: 20px;">
-            Как мы работаем
-        </h2>
-
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
-            <div style="text-align: center; padding: 20px;">
-                <div style="background: #007bff; color: #fff; width: 60px; height: 60px; border-radius: 50%;
-                            display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;
-                            font-size: 24px; font-weight: bold;">1</div>
-                <h3 style="color: #2c3e50; margin-bottom: 10px;">Обращение</h3>
-                <p style="color: #666;">Звонок или заявка на сайте</p>
-            </div>
-
-            <div style="text-align: center; padding: 20px;">
-                <div style="background: #007bff; color: #fff; width: 60px; height: 60px; border-radius: 50%;
-                            display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;
-                            font-size: 24px; font-weight: bold;">2</div>
-                <h3 style="color: #2c3e50; margin-bottom: 10px;">Расчёт</h3>
-                <p style="color: #666;">Оценка объёма и стоимости</p>
-            </div>
-
-            <div style="text-align: center; padding: 20px;">
-                <div style="background: #007bff; color: #fff; width: 60px; height: 60px; border-radius: 50%;
-                            display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;
-                            font-size: 24px; font-weight: bold;">3</div>
-                <h3 style="color: #2c3e50; margin-bottom: 10px;">Вывоз</h3>
-                <p style="color: #666;">Оперативный вывоз мусора</p>
-            </div>
-
-            <div style="text-align: center; padding: 20px;">
-                <div style="background: #007bff; color: #fff; width: 60px; height: 60px; border-radius: 50%;
-                            display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;
-                            font-size: 24px; font-weight: bold;">4</div>
-                <h3 style="color: #2c3e50; margin-bottom: 10px;">Утилизация</h3>
-                <p style="color: #666;">Лицензированная утилизация</p>
-            </div>
-        </div>
-    </section>
 </main>
 
 <?php include '../includes/footer.php'; ?>

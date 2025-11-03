@@ -395,7 +395,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="twbb_cta-image-background-wrapper">
           <span class="twbb_cta-image-background-overlay"></span>
                             <div class="twbb_cta-image-html-tag">
-                                            <img src="assets/before-after2.jpg" alt="Вывоз мусора Киров">
+                                            <img src="assets/vyvoz-musora3.jpg" alt="Вывоз мусора Киров">
                                     </div>
                     </div>
         <div class="twbb_cta-content-wrapper ">
@@ -1361,5 +1361,6 @@ document.addEventListener('DOMContentLoaded', function() {
 <?php
 // Флаг для указания, что jQuery уже подключен на главной странице
 $jquery_already_loaded = true;
+$is_main_page = true;
 include 'includes/footer.php';
 ?>
