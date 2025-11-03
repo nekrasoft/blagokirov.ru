@@ -116,11 +116,6 @@ include '../includes/header.php';
             </div>
 
             <div style="border: 1px solid #ddd; padding: 25px; border-radius: 10px;">
-                <h3 style="color: #2c3e50; margin-bottom: 15px;">🏠 Частные участки</h3>
-                <p style="color: #666; margin: 0;">Для работ по расчистке территории</p>
-            </div>
-
-            <div style="border: 1px solid #ddd; padding: 25px; border-radius: 10px;">
                 <h3 style="color: #2c3e50; margin-bottom: 15px;">🔧 Ремонтные работы</h3>
                 <p style="color: #666; margin: 0;">Сбор мусора при ремонте и реконструкции</p>
             </div>
@@ -210,6 +205,7 @@ include '../includes/header.php';
         ['type' => 'image', 'url' => '/assets/bunkers/bunker-3-posle.jpg', 'alt' => 'Аренда контейнеров', 'title' => 'Киров', 'caption' => 'После'],
         ['type' => 'image', 'url' => '/assets/bunkers/bunker-5-do.jpg', 'alt' => 'Аренда контейнеров', 'title' => 'Киров', 'caption' => 'До'],
         ['type' => 'image', 'url' => '/assets/bunkers/bunker-5-posle.jpg', 'alt' => 'Аренда контейнеров', 'title' => 'Киров', 'caption' => 'После'],
+        ['type' => 'image', 'url' => '/assets/bunkers/bunkers.jpg', 'alt' => 'Аренда контейнеров', 'title' => 'Киров', 'caption' => 'Микрорайон "Знак"'],
         // ['type' => 'video', 'url' => 'https://rutube.ru/video/123456/', 'title' => 'Видео с работой', 'caption' => 'Процесс установки контейнера'],
     ];
 
@@ -228,7 +224,7 @@ include '../includes/header.php';
                         Закажите аренду контейнера прямо сейчас!
                     </h2>
                     <p style="font-size: 18px; margin-bottom: 30px; text-align: center;">
-                        Гибкие условия аренды, надёжная доставка, умные контейнеры с мониторингом
+                        Гибкие условия аренды, надёжная доставка, своевременный вывоз, постоплата. Звоните!
                     </p>
                     <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 20px;">
                         <a href="<?php echo format_phone_link(PHONE_1); ?>"
