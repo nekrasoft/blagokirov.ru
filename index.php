@@ -391,7 +391,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-7v822w8s elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb_cta-button-wrapper-center twbb_cta-valign-align-top twbb_cta-position-image-top twbb_cta-tablet-position-image-top twbb_cta-mobile-position-image-top twbb_cta-button-wrapper-center twbb_cta-button-wrapper-center twbb_cta-position-button-bottom twbb_cta-tablet-position-button-bottom twbb_cta-mobile-position-button-bottom elementor-widget elementor-widget-twbb_call-to-action animated fadeInUp" data-id="7v822w8s" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="twbb_call-to-action.default">
 				<div class="elementor-widget-container">
-					    <a href="#" class="twbb_cta-wrapper ">
+					    <a href="/vyvoz-musora/" class="twbb_cta-wrapper ">
                   <div class="twbb_cta-image-background-wrapper">
           <span class="twbb_cta-image-background-overlay"></span>
                             <div class="twbb_cta-image-html-tag">
@@ -408,6 +408,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
     <div class="twbb_cta-button-wrapper">
         <div class="twbb_cta-buttons">
+        <div class="twbb_cta-button-item twbb_cta-button-item__two twbb_cta-button-enable-yes">
+          <a href="/vyvoz-musora/" class="elementor-button twbb_cta-button elementor-size- sm twbb_cta-button__two">Узнать больше</a>
+        </div>
                         </div>
     </div>
   </div>
@@ -416,7 +419,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="elementor-element elementor-element-nn7w5szu elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb_cta-button-wrapper-center twbb_cta-valign-align-top twbb_cta-position-image-top twbb_cta-tablet-position-image-top twbb_cta-mobile-position-image-top twbb_cta-button-wrapper-center twbb_cta-button-wrapper-center twbb_cta-position-button-bottom twbb_cta-tablet-position-button-bottom twbb_cta-mobile-position-button-bottom elementor-widget elementor-widget-twbb_call-to-action animated fadeInUp" data-id="nn7w5szu" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="twbb_call-to-action.default">
 				<div class="elementor-widget-container">
-					    <a href="#" class="twbb_cta-wrapper ">
+					    <a href="/demontazh-postroek/" class="twbb_cta-wrapper ">
                   <div class="twbb_cta-image-background-wrapper">
           <span class="twbb_cta-image-background-overlay"></span>
                             <div class="twbb_cta-image-html-tag">
@@ -432,6 +435,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
     <div class="twbb_cta-button-wrapper">
         <div class="twbb_cta-buttons">
+        <div class="twbb_cta-button-item twbb_cta-button-item__two twbb_cta-button-enable-yes">
+          <a href="/demontazh-postroek/" class="elementor-button twbb_cta-button elementor-size- twbb_cta-button__two">Узнать больше</a>
+        </div>
                         </div>
     </div>
   </div>
@@ -440,7 +446,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="elementor-element elementor-element-4i5f72pe elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb_cta-button-wrapper-center twbb_cta-valign-align-top twbb_cta-position-image-top twbb_cta-tablet-position-image-top twbb_cta-mobile-position-image-top twbb_cta-button-wrapper-center twbb_cta-button-wrapper-center twbb_cta-position-button-bottom twbb_cta-tablet-position-button-bottom twbb_cta-mobile-position-button-bottom elementor-widget elementor-widget-twbb_call-to-action animated fadeInUp" data-id="4i5f72pe" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="twbb_call-to-action.default">
 				<div class="elementor-widget-container">
-					    <a href="#" class="twbb_cta-wrapper ">
+					    <a href="/arenda-kontejnerov/" class="twbb_cta-wrapper ">
                   <div class="twbb_cta-image-background-wrapper">
           <span class="twbb_cta-image-background-overlay"></span>
                             <div class="twbb_cta-image-html-tag">
@@ -456,6 +462,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
     <div class="twbb_cta-button-wrapper">
         <div class="twbb_cta-buttons">
+        <div class="twbb_cta-button-item twbb_cta-button-item__two twbb_cta-button-enable-yes">
+          <a href="/arenda-kontejnerov/" class="elementor-button twbb_cta-button elementor-size- twbb_cta-button__two">Узнать больше</a>
+        </div>
                         </div>
     </div>
   </div>
@@ -464,7 +473,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="elementor-element elementor-element-im6moa1a elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb_cta-button-wrapper-center twbb_cta-valign-align-top twbb_cta-position-image-top twbb_cta-tablet-position-image-top twbb_cta-mobile-position-image-top twbb_cta-button-wrapper-center twbb_cta-button-wrapper-center twbb_cta-position-button-bottom twbb_cta-tablet-position-button-bottom twbb_cta-mobile-position-button-bottom elementor-widget elementor-widget-twbb_call-to-action animated fadeInUp" data-id="im6moa1a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="twbb_call-to-action.default">
 				<div class="elementor-widget-container">
-					    <a href="#" class="twbb_cta-wrapper ">
+					    <a href="/raschistka-uchastka/" class="twbb_cta-wrapper ">
                   <div class="twbb_cta-image-background-wrapper">
           <span class="twbb_cta-image-background-overlay"></span>
                             <div class="twbb_cta-image-html-tag">
@@ -473,15 +482,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
         <div class="twbb_cta-content-wrapper ">
     <div class="twbb_cta-content-inner">
-                <h5 class="twbb_cta-title">Надежная команда по обращению с отходами</h5>
+                <h5 class="twbb_cta-title">Расчистка и подготовка участка</h5>
                     <div class="twbb_cta-description">Наши
-квалифицированные специалисты в Благосервис обеспечивают надлежащую
-обработку отходов, предоставляя быстрый и надежный сервис для больших
-объемов с гарантией качества.</div>
+квалифицированные специалисты в Благосервис обеспечивают надлежащую расчистку участка, предоставляя быстрый и надежный сервис для больших объемов работ с гарантией качества.</div>
               </div>
     <div class="twbb_cta-button-wrapper">
         <div class="twbb_cta-buttons">
-                        </div>
+        <div class="twbb_cta-button-item twbb_cta-button-item__two twbb_cta-button-enable-yes">
+          <a href="/raschistka-uchastka/" class="elementor-button twbb_cta-button elementor-size- twbb_cta-button__two">Узнать больше</a>
+        </div>
+        </div>
     </div>
   </div>
         </a>
@@ -871,6 +881,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 #newsletter-form ~ .elementor-message,
                 .elementor-widget-container:has(#newsletter-form) .elementor-message {
                     display: none !important;
+                }
+                /* Стили для кнопок "Узнать больше" - белый фон, синий контур и текст */
+                .twbb_cta-button__two.elementor-button {
+                    background-color: #ffffff !important;
+                    color: var(--e-global-color-accent, #5966D9) !important;
+                    border: 1px solid var(--e-global-color-accent, #5966D9) !important;
+                    border-style: solid !important;
+                    border-width: 1px !important;
+                    transition: all 0.3s ease !important;
+                }
+                .twbb_cta-button__two.elementor-button:hover,
+                .twbb_cta-button__two.elementor-button:focus {
+                    background-color: var(--e-global-color-accent, #5966D9) !important;
+                    color: #ffffff !important;
+                    border-color: var(--e-global-color-accent, #5966D9) !important;
                 }
             </style>
             <!-- <link rel="stylesheet" id="font-awesome-5-all-css" href="assets/all.min.css" type="text/css" media="all"> -->
