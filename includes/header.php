@@ -87,7 +87,20 @@
     <link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/styles.min.css">
     <link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/post-149.css">
 
+    <!-- Google Fonts - Montserrat -->
+    <link rel="stylesheet" id="elementor-gf-local-montserrat-css" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" type="text/css" media="all">
+
     <style>
+        /* Применение шрифта Montserrat ко всему документу */
+        body {
+            font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        /* Применение к основным текстовым элементам */
+        h1, h2, h3, h4, h5, h6, p, a, span, div, li, td, th, label, input, textarea, button, select {
+            font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        }
+
         /* Дополнительные стили для PHP-версии */
         .header-container {
             background: #fff;
