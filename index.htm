@@ -1131,6 +1131,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     background-color: #5966D9;
                     opacity: 20%;
                 }
+                /* Скрыть сообщения об ошибках Elementor для формы подписки */
+                #newsletter-form ~ .elementor-message,
+                .elementor-widget-container:has(#newsletter-form) .elementor-message {
+                    display: none !important;
+                }
             </style>
             <!-- <link rel="stylesheet" id="font-awesome-5-all-css" href="assets/all.min.css" type="text/css" media="all"> -->
 <!-- <link rel="stylesheet" id="font-awesome-4-shim-css" href="assets/v4-shims.min.css" type="text/css" media="all"> -->
@@ -1299,9 +1304,50 @@ document.addEventListener('DOMContentLoaded', function() {
     const messageDiv = document.getElementById('newsletter-message');
     const submitBtn = document.getElementById('newsletter-submit');
 
-    if (newsletterForm) {
+    if (newsletterForm && submitBtn) {
+        // Сохранить исходную структуру кнопки
+        const originalButtonHTML = submitBtn.innerHTML;
+
+        // Найти контейнер виджета для поиска сообщений
+        const widgetContainer = newsletterForm.closest('.elementor-widget-container');
+
+        // Скрыть сообщения об ошибках от Elementor
+        const hideElementorMessages = function() {
+            // Ищем сообщения внутри формы и контейнера виджета
+            const containers = [newsletterForm];
+            if (widgetContainer) {
+                containers.push(widgetContainer);
+            }
+            containers.forEach(function(container) {
+                const elementorMessages = container.querySelectorAll('.elementor-message');
+                elementorMessages.forEach(function(msg) {
+                    msg.style.display = 'none';
+                });
+            });
+        };
+        // Скрыть сообщения сразу и после небольшой задержки (на случай если они появляются динамически)
+        hideElementorMessages();
+        setTimeout(hideElementorMessages, 100);
+
+        // Наблюдатель за изменениями DOM для скрытия сообщений Elementor
+        const observer = new MutationObserver(function(mutations) {
+            hideElementorMessages();
+        });
+
+        if (widgetContainer) {
+            observer.observe(widgetContainer, {
+                childList: true,
+                subtree: true
+            });
+        }
+
         newsletterForm.addEventListener('submit', function(e) {
             e.preventDefault();
+
+            // Скрыть сообщения Elementor
+            hideElementorMessages();
+            setTimeout(hideElementorMessages, 50);
+            setTimeout(hideElementorMessages, 200);
 
             const emailInput = document.getElementById('form-field-email');
             const email = emailInput.value.trim();
@@ -1316,9 +1362,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
 
-            // Отключить кнопку
+            // Отключить кнопку и изменить текст
             submitBtn.disabled = true;
-            submitBtn.querySelector('.elementor-button-text').textContent = 'Отправка...';
+            const buttonText = submitBtn.querySelector('.elementor-button-text');
+            if (buttonText) {
+                buttonText.textContent = 'Отправка...';
+            } else {
+                submitBtn.innerHTML = '<span><span class="elementor-button-text">Отправка...</span></span>';
+            }
 
             // Скрыть предыдущие сообщения
             messageDiv.style.display = 'none';
@@ -1362,9 +1413,13 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .finally(() => {
                 submitBtn.disabled = false;
-                submitBtn.querySelector('.elementor-button-text').textContent = 'Подписаться';
+                // Восстановить исходную структуру кнопки
+                submitBtn.innerHTML = originalButtonHTML;
             });
         });
+
+        // Также скрывать сообщения Elementor при изменении формы
+        newsletterForm.addEventListener('input', hideElementorMessages);
     }
 });
 </script>
