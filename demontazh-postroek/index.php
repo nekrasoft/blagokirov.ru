@@ -186,6 +186,22 @@ include '../includes/header.php';
         </div>
     </section>
 
+    <!-- Галерея выполненных работ -->
+    <?php
+    // Настройка галереи для страницы
+    // Добавьте свои изображения и видео Rutube в массив ниже
+    $galleryItems = [
+        // Примеры - замените на свои данные
+        // ['type' => 'image', 'url' => '/assets/demontazh1.jpg', 'alt' => 'Демонтаж построек', 'title' => 'Проект 1', 'caption' => 'Описание работы'],
+        // ['type' => 'image', 'url' => '/assets/demontazh2.jpg', 'alt' => 'Демонтаж построек 2'],
+        // ['type' => 'video', 'url' => 'https://rutube.ru/video/123456/', 'title' => 'Видео с работой', 'caption' => 'Процесс демонтажа'],
+    ];
+
+    if (!empty($galleryItems)) {
+        include '../includes/gallery.php';
+    }
+    ?>
+
     <!-- Призыв к действию -->
     <section style="background: linear-gradient(135deg, #28a745 0%, #20c997 100%); color: #fff; padding: 40px 20px;
                     border-radius: 10px; margin-bottom: 50px;">

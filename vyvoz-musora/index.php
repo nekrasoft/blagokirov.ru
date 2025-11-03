@@ -140,6 +140,22 @@ include '../includes/header.php';
         </div>
     </section>
 
+    <!-- Галерея выполненных работ -->
+    <?php
+    // Настройка галереи для страницы
+    // Добавьте свои изображения и видео Rutube в массив ниже
+    $galleryItems = [
+        // Примеры - замените на свои данные
+        // ['type' => 'image', 'url' => '/assets/work1.jpg', 'alt' => 'Вывоз мусора', 'title' => 'Проект 1', 'caption' => 'Описание работы'],
+        // ['type' => 'image', 'url' => '/assets/work2.jpg', 'alt' => 'Вывоз мусора 2'],
+        // ['type' => 'video', 'url' => 'https://rutube.ru/video/123456/', 'title' => 'Видео с работой', 'caption' => 'Процесс вывоза мусора'],
+    ];
+
+    if (!empty($galleryItems)) {
+        include '../includes/gallery.php';
+    }
+    ?>
+
     <!-- Призыв к действию -->
     <section style="background: linear-gradient(135deg, #007bff 0%, #0056b3 100%); color: #fff; padding: 40px 20px;
                     border-radius: 10px; margin-bottom: 50px;">

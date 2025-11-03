@@ -219,6 +219,26 @@ include '../includes/header.php';
         </div>
     </section>
 
+    <!-- Галерея выполненных работ -->
+    <?php
+    // Настройка галереи для страницы
+    // Добавьте свои изображения и видео Rutube в массив ниже
+    $galleryItems = [
+        // Примеры - замените на свои данные
+        ['type' => 'image', 'url' => '/assets/raschistka/raschistka1.jpg', 'alt' => 'Расчистка участка', 'title' => 'Киров, д.Шустовы', 'caption' => 'Подготовка участка к строительству'],
+        ['type' => 'image', 'url' => '/assets/raschistka/raschistka2.jpg', 'alt' => 'Расчистка участка 2', 'title' => 'Киров, д.Шустовы', 'caption' => 'Подготовка участка к строительству'],
+        ['type' => 'image', 'url' => '/assets/raschistka/raschistka3.jpg', 'alt' => 'Расчистка участка 3', 'title' => 'Киров, д.Шустовы', 'caption' => 'Подготовка участка к строительству'],
+        ['type' => 'image', 'url' => '/assets/raschistka/raschistka4.jpg', 'alt' => 'Расчистка участка 4', 'title' => 'Киров, д.Шустовы', 'caption' => 'Подготовка участка к строительству'],
+        ['type' => 'image', 'url' => '/assets/raschistka/raschistka5.jpg', 'alt' => 'Расчистка участка 5', 'title' => 'Киров, д.Шустовы', 'caption' => 'Подготовка участка к строительству'],
+        ['type' => 'image', 'url' => '/assets/raschistka/raschistka6.jpg', 'alt' => 'Расчистка участка 6', 'title' => 'Киров, д.Шустовы', 'caption' => 'Подготовка участка к строительству'],
+        // ['type' => 'video', 'url' => 'https://rutube.ru/video/123456/', 'title' => 'Видео с работой', 'caption' => 'Процесс расчистки участка'],
+    ];
+
+    if (!empty($galleryItems)) {
+        include '../includes/gallery.php';
+    }
+    ?>
+
     <!-- Призыв к действию -->
     <section style="background: linear-gradient(135deg, #ff6b6b 0%, #ee5a52 100%); color: #fff; padding: 40px 20px;
                     border-radius: 10px; margin-bottom: 50px;">
