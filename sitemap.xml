@@ -4,19 +4,43 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- Главная страница -->
 <url>
-  <loc>https://blagokirov.ru</loc>
+  <loc>https://blagokirov.ru/</loc>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
+<!-- Страницы услуг -->
+<url>
+  <loc>https://blagokirov.ru/vyvoz-musora/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://blagokirov.ru/demontazh-postroek/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://blagokirov.ru/arenda-kontejnerov/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://blagokirov.ru/raschistka-uchastka/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<!-- Дополнительные страницы -->
 <url>
   <loc>https://blagokirov.ru/%D0%9A%D0%9F%20%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81.pdf</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blagokirov.ru/%D0%9C%D0%B8%D0%BD%D0%B8-%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81.pdf</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 </urlset>
+

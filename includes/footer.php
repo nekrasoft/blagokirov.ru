@@ -81,6 +81,72 @@
     <script src="<?php echo SITE_URL; ?>/assets/jquery-migrate.min.js"></script>
     <script src="<?php echo SITE_URL; ?>/assets/scripts.min.js"></script>
 
+    <!-- Блок hcard для структурированных данных -->
+    <div id="hcard" class="hcard" style="display: none">
+
+      <div class="fn n">
+        <div class="org"><a href="<?php echo SITE_URL; ?>/" title="Благосервис: Вывоз мусора и утилизация отходов">Вывоз мусора в Кирове</a></div>
+      </div>
+
+      <div class="tagline">Благосервис: Вывоз мусора и аренда контейнеров, демонтаж построек</div>
+
+      <div class="adr">
+        <span class="postal-code"><?php echo COMPANY_POSTAL_CODE; ?></span>,
+        <span class="country-name">Россия</span>,
+        <span class="region">Кировская область</span>,
+        <span class="locality">город <?php echo COMPANY_CITY; ?></span>,
+        <span class="street-address"><?php echo COMPANY_ADDRESS; ?></span>
+        <br />
+        <span>время работы: <span class="workhours"><?php echo WORKING_HOURS; ?></span></span>
+        <span class="tel"><i class="value"><?php echo PHONE_1; ?></i></span>
+        <span class="tel"><i class="value"><?php echo PHONE_2; ?></i></span>
+        <span class="tel"><i class="value"><?php echo PHONE_3; ?></i></span>
+      </div>
+
+      <div>
+        <span class="category">Вывоз мусора</span>,
+        <span class="category">Утилизация отходов</span>,
+        <span class="category">Контейнеры</span>
+      </div>
+      <div class="phone">
+        <span class="tel"><i class="value"><?php echo PHONE_1; ?></i></span>
+        <span class="tel"><i class="value"><?php echo PHONE_2; ?></i></span>
+        <span class="tel"><i class="value"><?php echo PHONE_3; ?></i></span>
+      </div>
+      <a class="url" href="<?php echo SITE_URL; ?>" title="Благосервис: Вывоз мусора и аренда контейнеров, демонтаж построек"><?php echo SITE_URL; ?></a>
+
+      <div class="tags"><a href="<?php echo SITE_URL; ?>" title="Благосервис: Вывоз мусора и аренда контейнеров">Благосервис: Вывоз мусора и аренда контейнеров</a></div>
+
+    </div>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                (function(m, e, t, r, i, k, a) {
+                    m[i] = m[i] || function() {
+                        (m[i].a = m[i].a || []).push(arguments)
+                    };
+                    m[i].l = 1 * new Date();
+                    k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+                })
+                (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+                ym(103011812, "init", {
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    webvisor: true,
+                    trackHash: true
+                });
+            }, 5000);
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/103011812" style="position:absolute; left:-9999px;" alt="" /></div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
 </body>
 </html>
 
