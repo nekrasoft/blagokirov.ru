@@ -97,8 +97,11 @@
     </footer>
 
     <!-- JavaScript -->
+    <?php if (!isset($jquery_already_loaded) || !$jquery_already_loaded): ?>
+    <!-- jQuery подключается только если ещё не был загружен (для других страниц) -->
     <script src="<?php echo SITE_URL; ?>/assets/jquery.min.js"></script>
     <script src="<?php echo SITE_URL; ?>/assets/jquery-migrate.min.js"></script>
+    <?php endif; ?>
     <script src="<?php echo SITE_URL; ?>/assets/scripts.min.js"></script>
 
     <!-- Обработка формы подписки на рассылку -->

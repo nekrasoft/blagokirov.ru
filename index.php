@@ -1333,4 +1333,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-<?php include 'includes/footer.php'; ?>
+<?php
+// Флаг для указания, что jQuery уже подключен на главной странице
+$jquery_already_loaded = true;
+include 'includes/footer.php';
+?>
