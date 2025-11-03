@@ -90,7 +90,7 @@
                 </p>
                 <p style="margin: 10px 0 0 0;">
                     <a href="https://blagokirov.tb.ru/" target="_blank" style="color: #95a5a6; text-decoration: none; margin-right: 15px;">Наши реквизиты</a>
-                    <a href="<?php echo SITE_URL; ?>/policy.htm" style="color: #95a5a6; text-decoration: none;">Политика конфиденциальности</a>
+                    <a href="<?php echo SITE_URL; ?>/policy.php" style="color: #95a5a6; text-decoration: none;">Политика конфиденциальности</a>
                 </p>
             </div>
         </div>

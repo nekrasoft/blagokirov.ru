@@ -61,7 +61,10 @@ function format_phone_link($phone) {
 function get_canonical_url($path = '') {
     $url = SITE_URL;
     if ($path) {
-        $url .= '/' . trim($path, '/') . '/';
+        $url .= '/' . trim($path, '/');
+        if (!strpos($url, '.php')) {
+            $url .= '/';
+        }
     } else {
         $url .= '/';
     }

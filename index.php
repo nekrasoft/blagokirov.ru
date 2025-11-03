@@ -762,7 +762,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="elementor-field-subgroup">
 			<span class="elementor-field-option">
 				<input type="checkbox" name="form_fields[acceptance]" id="form-field-acceptance" class="elementor-field elementor-size-sm  elementor-acceptance-field" required="required" aria-required="true">
-				<label for="form-field-acceptance">Я принимаю условия обработки перс. данных</label>			</span>
+				<label for="form-field-acceptance">Я принимаю <a target="_blank" href="<?php echo SITE_URL; ?>/policy.php" style="color: #95a5a6; text-decoration: none;">условия обработки ПДн</a></label>			</span>
 		</div>
 						</div>
 								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
