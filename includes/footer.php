@@ -1,15 +1,21 @@
 <?php if (!empty($is_main_page) && $is_main_page) { ?>
     <style>
-        /* Стили для главной страницы */
-        footer div div div {
-            font-size: 97%;
+        /* Более специфичный селектор, чтобы переопределить сторонние стили */
+        footer .footer-content > div, footer .footer-content > div * {
+            font-size: 97% !important;
         }
+        /* Подстраховка: если использовать вложенную структуру без класса */
+        footer > div > div, footer > div > div * {
+            font-size: 97% !important;
+        }
+        /* Небольшие улучшения доступности */
+        footer a { color: #ecf0f1; }
     </style>
 <?php } ?>
 
     <footer style="background: #2c3e50; color: #ecf0f1; padding: 40px 20px; margin-top: 60px;">
         <div style="max-width: 1200px; margin: 0 auto;">
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-bottom: 30px;">
+            <div class="footer-content" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; margin-bottom: 30px;">
 
                 <!-- Контакты -->
                 <div>
