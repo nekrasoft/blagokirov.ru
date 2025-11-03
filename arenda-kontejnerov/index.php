@@ -49,17 +49,24 @@ include '../includes/header.php';
         <h2 style="font-size: 28px; color: #2c3e50; margin-bottom: 20px;">
             Аренда контейнеров и бункеров
         </h2>
+        <div style="display: flex; gap: 30px; align-items: flex-start; flex-wrap: wrap;">
+            <div style="flex: 0 0 300px; max-width: 300px; min-width: 220px;">
+                <img src="<?php echo SITE_URL; ?>/assets/blago-bunker4.jpg" alt="Бункер-накопитель 8м3" style="width:100%; height:auto; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.12); display:block;">
+            </div>
 
-        <p style="line-height: 1.8; color: #333; margin-bottom: 20px;">
-            <strong>Благосервис</strong> предоставляет гибкие сроки аренды контейнеров и бункеров объёмом 8 м³,
-            обеспечивая надёжную доставку и забор различных типов отходов.
-        </p>
+            <div style="flex: 1 1 480px; min-width: 280px;">
+                <p style="line-height: 1.8; color: #333; margin-bottom: 20px;">
+                    <strong>Благосервис</strong> предоставляет гибкие сроки аренды контейнеров и бункеров объёмом 8 м³,
+                    обеспечивая надёжную доставку и забор различных типов отходов.
+                </p>
 
-        <p style="line-height: 1.8; color: #333; margin-bottom: 20px;">
-            Мы предлагаем долгосрочную аренду контейнеров объёмом 8 м³ и бункеров, оснащённых датчиками для мониторинга
-            уровня заполнения. Это гарантирует своевременный забор и эффективное управление отходами, адаптированное
-            к вашим конкретным потребностям и требованиям проекта.
-        </p>
+                <p style="line-height: 1.8; color: #333; margin-bottom: 20px;">
+                    Мы предлагаем долгосрочную аренду контейнеров объёмом 8 м³ и бункеров, оснащённых датчиками для мониторинга
+                    уровня заполнения. Это гарантирует своевременный забор и эффективное управление отходами, адаптированное
+                    к вашим конкретным потребностям и требованиям проекта.
+                </p>
+            </div>
+        </div>
     </section>
 
     <!-- Преимущества -->
@@ -129,7 +136,7 @@ include '../includes/header.php';
         <div style="max-width: 400px; margin: 0 auto; border: 2px solid #007bff; padding: 30px; border-radius: 10px; background: #fff;">
             <h3 style="color: #007bff; font-size: 22px; margin-bottom: 15px;">Контейнер 8 м³</h3>
             <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-bottom: 10px;">9 000 ₽</p>
-            <p style="color: #666; margin-bottom: 15px;">в месяц</p>
+            <p style="color: #666; margin-bottom: 15px;">за 1 вывоз</p>
             <ul style="text-align: left; color: #333; margin-bottom: 20px; list-style: none; padding: 0;">
                 <li style="margin: 10px 0;">✓ Контейнер 8 м³</li>
                 <li style="margin: 10px 0;">✓ Гибкая продолжительность аренды</li>
@@ -195,8 +202,14 @@ include '../includes/header.php';
     // Добавьте свои изображения и видео Rutube в массив ниже
     $galleryItems = [
         // Примеры - замените на свои данные
-        // ['type' => 'image', 'url' => '/assets/container1.jpg', 'alt' => 'Аренда контейнеров', 'title' => 'Проект 1', 'caption' => 'Описание работы'],
-        // ['type' => 'image', 'url' => '/assets/container2.jpg', 'alt' => 'Аренда контейнеров 2'],
+        ['type' => 'image', 'url' => '/assets/bunkers/bunker-1-do.jpg', 'alt' => 'Аренда контейнеров', 'title' => 'Киров', 'caption' => 'До'],
+        ['type' => 'image', 'url' => '/assets/bunkers/bunker-1-posle.jpg', 'alt' => 'Аренда контейнеров', 'title' => 'Киров', 'caption' => 'После'],
+        ['type' => 'image', 'url' => '/assets/bunkers/bunker-2-do.jpg', 'alt' => 'Аренда контейнеров', 'title' => 'Киров', 'caption' => 'До'],
+        ['type' => 'image', 'url' => '/assets/bunkers/bunker-2-posle.jpg', 'alt' => 'Аренда контейнеров', 'title' => 'Киров', 'caption' => 'После'],
+        ['type' => 'image', 'url' => '/assets/bunkers/bunker-3-do.jpg', 'alt' => 'Аренда контейнеров', 'title' => 'Киров', 'caption' => 'До'],
+        ['type' => 'image', 'url' => '/assets/bunkers/bunker-3-posle.jpg', 'alt' => 'Аренда контейнеров', 'title' => 'Киров', 'caption' => 'После'],
+        ['type' => 'image', 'url' => '/assets/bunkers/bunker-5-do.jpg', 'alt' => 'Аренда контейнеров', 'title' => 'Киров', 'caption' => 'До'],
+        ['type' => 'image', 'url' => '/assets/bunkers/bunker-5-posle.jpg', 'alt' => 'Аренда контейнеров', 'title' => 'Киров', 'caption' => 'После'],
         // ['type' => 'video', 'url' => 'https://rutube.ru/video/123456/', 'title' => 'Видео с работой', 'caption' => 'Процесс установки контейнера'],
     ];
 

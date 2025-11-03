@@ -165,6 +165,34 @@ if (!isset($galleryItems) || empty($galleryItems)) {
         border-radius: 8px;
     }
 
+    /* Fade transition for image changes */
+    .fade-image {
+        opacity: 0;
+        transition: opacity 260ms ease-in-out;
+        will-change: opacity;
+    }
+
+    .fade-image.visible {
+        opacity: 1;
+    }
+
+    .gallery-lightbox-counter {
+        background: rgba(0,0,0,0.25);
+        padding: 6px 10px;
+        border-radius: 6px;
+        color: #fff;
+    }
+
+    /* расширенная зона для тач-свайпа (мобильные) */
+    .gallery-lightbox-touch-zone {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 55%;
+        left: 22.5%;
+        z-index: 10000;
+    }
+
     .gallery-lightbox-close {
         position: absolute;
         top: -40px;
@@ -186,6 +214,35 @@ if (!isset($galleryItems) || empty($galleryItems)) {
 
     .gallery-lightbox-close:hover {
         background: rgba(255, 255, 255, 0.3);
+    }
+
+    /* Навигационные стрелки в lightbox */
+    .gallery-lightbox-nav {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.12);
+        color: #fff;
+        border: none;
+        font-size: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: background 0.2s, transform 0.1s;
+        z-index: 10001;
+    }
+
+    .gallery-lightbox-nav:hover { background: rgba(255,255,255,0.18); }
+
+    .gallery-lightbox-nav.prev { left: -70px; }
+    .gallery-lightbox-nav.next { right: -70px; }
+
+    @media (max-width: 768px) {
+        .gallery-lightbox-nav { display: none; }
     }
 
     @media (max-width: 768px) {
@@ -260,24 +317,238 @@ if (!isset($galleryItems) || empty($galleryItems)) {
 <div class="gallery-lightbox" id="galleryLightbox">
     <div class="gallery-lightbox-content">
         <span class="gallery-lightbox-close" onclick="closeGalleryLightbox()">&times;</span>
-        <img id="lightboxImage" src="" alt="">
+        <div id="lightboxTopRow" style="position:absolute; left:50%; top:-48px; transform:translateX(-50%); display:flex; gap:12px; align-items:center; z-index:10002;">
+            <div id="lightboxCounter" class="gallery-lightbox-counter" aria-hidden="false" style="color:#fff; font-size:16px; font-weight:600;">
+                0 / 0
+            </div>
+        </div>
+        <button class="gallery-lightbox-nav prev" id="lightboxPrev" aria-label="Previous image">&#8249;</button>
+        <button class="gallery-lightbox-nav next" id="lightboxNext" aria-label="Next image">&#8250;</button>
+        <div class="gallery-lightbox-touch-zone" id="lightboxTouchZone" aria-hidden="true"></div>
+        <div id="lightboxVideoContainer" style="display:none;">
+            <iframe id="lightboxVideo" src="" allow="autoplay; fullscreen" webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder="0" style="width:100%; height:80vh; border-radius:8px;"></iframe>
+        </div>
+        <img id="lightboxImage" src="" alt="" class="fade-image">
     </div>
 </div>
 
 <script>
+    // gallery data from PHP
+    const galleryData = <?php echo json_encode(array_values($galleryItems), JSON_UNESCAPED_SLASHES|JSON_UNESCAPED_UNICODE); ?>;
     // Инициализация lightbox для изображений
     document.addEventListener('DOMContentLoaded', function() {
         const galleryImages = document.querySelectorAll('.gallery-item-image');
         const lightbox = document.getElementById('galleryLightbox');
         const lightboxImage = document.getElementById('lightboxImage');
+    const btnPrev = document.getElementById('lightboxPrev');
+    const btnNext = document.getElementById('lightboxNext');
+        const videoContainer = document.getElementById('lightboxVideoContainer');
+        const videoIframe = document.getElementById('lightboxVideo');
+    const counter = document.getElementById('lightboxCounter');
+    const touchZone = document.getElementById('lightboxTouchZone');
 
+        // Use PHP-provided galleryData for mixed items (image/video)
+        const items = galleryData.map(function(it, idx){
+            return {
+                type: it.type || 'image',
+                url: it.url || '',
+                alt: it.alt || '',
+                title: it.title || ''
+            };
+        });
+
+        let currentIndex = -1;
+        // Scroll lock state to preserve page position when lightbox is open
+        let _savedScrollY = 0;
+        let _bodyLocked = false;
+
+        function isFirefox() {
+            try {
+                return navigator && /Firefox\//i.test(navigator.userAgent);
+            } catch (e) {
+                return false;
+            }
+        }
+
+        function lockBodyScroll() {
+            if (_bodyLocked) return;
+            _savedScrollY = window.pageYOffset || document.documentElement.scrollTop || 0;
+
+            if (isFirefox()) {
+                // Firefox: avoid position:fixed on body which can cause issues.
+                // Lock by setting overflow hidden and negative margin on root element.
+                document.documentElement.style.overflow = 'hidden';
+                // compensate position by shifting root margin
+                document.documentElement.style.marginTop = `-${_savedScrollY}px`;
+                // also set body overflow as a fallback
+                document.body.style.overflow = 'hidden';
+            } else {
+                // Other browsers: use body fixed technique
+                document.body.style.position = 'fixed';
+                document.body.style.top = `-${_savedScrollY}px`;
+                document.body.style.left = '0';
+                document.body.style.right = '0';
+                document.body.style.width = '100%';
+                // also hide overflow on root to be safe
+                document.documentElement.style.overflow = 'hidden';
+            }
+
+            _bodyLocked = true;
+        }
+
+        function unlockBodyScroll() {
+            if (!_bodyLocked) return;
+
+            // Always clear both root and body styles to be defensive
+            try {
+                document.documentElement.style.overflow = '';
+                document.documentElement.style.marginTop = '';
+            } catch (e) {}
+            try {
+                document.body.style.position = '';
+                document.body.style.top = '';
+                document.body.style.left = '';
+                document.body.style.right = '';
+                document.body.style.width = '';
+                document.body.style.overflow = '';
+            } catch (e) {}
+
+            _bodyLocked = false;
+
+            // Restore scroll immediately and also after a short delay to handle browser quirks
+            try { window.scrollTo(0, _savedScrollY || 0); } catch(e) {}
+            setTimeout(function() {
+                try { window.scrollTo(0, _savedScrollY || 0); } catch(e) {}
+            }, 60);
+        }
+
+        // Thumbnails (images) open corresponding index
         galleryImages.forEach(function(img) {
             img.addEventListener('click', function() {
-                lightboxImage.src = this.src;
-                lightboxImage.alt = this.alt;
-                lightbox.classList.add('active');
-                document.body.style.overflow = 'hidden';
+                const idx = parseInt(this.dataset.lightboxIndex, 10);
+                showImageByIndex(idx);
             });
+        });
+
+        function showImageByIndex(idx) {
+            if (!items.length) return;
+            // wrap around
+            if (idx < 0) idx = items.length - 1;
+            if (idx >= items.length) idx = 0;
+            currentIndex = idx;
+            // ensure lightbox visible
+                lightbox.classList.add('active');
+                lockBodyScroll();
+
+            // update counter
+            if (counter) {
+                counter.textContent = (currentIndex + 1) + ' / ' + items.length;
+            }
+
+            const item = items[currentIndex];
+            if (!item) return;
+
+            if (item.type === 'video') {
+                // hide image, stop previous image transition
+                lightboxImage.classList.remove('visible');
+                lightboxImage.src = '';
+                // show video container and set src (try to enable autoplay)
+                let videoSrc = item.url;
+                // if it's a standard rutube video id or url, ensure embed format
+                if (videoSrc.indexOf('rutube.ru') !== -1 && videoSrc.indexOf('embed') === -1) {
+                    // try to convert video URL to embed if possible
+                    // examples: https://rutube.ru/video/{id}/ -> https://rutube.ru/play/embed/{id}
+                    const m = videoSrc.match(/rutube\.ru\/(?:video|play\/embed)\/?([a-zA-Z0-9_-]+)/);
+                    if (m && m[1]) {
+                        videoSrc = 'https://rutube.ru/play/embed/' + m[1] + '?autoplay=1';
+                    }
+                } else if (videoSrc.indexOf('embed') !== -1 && videoSrc.indexOf('autoplay') === -1) {
+                    videoSrc += (videoSrc.indexOf('?') === -1 ? '?' : '&') + 'autoplay=1';
+                }
+                videoIframe.src = videoSrc;
+                videoContainer.style.display = 'block';
+                videoIframe.style.display = 'block';
+                // hide image element
+                lightboxImage.style.display = 'none';
+            } else {
+                // image
+                // stop video playback if any
+                videoIframe.src = '';
+                videoContainer.style.display = 'none';
+                videoIframe.style.display = 'none';
+                // show image element
+                lightboxImage.style.display = 'block';
+                // fade-in flow
+                lightboxImage.classList.remove('visible');
+                lightboxImage.onload = function() {
+                    requestAnimationFrame(function() {
+                        lightboxImage.classList.add('visible');
+                    });
+                };
+                // determine alt from thumbnail if exists
+                const thumb = document.querySelector('.gallery-item-image[data-lightbox-index="' + currentIndex + '"]');
+                lightboxImage.alt = thumb ? thumb.alt : (item.alt || '');
+                lightboxImage.src = item.url;
+            }
+        }
+
+        function showNextImage() {
+            showImageByIndex(currentIndex + 1);
+        }
+
+        function showPrevImage() {
+            showImageByIndex(currentIndex - 1);
+        }
+
+        // Bind nav buttons
+        if (btnNext) btnNext.addEventListener('click', function(e){ e.stopPropagation(); showNextImage(); });
+        if (btnPrev) btnPrev.addEventListener('click', function(e){ e.stopPropagation(); showPrevImage(); });
+
+        // Touch-swipe support for mobile
+        if (touchZone) {
+            let touchStartX = 0;
+            let touchStartY = 0;
+            let touchMoved = false;
+
+            touchZone.addEventListener('touchstart', function(e) {
+                if (!e.touches || e.touches.length === 0) return;
+                touchStartX = e.touches[0].clientX;
+                touchStartY = e.touches[0].clientY;
+                touchMoved = false;
+            }, {passive: true});
+
+            touchZone.addEventListener('touchmove', function(e) {
+                touchMoved = true;
+            }, {passive: true});
+
+            touchZone.addEventListener('touchend', function(e) {
+                const touch = e.changedTouches && e.changedTouches[0];
+                if (!touch) return;
+                const dx = touch.clientX - touchStartX;
+                const dy = touch.clientY - touchStartY;
+                // horizontal swipe threshold for swipe
+                if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) {
+                    if (dx < 0) {
+                        showNextImage();
+                    } else {
+                        showPrevImage();
+                    }
+                    return;
+                }
+                // if it's a tap (no significant move), go to next image
+                if (!touchMoved || (Math.abs(dx) < 10 && Math.abs(dy) < 10)) {
+                    showNextImage();
+                }
+            }, {passive: true});
+        }
+
+        // click/tap on the displayed image should move to next (and not close the lightbox)
+        lightboxImage.addEventListener('click', function(e) {
+            e.stopPropagation();
+            // only advance on image click (not when a video is shown)
+            if (items[currentIndex] && items[currentIndex].type === 'image') {
+                showNextImage();
+            }
         });
 
         // Закрытие по клику на фон
@@ -287,18 +558,45 @@ if (!isset($galleryItems) || empty($galleryItems)) {
             }
         });
 
-        // Закрытие по ESC
+        // Клавиатурная навигация: Esc для закрытия, стрелки для навигации
         document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+            if (!lightbox.classList.contains('active')) return;
+            if (e.key === 'Escape') {
                 closeGalleryLightbox();
+            } else if (e.key === 'ArrowRight') {
+                showNextImage();
+            } else if (e.key === 'ArrowLeft') {
+                showPrevImage();
             }
         });
+
+        // Expose scroll lock/unlock to global scope so closeGalleryLightbox can call unlockBodyScroll
+        try {
+            window.lockBodyScroll = lockBodyScroll;
+            window.unlockBodyScroll = unlockBodyScroll;
+        } catch (e) {
+            // ignore
+        }
     });
 
     function closeGalleryLightbox() {
         const lightbox = document.getElementById('galleryLightbox');
         lightbox.classList.remove('active');
-        document.body.style.overflow = '';
+        // stop video playback and clear iframe
+        const videoIframe = document.getElementById('lightboxVideo');
+        if (videoIframe) {
+            try { videoIframe.src = ''; } catch (e) {}
+        }
+        const img = document.getElementById('lightboxImage');
+        if (img) { img.src = ''; img.classList.remove('visible'); }
+
+        // unlock body scroll
+        unlockBodyScroll();
+
+        // On some mobile browsers repaint is needed to re-enable scrolling
+        setTimeout(function(){
+            document.body.offsetHeight; // force reflow
+        }, 60);
     }
 </script>
 
