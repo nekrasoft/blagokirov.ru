@@ -86,7 +86,7 @@
 
             <div style="border-top: 1px solid #34495e; padding-top: 20px; text-align: center; color: #95a5a6;">
                 <p style="margin: 0;">
-                    © <?php echo date('Y'); ?> <?php echo COMPANY_NAME; ?>. Все права защищены. Киров.
+                    © <?php echo date('Y'); ?> <a href="<?php echo SITE_URL; ?>/" style="color: #95a5a6; text-decoration: none;"><?php echo COMPANY_NAME; ?></a>. Все права защищены. Киров.
                 </p>
                 <p style="margin: 10px 0 0 0;">
                     <a href="https://blagokirov.tb.ru/" target="_blank" style="color: #95a5a6; text-decoration: none; margin-right: 15px;">Наши реквизиты</a>

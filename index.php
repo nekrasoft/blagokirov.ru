@@ -391,11 +391,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-7v822w8s elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb_cta-button-wrapper-center twbb_cta-valign-align-top twbb_cta-position-image-top twbb_cta-tablet-position-image-top twbb_cta-mobile-position-image-top twbb_cta-button-wrapper-center twbb_cta-button-wrapper-center twbb_cta-position-button-bottom twbb_cta-tablet-position-button-bottom twbb_cta-mobile-position-button-bottom elementor-widget elementor-widget-twbb_call-to-action animated fadeInUp" data-id="7v822w8s" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="twbb_call-to-action.default">
 				<div class="elementor-widget-container">
-					    <a href="/vyvoz-musora/" class="twbb_cta-wrapper ">
+					    <a title="Вывоз мусора" href="/vyvoz-musora/" class="twbb_cta-wrapper ">
                   <div class="twbb_cta-image-background-wrapper">
           <span class="twbb_cta-image-background-overlay"></span>
                             <div class="twbb_cta-image-html-tag">
-                                            <img src="assets/before-after2.jpg" alt="Вывоз мусорной кучи с земли до и после">
+                                            <img src="assets/before-after2.jpg" alt="Вывоз мусора Киров">
                                     </div>
                     </div>
         <div class="twbb_cta-content-wrapper ">
@@ -419,11 +419,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="elementor-element elementor-element-nn7w5szu elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb_cta-button-wrapper-center twbb_cta-valign-align-top twbb_cta-position-image-top twbb_cta-tablet-position-image-top twbb_cta-mobile-position-image-top twbb_cta-button-wrapper-center twbb_cta-button-wrapper-center twbb_cta-position-button-bottom twbb_cta-tablet-position-button-bottom twbb_cta-mobile-position-button-bottom elementor-widget elementor-widget-twbb_call-to-action animated fadeInUp" data-id="nn7w5szu" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="twbb_call-to-action.default">
 				<div class="elementor-widget-container">
-					    <a href="/demontazh-postroek/" class="twbb_cta-wrapper ">
+					    <a title="Демонтаж построек" href="/demontazh-postroek/" class="twbb_cta-wrapper ">
                   <div class="twbb_cta-image-background-wrapper">
           <span class="twbb_cta-image-background-overlay"></span>
                             <div class="twbb_cta-image-html-tag">
-                                            <img src="assets/tenweb_media_rvff9duqz.webp" alt="An image showing a press-loading station with compacted waste being loaded into a container, highlighting Благосервис's press-loading capabilities.">
+                                            <img src="assets/demontazh.jpg" alt="Демонтаж зданий Киров">
                                     </div>
                     </div>
         <div class="twbb_cta-content-wrapper ">
@@ -446,7 +446,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="elementor-element elementor-element-4i5f72pe elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb_cta-button-wrapper-center twbb_cta-valign-align-top twbb_cta-position-image-top twbb_cta-tablet-position-image-top twbb_cta-mobile-position-image-top twbb_cta-button-wrapper-center twbb_cta-button-wrapper-center twbb_cta-position-button-bottom twbb_cta-tablet-position-button-bottom twbb_cta-mobile-position-button-bottom elementor-widget elementor-widget-twbb_call-to-action animated fadeInUp" data-id="4i5f72pe" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="twbb_call-to-action.default">
 				<div class="elementor-widget-container">
-					    <a href="/arenda-kontejnerov/" class="twbb_cta-wrapper ">
+					    <a title="Аренда контейнеров" href="/arenda-kontejnerov/" class="twbb_cta-wrapper ">
                   <div class="twbb_cta-image-background-wrapper">
           <span class="twbb_cta-image-background-overlay"></span>
                             <div class="twbb_cta-image-html-tag">
@@ -473,11 +473,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="elementor-element elementor-element-im6moa1a elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb_cta-button-wrapper-center twbb_cta-valign-align-top twbb_cta-position-image-top twbb_cta-tablet-position-image-top twbb_cta-mobile-position-image-top twbb_cta-button-wrapper-center twbb_cta-button-wrapper-center twbb_cta-position-button-bottom twbb_cta-tablet-position-button-bottom twbb_cta-mobile-position-button-bottom elementor-widget elementor-widget-twbb_call-to-action animated fadeInUp" data-id="im6moa1a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="twbb_call-to-action.default">
 				<div class="elementor-widget-container">
-					    <a href="/raschistka-uchastka/" class="twbb_cta-wrapper ">
+					    <a title="Расчистка участков" href="/raschistka-uchastka/" class="twbb_cta-wrapper ">
                   <div class="twbb_cta-image-background-wrapper">
           <span class="twbb_cta-image-background-overlay"></span>
                             <div class="twbb_cta-image-html-tag">
-                                            <img src="assets/tenweb_media_RHJACFQYX.webp" alt="A professional team from Благосервис handling waste with modern equipment, emphasizing the company's commitment to quality and reliability.">
+                                            <img src="assets/raschistka.jpg" alt="Расчитска участков Киров">
                                     </div>
                     </div>
         <div class="twbb_cta-content-wrapper ">
