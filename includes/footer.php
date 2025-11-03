@@ -35,10 +35,10 @@
                             <a href="<?php echo SITE_URL; ?>/vyvoz-musora/" style="color: #ecf0f1; text-decoration: none;">Вывоз мусора в Кирове</a>
                         </li>
                         <li style="margin: 8px 0;">
-                            <a href="<?php echo SITE_URL; ?>/demontazh-postroek/" style="color: #ecf0f1; text-decoration: none;">Демонтаж построек в Кирове</a>
+                            <a href="<?php echo SITE_URL; ?>/demontazh-postroek/" style="color: #ecf0f1; text-decoration: none;">Демонтаж построек</a>
                         </li>
                         <li style="margin: 8px 0;">
-                            <a href="<?php echo SITE_URL; ?>/arenda-kontejnerov/" style="color: #ecf0f1; text-decoration: none;">Аренда контейнеров в Кирове</a>
+                            <a href="<?php echo SITE_URL; ?>/arenda-kontejnerov/" style="color: #ecf0f1; text-decoration: none;">Аренда контейнеров</a>
                         </li>
                         <li style="margin: 8px 0;">
                             <a href="<?php echo SITE_URL; ?>/raschistka-uchastka/" style="color: #ecf0f1; text-decoration: none;">Расчистка участка</a>
