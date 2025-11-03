@@ -63,6 +63,25 @@
                     </p>
                 </div>
 
+                <!-- Подписаться на рассылку -->
+                <div>
+                    <h3 style="color: #fff; margin-bottom: 15px; font-size: 18px;">Подписаться на рассылку</h3>
+                    <p style="color: #bdc3c7; margin-bottom: 15px; font-size: 14px;">
+                        Будьте в курсе наших новостей
+                    </p>
+                    <form method="post" action="<?php echo SITE_URL; ?>/includes/newsletter-handler.php" id="newsletter-form" style="display: block;">
+                        <input type="email" name="form_fields[email]" placeholder="Введите ваш email" required style="width: 100%; min-width: 200px; padding: 10px; border: 1px solid #34495e; border-radius: 4px; background: #34495e; color: #ecf0f1; font-size: 14px; margin-bottom: 10px;">
+                        <button type="submit" id="newsletter-submit" style="width: 100%; padding: 10px 20px; background: #3498db; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 14px; white-space: nowrap;">
+                            Подписаться
+                        </button>
+                        <div style="float: right; clear: both; margin-top: 10px;">
+                            <iframe src="https://yandex.ru/sprav/widget/rating-badge/10924053513?type=rating" width="150" height="50" frameborder="0"></iframe>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </form>
+                    <div id="newsletter-message" style="display: none; margin-top: 10px; padding: 10px; border-radius: 4px; font-size: 14px;"></div>
+                </div>
+
             </div>
 
             <div style="border-top: 1px solid #34495e; padding-top: 20px; text-align: center; color: #95a5a6;">
@@ -70,6 +89,7 @@
                     © <?php echo date('Y'); ?> <?php echo COMPANY_NAME; ?>. Все права защищены. Киров.
                 </p>
                 <p style="margin: 10px 0 0 0;">
+                    <a href="https://blagokirov.tb.ru/" target="_blank" style="color: #95a5a6; text-decoration: none; margin-right: 15px;">Наши реквизиты</a>
                     <a href="<?php echo SITE_URL; ?>/policy.htm" style="color: #95a5a6; text-decoration: none;">Политика конфиденциальности</a>
                 </p>
             </div>
@@ -80,6 +100,61 @@
     <script src="<?php echo SITE_URL; ?>/assets/jquery.min.js"></script>
     <script src="<?php echo SITE_URL; ?>/assets/jquery-migrate.min.js"></script>
     <script src="<?php echo SITE_URL; ?>/assets/scripts.min.js"></script>
+
+    <!-- Обработка формы подписки на рассылку -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const newsletterForm = document.getElementById('newsletter-form');
+        const messageDiv = document.getElementById('newsletter-message');
+        const submitBtn = document.getElementById('newsletter-submit');
+
+        if (newsletterForm && submitBtn) {
+            newsletterForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                // Отключаем кнопку во время отправки
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Отправка...';
+                messageDiv.style.display = 'none';
+
+                const formData = new FormData(newsletterForm);
+
+                // AJAX запрос
+                fetch('<?php echo SITE_URL; ?>/includes/newsletter-handler.php', {
+                    method: 'POST',
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    messageDiv.style.display = 'block';
+                    if (data.success) {
+                        messageDiv.style.backgroundColor = '#27ae60';
+                        messageDiv.style.color = '#fff';
+                        messageDiv.textContent = data.message;
+                        newsletterForm.reset();
+                        setTimeout(() => {
+                            messageDiv.style.display = 'none';
+                        }, 5000);
+                    } else {
+                        messageDiv.style.backgroundColor = '#e74c3c';
+                        messageDiv.style.color = '#fff';
+                        messageDiv.textContent = data.message || 'Произошла ошибка. Попробуйте позже.';
+                    }
+                })
+                .catch(error => {
+                    messageDiv.style.display = 'block';
+                    messageDiv.style.backgroundColor = '#e74c3c';
+                    messageDiv.style.color = '#fff';
+                    messageDiv.textContent = 'Произошла ошибка. Попробуйте позже.';
+                })
+                .finally(() => {
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Подписаться';
+                });
+            });
+        }
+    });
+    </script>
 
     <!-- Блок hcard для структурированных данных -->
     <div id="hcard" class="hcard" style="display: none">
@@ -118,6 +193,13 @@
       <div class="tags"><a href="<?php echo SITE_URL; ?>" title="Благосервис: Вывоз мусора и аренда контейнеров">Благосервис: Вывоз мусора и аренда контейнеров</a></div>
 
     </div>
+
+    <script>
+        (function(w,d,u){
+                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+        })(window,document,'https://cdn-ru.bitrix24.ru/b34521664/crm/site_button/loader_4_09j1bv.js');
+    </script>
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">

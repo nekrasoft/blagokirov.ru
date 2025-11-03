@@ -41,6 +41,13 @@ define('TRUCK_IMAGE', SITE_URL . '/assets/blago-truck.jpg');
 
 // Документы
 define('COMMERCIAL_PROPOSAL_PDF', 'КП Благосервис.pdf');
+define('SERVICES_PRESENTATION_PDF', 'Мини-презентация Благосервис.pdf');
+
+// Ссылки
+define('REQUISITES_URL', 'https://blagokirov.tb.ru/');
+
+// Изображения для контента
+define('MISSION_IMAGE', SITE_URL . '/assets/mission-image.jpg');
 
 // Email для отправки заявок
 define('CONTACT_EMAIL', 'blagoservice@mail.ru');
