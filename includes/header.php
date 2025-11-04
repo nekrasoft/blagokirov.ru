@@ -67,8 +67,7 @@
         }
         <?php if (defined('VK_URL')): ?>
         ,"sameAs": [
-            "<?php echo VK_URL; ?>",
-            "<?php echo FACEBOOK_URL; ?>"
+            "<?php echo VK_URL; ?>"
         ]
         <?php endif; ?>
     }

@@ -26,14 +26,14 @@
 <meta property="og:description" content="БлагоСервис – профессиональный вывоз мусора, аренда контейнеров, демонтаж построек в Кирове. Честность, надёжность, оперативность.">
 <meta property="og:url"         content="https://blagokirov.ru/">
 <meta property="og:site_name"   content="БлагоСервис">
-<meta property="og:image"       content="https://blagokirov.ru/assets/blago-truck.jpg">
+<meta property="og:image"       content="https://blagokirov.ru/assets/blago-truck.png">
 
 <!-- Twitter Card -->
 <meta name="twitter:card"        content="summary_large_image">
 <meta name="twitter:site"        content="@BlagoServiceKirov">
 <meta name="twitter:title"       content="Благосервис: Вывоз мусора и аренда контейнеров, демонтаж построек">
 <meta name="twitter:description" content="БлагоСервис – профессиональный вывоз мусора, аренда контейнеров, демонтаж построек в Кирове. Честность, надёжность, оперативность.">
-<meta name="twitter:image"       content="https://blagokirov.ru/assets/blago-truck.jpg">
+<meta name="twitter:image"       content="https://blagokirov.ru/assets/blago-truck.png">
 
 <script
   type="text/javascript"
@@ -46,7 +46,7 @@
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "БлагоСервис",
-  "image": "https://blagokirov.ru/assets/blago-truck.jpg",
+  "image": "https://blagokirov.ru/assets/blago-truck.png",
   "@id": "https://blagokirov.ru/",
   "url": "https://blagokirov.ru/",
   "telephone": "+7 (922) 905-74-94",
@@ -64,8 +64,7 @@
     "closes": "21:00"
   },
   "sameAs": [
-    "https://vk.com/dreamblago",
-    "https://facebook.com/blagoservice"
+    "https://vk.com/dreamblago"
   ]
 }
 </script>
@@ -772,7 +771,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="elementor-field-subgroup">
 			<span class="elementor-field-option">
 				<input type="checkbox" name="form_fields[acceptance]" id="form-field-acceptance" class="elementor-field elementor-size-sm  elementor-acceptance-field" required="required" aria-required="true">
-				<label for="form-field-acceptance">Я принимаю <a target="_blank" href="<?php echo SITE_URL; ?>/policy.php" style="color: #95a5a6; text-decoration: none;">условия обработки ПДн</a></label>			</span>
+				<label for="form-field-acceptance">Я принимаю условия обработки персональных данных</label>			</span>
 		</div>
 						</div>
 								<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">

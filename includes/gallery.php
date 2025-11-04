@@ -543,13 +543,14 @@ if (!isset($galleryItems) || empty($galleryItems)) {
         }
 
         // click/tap on the displayed image should move to next (and not close the lightbox)
-        lightboxImage.addEventListener('click', function(e) {
+        /*lightboxImage.addEventListener('click', function(e) {
             e.stopPropagation();
             // only advance on image click (not when a video is shown)
             if (items[currentIndex] && items[currentIndex].type === 'image') {
                 showNextImage();
             }
         });
+        */
 
         // Закрытие по клику на фон
         lightbox.addEventListener('click', function(e) {

@@ -33,11 +33,10 @@ define('EMAIL', 'info@blagokirov.ru');
 
 // Социальные сети
 define('VK_URL', 'https://vk.com/dreamblago');
-define('FACEBOOK_URL', 'https://facebook.com/blagoservice');
 
 // Изображения
 define('LOGO_URL', SITE_URL . '/assets/logo_transparent.png');
-define('TRUCK_IMAGE', SITE_URL . '/assets/blago-truck.jpg');
+define('TRUCK_IMAGE', SITE_URL . '/assets/blago-truck.png');
 
 // Документы
 define('COMMERCIAL_PROPOSAL_PDF', 'КП Благосервис.pdf');
