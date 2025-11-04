@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<yml_catalog date="2025-09-20 18:39">
+<yml_catalog date="2025-11-04 12:00">
   <shop>
     <name>БлагоСервис</name>
     <company>БлагоСервис</company>
@@ -13,82 +13,143 @@
       <category id="1">Вывоз мусора</category>
       <category id="2">Контейнеры</category>
       <category id="3">Демонтаж построек</category>
-      <category id="4">Утилизация отходов</category>
+      <category id="4">Расчистка участка</category>
+      <category id="5">Утилизация отходов</category>
     </categories>
 
+    <!-- Наборы/сеты для отображения услуг в ответах Яндекса -->
     <sets>
       <set id="s1">
-        <name>Вывоз мусора в Кирове</name>
-        <url>https://blagokirov.ru</url>
+        <name>Вывоз мусора — за куб</name>
+        <url>https://blagokirov.ru/vyvoz-musora/</url>
       </set>
       <set id="s2">
-        <name>Демонтаж зданий в Кирове</name>
-        <url>https://blagokirov.ru</url>
+        <name>Вывоз мусора — почасовая</name>
+        <url>https://blagokirov.ru/vyvoz-musora/</url>
       </set>
       <set id="s3">
-        <name>Аренда контейнеров в Кирове</name>
-        <url>https://blagokirov.ru</url>
-      </set>
-      <set id="s4">
-        <name>Аренда бункеров в Кирове</name>
-        <url>https://blagokirov.ru</url>
+        <name>Аренда контейнеров 8 м3</name>
+        <url>https://blagokirov.ru/arenda-kontejnerov/</url>
       </set>
       <set id="s5">
-        <name>Утилизация отходов в Кирове</name>
-        <url>https://blagokirov.ru</url>
+        <name>Демонтаж малых построек</name>
+        <url>https://blagokirov.ru/demontazh-postroek/</url>
+      </set>
+      <set id="s6">
+        <name>Демонтаж крупных зданий</name>
+        <url>https://blagokirov.ru/demontazh-postroek/</url>
+      </set>
+      <set id="s8">
+        <name>Расчистка участка — техника</name>
+        <url>https://blagokirov.ru/raschistka-uchastka/</url>
+      </set>
+      <set id="s9">
+        <name>Утилизация отходов</name>
+        <url>https://blagokirov.ru/</url>
       </set>
     </sets>
 
     <offers>
+      <!-- Вывоз мусора: предложение 1 -->
       <offer id="blago-001">
-        <name>Вывоз мусора в Кирове — БлагоСервис</name>
-        <url>https://blagokirov.ru/</url>
+        <name>Вывоз мусора за куб — БлагоСервис</name>
+        <url>https://blagokirov.ru/vyvoz-musora/</url>
+        <price from="true">1200</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://blagokirov.ru/assets/blago-truck.png</picture>
+        <description>Вывоз мусора в Кирове по кубу. Услуга: вывоз строительного мусора, быстрая подача машины, оплата по факту.</description>
+        <adult>false</adult>
+        <sales_notes>вывоз мусора Киров — цена за 1 куб.м, расчёт при заказе</sales_notes>
+        <set-ids>s1,s9</set-ids>
+        <param name="Рейтинг">4</param>
+        <param name="Число отзывов">3</param>
+        <param name="Регион">Киров</param>
+      </offer>
+
+      <!-- Вывоз мусора: предложение 2 -->
+      <offer id="blago-002">
+        <name>Вывоз мусора почасовая — БлагоСервис</name>
+        <url>https://blagokirov.ru/vyvoz-musora/</url>
         <price from="true">3500</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
-        <picture>https://blagokirov.ru/assets/blago-truck.jpg</picture>
-        <description>Честность. Надёжность. Оперативность.</description>
+        <picture>https://blagokirov.ru/assets/blago-truck-shacman-4.jpg</picture>
+        <description>Вывоз мусора почасовая в Кирове. Услуга включает погрузку, вывоз на полигон и приём по договору.</description>
         <adult>false</adult>
-        <sales_notes>за куб</sales_notes>
-
-        <set-ids>s1,s2,s5</set-ids>
-
-        <!-- Произвольные характеристики -->
+        <sales_notes>вывоз мусора почасовая Киров — стоимость услуги</sales_notes>
+        <set-ids>s2,s9</set-ids>
         <param name="Рейтинг">4</param>
-        <param name="Число отзывов">1</param>
-        <param name="Годы опыта">11</param>
+        <param name="Число отзывов">2</param>
         <param name="Регион">Киров</param>
-        <param name="Конверсия">1.935</param>
-        <param name="Работа по адресу">да</param>
-        <param name="Бригада">да</param>
-        <param name="Работа по договору">да</param>
-        <param name="Наличный расчет">да</param>
-        <param name="Безналичный расчет">да</param>
       </offer>
 
-      <offer id="blago-002">
-        <name>Аренда контейнеров и бункеров — БлагоСервис</name>
-        <url>https://blagokirov.ru/</url>
-        <price from="true">8000</price>
+      <!-- Аренда контейнеров: предложение 1 -->
+      <offer id="blago-003">
+        <name>Аренда контейнера 8 м3 — БлагоСервис</name>
+        <url>https://blagokirov.ru/arenda-kontejnerov/</url>
+        <price from="true">9000</price>
         <currencyId>RUB</currencyId>
         <categoryId>2</categoryId>
         <picture>https://blagokirov.ru/assets/blago-bunker4.jpg</picture>
-        <description>Постоплата, вывоз в течение суток после заявки.</description>
+        <description>Аренда контейнера 8 м3 в Кирове: доставка, установка, вывоз заполненного контейнера. Подходит для стройплощадок и уборки.</description>
         <adult>false</adult>
-        <sales_notes>за бункер</sales_notes>
+        <sales_notes>аренда контейнера Киров — цена за контейнер</sales_notes>
+        <set-ids>s3</set-ids>
+        <param name="Рейтинг">4</param>
+        <param name="Число отзывов">5</param>
+        <param name="Регион">Киров</param>
+      </offer>
 
-        <set-ids>s3,s4</set-ids>
-
+      <!-- Демонтаж: предложение 1 -->
+      <offer id="blago-005">
+        <name>Демонтаж малых построек — БлагоСервис</name>
+        <url>https://blagokirov.ru/demontazh-postroek/</url>
+        <price from="true">15000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>3</categoryId>
+        <picture>https://blagokirov.ru/assets/demontazh.jpg</picture>
+        <description>Демонтаж малых построек в Кирове: снос сараев, гаражей, навесов с погрузкой и вывозом строительного мусора. Безопасно и по договору.</description>
+        <adult>false</adult>
+        <sales_notes>демонтаж Киров — цена почасовая или за операцию, расчет после осмотра</sales_notes>
+        <set-ids>s5,s6,s9</set-ids>
         <param name="Рейтинг">4</param>
         <param name="Число отзывов">1</param>
-        <param name="Годы опыта">11</param>
         <param name="Регион">Киров</param>
-        <param name="Конверсия">1.935</param>
-        <param name="Работа по адресу">да</param>
-        <param name="Бригада">да</param>
-        <param name="Работа по договору">да</param>
-        <param name="Наличный расчет">да</param>
-        <param name="Безналичный расчет">да</param>
+      </offer>
+
+      <!-- Демонтаж: предложение 2 -->
+      <offer id="blago-006">
+        <name>Демонтаж крупного здания — БлагоСервис</name>
+        <url>https://blagokirov.ru/demontazh-postroek/</url>
+        <price from="true">25000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>3</categoryId>
+        <picture>https://blagokirov.ru/assets/demontazh.jpg</picture>
+        <description>Капитальный демонтаж зданий в Кирове: демонтаж с техникой, погрузка, вывоз и утилизация материалов по нормам.</description>
+        <adult>false</adult>
+        <sales_notes>демонтаж зданий Киров — цена по договорённости</sales_notes>
+        <set-ids>s6,s9</set-ids>
+        <param name="Рейтинг">4</param>
+        <param name="Число отзывов">1</param>
+        <param name="Регион">Киров</param>
+      </offer>
+
+      <!-- Расчистка участка: предложение 2 -->
+      <offer id="blago-008">
+        <name>Расчистка участка техникой — БлагоСервис</name>
+        <url>https://blagokirov.ru/raschistka-uchastka/</url>
+        <price from="true">24000</price>
+        <currencyId>RUB</currencyId>
+        <categoryId>4</categoryId>
+        <picture>https://blagokirov.ru/raschistka/raschistka3.jpg</picture>
+        <description>Расчистка участка техникой в Кирове: экскаватор, трактор, корчевание пней и вывоз мусора. Подходит для больших участков.</description>
+        <adult>false</adult>
+        <sales_notes>расчистка техникой — цена по объёму/договор</sales_notes>
+        <set-ids>s8,s9</set-ids>
+        <param name="Рейтинг">4</param>
+        <param name="Число отзывов">1</param>
+        <param name="Регион">Киров</param>
       </offer>
     </offers>
   </shop>
