@@ -382,7 +382,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="elementor-element elementor-element-5tcb3u5z elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial elementor-widget elementor-widget-image" data-id="5tcb3u5z" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="1024" height="1024" src="assets/blago-truck-shacman-3.jpg" class="attachment-full size-full wp-image-103" alt="" srcset="assets/blago-truck-shacman-3.jpg 1024w, assets/blago-truck-shacman-3.jpg 300w, assets/blago-truck-shacman-3.jpg 150w, assets/blago-truck-shacman-3.jpg 768w, assets/blago-truck-shacman-3.jpg 600w" sizes="(max-width: 1024px) 100vw, 1024px">															</div>
+                    <img width="1024" height="1024" src="assets/blago-truck-shacman-3.jpg" class="attachment-full size-full wp-image-103" alt="" srcset="assets/blago-truck-shacman-3.jpg 1024w, assets/blago-truck-shacman-3.jpg 300w, assets/blago-truck-shacman-3.jpg 150w, assets/blago-truck-shacman-3.jpg 768w, assets/blago-truck-shacman-3.jpg 600w" sizes="(max-width: 1024px) 100vw, 1024px">															</div>
 				</div>
 					</div>
 				</div>
@@ -399,7 +399,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
         <div class="twbb_cta-content-wrapper ">
     <div class="twbb_cta-content-inner">
-                <h5 class="twbb_cta-title">Эффективные услуги по вывозу мусора</h5>
+                <h5 class="twbb_cta-title">Вывоз мусора</h5>
                     <div class="twbb_cta-description">Благосервис
 предлагает экономичные услуги по вывозу мусора, сокращая потребность в
 транспорте и обеспечивая экологически безопасную утилизацию отходов с
@@ -427,7 +427,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
         <div class="twbb_cta-content-wrapper ">
     <div class="twbb_cta-content-inner">
-                <h5 class="twbb_cta-title">Услуги по демонтажу построек</h5>
+                <h5 class="twbb_cta-title">Демонтаж построек</h5>
                     <div class="twbb_cta-description">Повысьте
 эффективность демонтажа построек с помощью нашей услуги по оперативному демонтажу,
 сократите транспортные расходы, гаратированная утилизация.</div>
@@ -454,7 +454,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
         <div class="twbb_cta-content-wrapper ">
     <div class="twbb_cta-content-inner">
-                <h5 class="twbb_cta-title">Аренда контейнеров и бункеров</h5>
+                <h5 class="twbb_cta-title">Аренда контейнеров</h5>
                     <div class="twbb_cta-description">Благосервис
 предоставляет гибкие сроки аренды контейнеров и бункеров объемом 8 м³,
 обеспечивая надежную доставку и забор различных типов отходов.</div>
@@ -481,7 +481,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
         <div class="twbb_cta-content-wrapper ">
     <div class="twbb_cta-content-inner">
-                <h5 class="twbb_cta-title">Расчистка и подготовка участка</h5>
+                <h5 class="twbb_cta-title">Расчистка участка</h5>
                     <div class="twbb_cta-description">Наши
 квалифицированные специалисты в Благосервис обеспечивают надлежащую расчистку участка, предоставляя быстрый и надежный сервис для больших объемов работ с гарантией качества.</div>
               </div>
