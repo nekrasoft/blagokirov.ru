@@ -250,3 +250,78 @@
 </body>
 </html>
 
+    <!-- Cookie notice banner -->
+    <style>
+    /* Minimal cookie banner styles */
+    #cookie-banner {
+        position: fixed;
+        left: 20px;
+        right: 20px;
+        bottom: 20px;
+        background: rgba(44,62,80,0.98);
+        color: #fff;
+        padding: 15px 16px;
+        border-radius: 6px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        z-index: 2000;
+        max-width: 1100px;
+        margin: 0 auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #cookie-banner p { margin: 0; font-size: 14px; color: #ecf0f1; }
+    #cookie-banner a { color: #f1c40f; text-decoration: underline; }
+    #cookie-banner button { background: #27ae60; color: #fff; border: none; padding: 8px 14px; border-radius: 4px; cursor: pointer; font-weight: 600; }
+    @media (max-width: 600px) {
+        #cookie-banner { flex-direction: column; align-items: stretch; text-align: center; }
+        #cookie-banner button { width: 100%; }
+    }
+    </style>
+
+    <div id="cookie-banner" style="display: none;">
+        <p><?php echo COOKIE_NOTICE_TEXT; ?>
+            <a href="<?php echo SITE_URL; ?>/policy.php" target="_blank">Политика конфиденциальности</a>
+        </p>
+        <div style="margin-left: auto;">
+            <button id="cookie-accept"><?php echo COOKIE_ACCEPT_TEXT; ?></button>
+        </div>
+    </div>
+
+    <script>
+    (function() {
+        try {
+            var accepted = localStorage.getItem('cookie_accepted');
+            var banner = document.getElementById('cookie-banner');
+            var btn = document.getElementById('cookie-accept');
+            if (!banner || !btn) return;
+
+            function showBanner() {
+                banner.style.display = 'flex';
+            }
+            function hideBanner() {
+                banner.style.display = 'none';
+            }
+
+            if (accepted === '1') {
+                // already accepted
+                hideBanner();
+            } else {
+                // show after a short delay so it doesn't jump the layout immediately
+                document.addEventListener('DOMContentLoaded', function() {
+                    setTimeout(showBanner, 500);
+                });
+            }
+
+            btn.addEventListener('click', function() {
+                try { localStorage.setItem('cookie_accepted', '1'); } catch(e) {}
+                hideBanner();
+            });
+        } catch (e) {
+            // fail silently
+        }
+    })();
+    </script>
+

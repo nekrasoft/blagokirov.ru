@@ -56,6 +56,10 @@ function format_phone_link($phone) {
     return 'tel:' . preg_replace('/[^0-9+]/', '', $phone);
 }
 
+// Текст для всплывающей плашки с уведомлением о cookie
+define('COOKIE_NOTICE_TEXT', 'Мы используем файлы cookie для улучшения работы сайта. Продолжая использовать сайт, вы соглашаетесь с использованием cookie.');
+define('COOKIE_ACCEPT_TEXT', 'ОК');
+
 // Функция для получения canonical URL
 function get_canonical_url($path = '') {
     $url = SITE_URL;
