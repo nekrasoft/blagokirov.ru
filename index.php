@@ -386,16 +386,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 					</div>
 				</div>
-		<div class="elementor-element elementor-element-ps243rya twbb_section e-flex e-con-boxed e-con e-parent e-lazyloaded" data-id="ps243rya" data-element_type="container" id="waste-removal-services" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-7v822w8s elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb_cta-button-wrapper-center twbb_cta-valign-align-top twbb_cta-position-image-top twbb_cta-tablet-position-image-top twbb_cta-mobile-position-image-top twbb_cta-button-wrapper-center twbb_cta-button-wrapper-center twbb_cta-position-button-bottom twbb_cta-tablet-position-button-bottom twbb_cta-mobile-position-button-bottom elementor-widget elementor-widget-twbb_call-to-action animated fadeInUp" data-id="7v822w8s" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="twbb_call-to-action.default">
+
+<div class="elementor-element elementor-element-waa07s3y twbb_section e-flex e-con-boxed e-con e-parent e-lazyloaded" data-id="waa07s3y" data-element_type="container" id="equipment-and-technology" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="e-con-inner">
+		    <div class="elementor-element elementor-element-vmyswdfp e-con-full e-flex e-con e-child" data-id="vmyswdfp" data-element_type="container">
+				<div class="elementor-element elementor-element-m9gwciux elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial elementor-widget elementor-widget-heading animated fadeInUp" data-id="m9gwciux" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Наши услуги</div>
+				</div>
+				<div class="elementor-element elementor-element-s1yo6rci elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial elementor-widget elementor-widget-text-editor animated fadeInUp" data-id="s1yo6rci" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
+				    <div class="elementor-widget-container"></div>
+				</div>
+            </div>
+		    <div style="margin: 0" class="elementor-element elementor-element-d0u6zbzl e-con-full e-flex e-con e-child" data-id="d0u6zbzl" data-element_type="container">
+				<div class="elementor-element elementor-element-3ki4skj7 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb_cta-button-wrapper-left twbb_cta-valign-align-space_between twbb_cta-position-image-top twbb_cta-tablet-position-image-top twbb_cta-mobile-position-image-top twbb_cta-button-wrapper-left twbb_cta-button-wrapper-center twbb_cta-position-button-bottom twbb_cta-tablet-position-button-bottom twbb_cta-mobile-position-button-bottom elementor-widget elementor-widget-twbb_call-to-action animated fadeInUp" data-id="3ki4skj7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="twbb_call-to-action.default">
 				<div class="elementor-widget-container">
 					    <a title="Вывоз мусора" href="/vyvoz-musora/" class="twbb_cta-wrapper ">
                   <div class="twbb_cta-image-background-wrapper">
           <span class="twbb_cta-image-background-overlay"></span>
                             <div class="twbb_cta-image-html-tag">
-                                            <img src="assets/vyvoz-musora3.jpg" alt="Вывоз мусора Киров">
-                                    </div>
+                                <img src="assets/vyvoz-musora3.jpg" alt="Вывоз мусора Киров">
+                            </div>
                     </div>
         <div class="twbb_cta-content-wrapper ">
     <div class="twbb_cta-content-inner">
@@ -407,16 +418,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
     <div class="twbb_cta-button-wrapper">
         <div class="twbb_cta-buttons">
-        <div class="twbb_cta-button-item twbb_cta-button-item__two twbb_cta-button-enable-yes">
+                    <div class="twbb_cta-button-item twbb_cta-button-item__two twbb_cta-button-enable-yes">
           <a href="/vyvoz-musora/" class="elementor-button twbb_cta-button elementor-size- sm twbb_cta-button__two">Узнать больше</a>
         </div>
-                        </div>
+                  </div>
     </div>
   </div>
-        </a>
+    </a>
 				</div>
 				</div>
-				<div class="elementor-element elementor-element-nn7w5szu elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb_cta-button-wrapper-center twbb_cta-valign-align-top twbb_cta-position-image-top twbb_cta-tablet-position-image-top twbb_cta-mobile-position-image-top twbb_cta-button-wrapper-center twbb_cta-button-wrapper-center twbb_cta-position-button-bottom twbb_cta-tablet-position-button-bottom twbb_cta-mobile-position-button-bottom elementor-widget elementor-widget-twbb_call-to-action animated fadeInUp" data-id="nn7w5szu" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="twbb_call-to-action.default">
+				<div class="elementor-element elementor-element-06p5g31l elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb_cta-button-wrapper-left twbb_cta-valign-align-space_between twbb_cta-position-image-top twbb_cta-tablet-position-image-top twbb_cta-mobile-position-image-top twbb_cta-button-wrapper-left twbb_cta-button-wrapper-center twbb_cta-position-button-bottom twbb_cta-tablet-position-button-bottom twbb_cta-mobile-position-button-bottom elementor-widget elementor-widget-twbb_call-to-action animated fadeInUp" data-id="06p5g31l" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="twbb_call-to-action.default">
 				<div class="elementor-widget-container">
 					    <a title="Демонтаж построек" href="/demontazh-postroek/" class="twbb_cta-wrapper ">
                   <div class="twbb_cta-image-background-wrapper">
@@ -443,7 +454,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
 				</div>
 				</div>
-				<div class="elementor-element elementor-element-4i5f72pe elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb_cta-button-wrapper-center twbb_cta-valign-align-top twbb_cta-position-image-top twbb_cta-tablet-position-image-top twbb_cta-mobile-position-image-top twbb_cta-button-wrapper-center twbb_cta-button-wrapper-center twbb_cta-position-button-bottom twbb_cta-tablet-position-button-bottom twbb_cta-mobile-position-button-bottom elementor-widget elementor-widget-twbb_call-to-action animated fadeInUp" data-id="4i5f72pe" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="twbb_call-to-action.default">
+				<div class="elementor-element elementor-element-d34h0ma9 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb_cta-button-wrapper-left twbb_cta-valign-align-space_between twbb_cta-position-image-top twbb_cta-tablet-position-image-top twbb_cta-mobile-position-image-top twbb_cta-button-wrapper-left twbb_cta-button-wrapper-center twbb_cta-position-button-bottom twbb_cta-tablet-position-button-bottom twbb_cta-mobile-position-button-bottom elementor-widget elementor-widget-twbb_call-to-action animated fadeInUp" data-id="d34h0ma9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="twbb_call-to-action.default">
 				<div class="elementor-widget-container">
 					    <a title="Аренда контейнеров" href="/arenda-kontejnerov/" class="twbb_cta-wrapper ">
                   <div class="twbb_cta-image-background-wrapper">
@@ -470,7 +481,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
 				</div>
 				</div>
-				<div class="elementor-element elementor-element-im6moa1a elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb_cta-button-wrapper-center twbb_cta-valign-align-top twbb_cta-position-image-top twbb_cta-tablet-position-image-top twbb_cta-mobile-position-image-top twbb_cta-button-wrapper-center twbb_cta-button-wrapper-center twbb_cta-position-button-bottom twbb_cta-tablet-position-button-bottom twbb_cta-mobile-position-button-bottom elementor-widget elementor-widget-twbb_call-to-action animated fadeInUp" data-id="im6moa1a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="twbb_call-to-action.default">
+				<div class="elementor-element elementor-element-d34h0ma9 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb_cta-button-wrapper-left twbb_cta-valign-align-space_between twbb_cta-position-image-top twbb_cta-tablet-position-image-top twbb_cta-mobile-position-image-top twbb_cta-button-wrapper-left twbb_cta-button-wrapper-center twbb_cta-position-button-bottom twbb_cta-tablet-position-button-bottom twbb_cta-mobile-position-button-bottom elementor-widget elementor-widget-twbb_call-to-action animated fadeInUp" data-id="d34h0ma9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="twbb_call-to-action.default">
 				<div class="elementor-widget-container">
 					    <a title="Расчистка участков" href="/raschistka-uchastka/" class="twbb_cta-wrapper ">
                   <div class="twbb_cta-image-background-wrapper">
@@ -494,6 +505,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
         </a>
+				</div>
 				</div>
 				</div>
 					</div>
