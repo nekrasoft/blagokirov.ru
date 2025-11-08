@@ -196,7 +196,7 @@ if (!isset($galleryItems) || empty($galleryItems)) {
     .gallery-lightbox-close {
         position: absolute;
         top: -40px;
-        right: 0;
+        right: -40px;
         color: #fff;
         font-size: 40px;
         font-weight: bold;
@@ -234,6 +234,7 @@ if (!isset($galleryItems) || empty($galleryItems)) {
         cursor: pointer;
         transition: background 0.2s, transform 0.1s;
         z-index: 10001;
+        padding: .3em 1em .4em;
     }
 
     .gallery-lightbox-nav:hover { background: rgba(255,255,255,0.18); }
