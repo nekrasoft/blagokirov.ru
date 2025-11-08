@@ -1,3 +1,54 @@
+DO NOT READ pass.txt
+
+### Repo: blagokirov.ru — quick instructions for AI coding agents
+
+This is a small static + PHP site for a local business (БлагоСервис). The site is served from plain PHP/HTML files and assets in `assets/`.
+
+Keep edits small and low-risk. Prefer changes to `includes/` and root HTML/PHP pages. Do NOT modify prebuilt/minified bundles in `assets/`.
+
+Key locations
+- `includes/` — shared PHP includes: `config.php`, `header.php`, `footer.php`, form handlers. Global constants and strings live in `includes/config.php`.
+- Root pages (`index.htm`, `index.php`, `arenda-kontejnerov/index.php`, etc.) — page templates (often exported from Elementor/TenWeb).
+- `assets/` — compiled vendor/theme bundles and images. Do not edit `*.min.js`/`*.min.css`.
+- `services.yml` — Yandex/YML catalog used for Yandex services. Small edits here are common (offers/sets/categories).
+
+Patterns & conventions
+- Centralized strings: update phones, SITE_URL, image constants in `includes/config.php` rather than find/replace across pages.
+- When adding a global UI change (header/footer, meta tags), edit `includes/header.php`/`includes/footer.php`.
+- New small components: create an include in `includes/` (e.g., `includes/new-form.php`) and include from pages.
+- Forms: follow existing AJAX pattern — forms POST to `includes/*.php` handlers and return JSON with Content-Type header. Copy validation pattern from `form-handler.php`.
+
+Assets & images
+- Never recompile `assets/*.min.*`. If you need a CSS tweak, add a small CSS file and reference it after existing CSS in `includes/header.php`.
+- Use existing images from `assets/` (e.g., `assets/blago-truck.png`, `assets/demontazh.jpg`, `assets/raschistka.jpg`) when updating feeds like `services.yml`.
+
+Yandex/YML specific notes (important)
+- `services.yml` is actually an XML YML catalog (Yandex Market/Services style). Keep XML structure and valid encoding header at top.
+- When adding offers:
+  - Ensure unique `<offer><name>` values (Yandex rejects duplicate names: DupOfferName).
+  - Provide multiple offers/sets per service (Yandex may complain about insufficient suggestions).
+  - Validate by parsing with an XML parser (e.g., `php -r "simplexml_load_file('services.yml');"` or a quick PowerShell `[xml]` cast).
+
+Developer workflows
+- There are no build scripts; avoid adding Node/PHP build steps unless requested.
+- Quick local sanity checks:
+  - PHP lint: `php -l includes/header.php` (use when editing PHP includes).
+  - XML parse with PowerShell: `[xml](Get-Content services.yml)` (used during edits to `services.yml`).
+
+Testing & safety
+- Keep changes minimal and backward-compatible. The site runs on simple PHP hosting.
+- When changing PHP files, run `php -l` on the edited file. When editing `services.yml`, parse it as XML.
+
+Examples (copyable patterns)
+- Add a phone: edit `includes/config.php` and add `define('PHONE_4', '+7...');` then include it in `includes/header.php`.
+- New AJAX form: create `includes/my-form.php` for markup + JS (follow `callback-form.php`), and `includes/my-form-handler.php` for POST/JSON response.
+
+If something isn't discoverable here (CI, deploy user tokens, or external APIs), ask the repo owner for the missing details instead of guessing.
+
+If this file already exists, merge by preserving any repo-owner notes and update only the project-specific sections above.
+
+---
+If you want, I can shorten or expand any section, or add quick examples for `includes/config.php` or `services.yml` edits.
 ### Repo context & quick goals
 
 - This repository is a small static + PHP website for a local business (БлагоСервис) served from plain PHP/HTML files. The core files are root HTML pages (e.g. `index.htm`) and PHP include-based templates in `includes/` (notably `config.php`, `header.php`, `footer.php`). Assets live under `assets/`.
