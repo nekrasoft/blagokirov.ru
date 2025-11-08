@@ -237,15 +237,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-frs4f0dz elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial elementor-widget elementor-widget-image" data-id="frs4f0dz" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img fetchpriority="high" width="1024" height="1024" src="assets/blago-truck.png" class="attachment-full size-full wp-image-114" alt="Услуги по вывозу мусора и утилизации отходов в Кирове" srcset="assets/blago-truck.png 1024w, assets/blago-truck.png 768w" sizes="(max-width: 1024px) 100vw, 1024px">
+                    <img fetchpriority="high" width="1024" height="1024" src="assets/blago-truck.png" class="attachment-full size-full wp-image-114" alt="Услуги по вывозу мусора и утилизации отходов в Кирове" srcset="assets/blago-truck.png 1024w, assets/blago-truck.png 768w" sizes="(max-width: 1024px) 100vw, 1024px">
                     </div>
 				</div>
 		<div class="elementor-element elementor-element-ppjwfi7p e-con-full e-flex e-con e-child" data-id="ppjwfi7p" data-element_type="container">
-				<div class="elementor-element elementor-element-3g0fqwqt elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb-headline--style-highlight elementor-widget elementor-widget-twbbanimated-headline" data-id="3g0fqwqt" data-element_type="widget" data-settings="{&quot;highlighted_text&quot;:&quot;\u042d\u043a\u043e\u043d\u043e\u043c\u0438\u044f \u0441\u0440\u0435\u0434\u0441\u0442\u0432&quot;,&quot;marker&quot;:&quot;underline_zigzag&quot;,&quot;headline_style&quot;:&quot;highlight&quot;}" data-widget_type="twbbanimated-headline.default">
+		<div class="elementor-element elementor-element-3g0fqwqt elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial twbb-headline--style-highlight elementor-widget elementor-widget-twbbanimated-headline" data-id="3g0fqwqt" data-element_type="widget" data-settings="{&quot;highlighted_text&quot;:&quot;\u0411\u043b\u0430\u0433\u043e\u0421\u0435\u0440\u0432\u0438\u0441&quot;,&quot;marker&quot;:&quot;underline_zigzag&quot;,&quot;headline_style&quot;:&quot;highlight&quot;}" data-widget_type="twbbanimated-headline.default">
 				<div class="elementor-widget-container">
 					    <h1 class="twbb-headline">
         <span class="twbb-headline-dynamic-wrapper twbb-headline-text-wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" preserveAspectRatio="none"><path d="M9.3,127.3c49.3-3,150.7-7.6,199.7-7.4c121.9,0.4,189.9,0.4,282.3,7.2C380.1,129.6,181.2,130.6,70,139 c82.6-2.9,254.2-1,335.9,1.3c-56,1.4-137.2-0.3-197.1,9"></path></svg></span>
-          <span class="twbb-headline-plain-text twbb-headline-text-wrapper"> с эффективным вывозом мусора</span>
+          <br/><span class="twbb-headline-plain-text twbb-headline-text-wrapper"> вывоз мусора в Кирове</span>
         </h1>
     				</div>
 				</div>
@@ -253,9 +253,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-widget-container">
 									Благосервис предлагает профессиональные услуги по вывозу
 мусора, аренде контейнеров и демонтажу в Кирове и области, разработанные для снижения ваших затрат и повышения
-эффективности. Наше передовое оборудование заменяет несколько
-стандартных транспортных средств, оптимизируя ваши расходы и обеспечивая
- надежную утилизацию отходов.								</div>
+эффективности. Одна наша машина заменяет несколько стандартных транспортных средств, оптимизируя ваши расходы и обеспечивая надежную утилизацию отходов.								</div>
 				</div>
 		<div class="elementor-element elementor-element-phimbhx5 e-con-full e-flex e-con e-child" data-id="phimbhx5" data-element_type="container">
 				<div class="elementor-element elementor-element-8412l7vr elementor-align-left elementor-hidden-tablet elementor-hidden-mobile elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="8412l7vr" data-element_type="widget" data-widget_type="button.default">
@@ -753,7 +751,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                     </div>
         				</div>
-				</div>
+				</div><script src="https://res.smartwidgets.ru/app.js" defer></script>
+<div class="sw-app" data-app="43ef9cb9fb4c9709478ff11c9d4efc26"></div>
 					</div>
 				</div>
 		<div class="elementor-element elementor-element-zb70ctom twbb_section e-flex e-con-boxed e-con e-parent e-lazyloaded" data-id="zb70ctom" data-element_type="container" id="contacts">
