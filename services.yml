@@ -32,11 +32,7 @@
         <url>https://blagokirov.ru/arenda-kontejnerov/</url>
       </set>
       <set id="s5">
-        <name>Демонтаж малых построек</name>
-        <url>https://blagokirov.ru/demontazh-postroek/</url>
-      </set>
-      <set id="s6">
-        <name>Демонтаж крупных зданий</name>
+        <name>Демонтаж построек</name>
         <url>https://blagokirov.ru/demontazh-postroek/</url>
       </set>
       <set id="s8">
@@ -52,7 +48,7 @@
     <offers>
       <!-- Вывоз мусора: предложение 1 -->
       <offer id="blago-001">
-  <name>Вывоз мусора за куб (код blago-001)</name>
+        <name>Вывоз мусора за куб (код blago-001)</name>
         <url>https://blagokirov.ru/vyvoz-musora/</url>
         <price from="true">1200</price>
         <currencyId>RUB</currencyId>
@@ -71,7 +67,7 @@
 
       <!-- Вывоз мусора: предложение 2 -->
       <offer id="blago-002">
-  <name>Вывоз мусора почасовая (код blago-002)</name>
+        <name>Вывоз мусора почасовая (код blago-002)</name>
         <url>https://blagokirov.ru/vyvoz-musora/</url>
         <price from="true">3500</price>
         <currencyId>RUB</currencyId>
@@ -90,7 +86,7 @@
 
       <!-- Аренда контейнеров: предложение 1 -->
       <offer id="blago-003">
-  <name>Аренда контейнера 8 м3 (код blago-003)</name>
+        <name>Аренда контейнера 8 м3 (код blago-003)</name>
         <url>https://blagokirov.ru/arenda-kontejnerov/</url>
         <price from="true">9000</price>
         <currencyId>RUB</currencyId>
@@ -109,35 +105,16 @@
 
       <!-- Демонтаж: предложение 1 -->
       <offer id="blago-005">
-  <name>Демонтаж малых построек (код blago-005)</name>
-        <url>https://blagokirov.ru/demontazh-postroek/</url>
-        <price from="true">15000</price>
-        <currencyId>RUB</currencyId>
-        <categoryId>3</categoryId>
-        <picture>https://blagokirov.ru/assets/demontazh.jpg</picture>
-        <description>Демонтаж малых построек в Кирове: снос сараев, гаражей, навесов с погрузкой и вывозом строительного мусора. Безопасно и по договору.</description>
-        <adult>false</adult>
-        <sales_notes>демонтаж Киров — цена почасовая или за операцию, расчет после осмотра</sales_notes>
-        <set-ids>s5,s6,s9</set-ids>
-        <param name="Рейтинг">4</param>
-        <param name="Число отзывов">1</param>
-        <param name="Регион">Киров</param>
-        <param name="Годы опыта">11</param>
-        <param name="Конверсия">1.935</param>
-      </offer>
-
-      <!-- Демонтаж: предложение 2 -->
-      <offer id="blago-006">
-  <name>Демонтаж крупного здания (код blago-006)</name>
+        <name>Демонтаж построек (код blago-005)</name>
         <url>https://blagokirov.ru/demontazh-postroek/</url>
         <price from="true">25000</price>
         <currencyId>RUB</currencyId>
         <categoryId>3</categoryId>
         <picture>https://blagokirov.ru/assets/demontazh.jpg</picture>
-        <description>Капитальный демонтаж зданий в Кирове: демонтаж с техникой, погрузка, вывоз и утилизация материалов по нормам.</description>
+        <description>Демонтаж построек в Кирове: снос сараев, гаражей, навесов с погрузкой и вывозом строительного мусора. Безопасно и по договору.</description>
         <adult>false</adult>
-        <sales_notes>демонтаж зданий Киров — цена по договорённости</sales_notes>
-        <set-ids>s6,s9</set-ids>
+        <sales_notes>демонтаж Киров — цена почасовая или за операцию, расчет после осмотра</sales_notes>
+        <set-ids>s5,s9</set-ids>
         <param name="Рейтинг">4</param>
         <param name="Число отзывов">1</param>
         <param name="Регион">Киров</param>
@@ -147,12 +124,12 @@
 
       <!-- Расчистка участка: предложение 2 -->
       <offer id="blago-008">
-  <name>Расчистка участка техникой (код blago-008)</name>
+        <name>Расчистка участка техникой (код blago-008)</name>
         <url>https://blagokirov.ru/raschistka-uchastka/</url>
         <price from="true">24000</price>
         <currencyId>RUB</currencyId>
         <categoryId>4</categoryId>
-  <picture>https://blagokirov.ru/assets/raschistka/raschistka3.jpg</picture>
+        <picture>https://blagokirov.ru/assets/raschistka/raschistka3.jpg</picture>
         <description>Расчистка участка техникой в Кирове: экскаватор, трактор, корчевание пней и вывоз мусора. Подходит для больших участков.</description>
         <adult>false</adult>
         <sales_notes>расчистка техникой — цена по объёму/договор</sales_notes>
