@@ -15,12 +15,13 @@ define('MAIN_PHONE', '42-45-23');
 // Адрес компании
 define('COMPANY_ADDRESS', 'ул. Садаковская, 2');
 define('COMPANY_CITY', 'Киров');
-define('COMPANY_POSTAL_CODE', '610000');
+define('COMPANY_POSTAL_CODE', '610050');
 define('COMPANY_COUNTRY', 'RU');
 
 // Название компании
 define('COMPANY_NAME', 'БлагоСервис');
 define('COMPANY_FULL_NAME', 'ООО Благосервис');
+define('COMPANY_REQUISITES', 'ОГРН 1254300004177');
 
 // URL сайта
 define('SITE_URL', 'https://blagokirov.ru');
