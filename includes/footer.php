@@ -247,9 +247,6 @@
     </noscript>
     <!-- /Yandex.Metrika counter -->
 
-</body>
-</html>
-
     <!-- Cookie notice banner -->
     <style>
     /* Minimal cookie banner styles */
@@ -325,3 +322,5 @@
     })();
     </script>
 
+</body>
+</html>
