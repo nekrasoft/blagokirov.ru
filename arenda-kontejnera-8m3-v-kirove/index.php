@@ -30,6 +30,37 @@ $serviceSchema = [
     'description' => $pageDescription
 ];
 
+$breadcrumbSchema = [
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        [
+            '@type' => 'ListItem',
+            'position' => 1,
+            'name' => 'Главная',
+            'item' => SITE_URL . '/'
+        ],
+        [
+            '@type' => 'ListItem',
+            'position' => 2,
+            'name' => 'Услуги',
+            'item' => get_canonical_url('uslugi')
+        ],
+        [
+            '@type' => 'ListItem',
+            'position' => 3,
+            'name' => 'Аренда контейнеров',
+            'item' => get_canonical_url('arenda-kontejnerov')
+        ],
+        [
+            '@type' => 'ListItem',
+            'position' => 4,
+            'name' => 'Аренда контейнера 8 м3',
+            'item' => $canonicalUrl
+        ]
+    ]
+];
+
 include '../includes/header.php';
 ?>
 

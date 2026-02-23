@@ -23,6 +23,25 @@ $serviceSchema = [
     'description' => $pageDescription
 ];
 
+$breadcrumbSchema = [
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        [
+            '@type' => 'ListItem',
+            'position' => 1,
+            'name' => 'Главная',
+            'item' => SITE_URL . '/'
+        ],
+        [
+            '@type' => 'ListItem',
+            'position' => 2,
+            'name' => 'Для бизнеса',
+            'item' => $canonicalUrl
+        ]
+    ]
+];
+
 include '../includes/header.php';
 ?>
 

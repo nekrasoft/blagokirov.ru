@@ -80,6 +80,13 @@
     </script>
     <?php endif; ?>
 
+    <?php if (isset($breadcrumbSchema)): ?>
+    <!-- BreadcrumbList Schema for this page -->
+    <script type="application/ld+json">
+    <?php echo json_encode($breadcrumbSchema, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT); ?>
+    </script>
+    <?php endif; ?>
+
     <!-- CSS стили -->
     <link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/frontend.min.css">
     <link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/frontend.min_002.css">

@@ -30,6 +30,37 @@ $serviceSchema = [
     'description' => $pageDescription
 ];
 
+$breadcrumbSchema = [
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        [
+            '@type' => 'ListItem',
+            'position' => 1,
+            'name' => 'Главная',
+            'item' => SITE_URL . '/'
+        ],
+        [
+            '@type' => 'ListItem',
+            'position' => 2,
+            'name' => 'Услуги',
+            'item' => get_canonical_url('uslugi')
+        ],
+        [
+            '@type' => 'ListItem',
+            'position' => 3,
+            'name' => 'Демонтаж построек',
+            'item' => get_canonical_url('demontazh-postroek')
+        ],
+        [
+            '@type' => 'ListItem',
+            'position' => 4,
+            'name' => 'Демонтаж и вывоз мусора',
+            'item' => $canonicalUrl
+        ]
+    ]
+];
+
 include '../includes/header.php';
 ?>
 
