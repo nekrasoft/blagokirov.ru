@@ -1,13 +1,11 @@
 <?php
 require_once '../includes/config.php';
 
-// SEO настройки страницы
 $pageTitle = "Расчистка и подготовка участка к строительству в Кирове - БлагоСервис | 42-45-23";
 $pageDescription = "Профессиональная расчистка и подготовка участка к строительству в Кирове. Вывоз грунта, демонтаж старых построек, планировка территории. Полный комплекс работ. Звоните 42-45-23!";
 $canonicalUrl = get_canonical_url('raschistka-uchastka');
 $ogImage = SITE_URL . '/assets/raschistka/raschistka3.jpg';
 
-// Schema.org для услуги
 $serviceSchema = [
     "@context" => "https://schema.org",
     "@type" => "Service",

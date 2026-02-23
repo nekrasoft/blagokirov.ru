@@ -1,13 +1,11 @@
 <?php
 require_once '../includes/config.php';
 
-// SEO настройки страницы
 $pageTitle = "Бесплатная аренда контейнеров 8м³ в Кирове | 42-45-23 | БлагоСервис";
 $pageDescription = "Аренда бункер-накопителей 8м³ в Кирове. Гибкие сроки аренды, надёжная доставка и забор отходов. Умные контейнеры с датчиками уровня заполнения. Звоните 42-45-23!";
 $canonicalUrl = get_canonical_url('arenda-kontejnerov');
 $ogImage = SITE_URL . '/assets/blago-bunker3.jpg';
 
-// Schema.org для услуги
 $serviceSchema = [
     "@context" => "https://schema.org",
     "@type" => "Service",

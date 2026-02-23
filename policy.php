@@ -1,12 +1,10 @@
 <?php
 require_once 'includes/config.php';
 
-// SEO настройки страницы
 $pageTitle = "Политика конфиденциальности - БлагоСервис | 42-45-23";
 $pageDescription = "Политика конфиденциальности для сайта БлагоСервис. Обработка персональных данных в соответствии с законодательством РФ.";
 $canonicalUrl = get_canonical_url('policy.php');
 
-// Schema.org для услуги
 $serviceSchema = [
     "@context" => "https://schema.org",
     "@type" => "Service",

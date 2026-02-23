@@ -1,13 +1,11 @@
 <?php
 require_once '../includes/config.php';
 
-// SEO настройки страницы
 $pageTitle = "Вывоз мусора в Кирове | 42-45-23 | БлагоСервис";
 $pageDescription = "Профессиональный вывоз мусора в Кирове. Эффективная утилизация отходов, лицензированные услуги. Быстро, надёжно, выгодно. Звоните 42-45-23!";
 $canonicalUrl = get_canonical_url('vyvoz-musora');
 $ogImage = SITE_URL . '/assets/blago-truck-shacman-3.jpg';
 
-// Schema.org для услуги
 $serviceSchema = [
     "@context" => "https://schema.org",
     "@type" => "Service",
