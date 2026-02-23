@@ -57,6 +57,17 @@
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
+<!-- B2B страницы -->
+<url>
+  <loc>https://blagokirov.ru/vyvoz-musora-dlya-uk-i-tszh/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://blagokirov.ru/vyvoz-musora-dlya-zastroyshchikov/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.85</priority>
+</url>
 <!-- Новые коммерческие посадочные -->
 <url>
   <loc>https://blagokirov.ru/vyvoz-stroitelnogo-musora-v-kirove/</loc>

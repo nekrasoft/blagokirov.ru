@@ -62,14 +62,14 @@ include '../includes/header.php';
     <section style="margin-bottom: 50px;">
         <h2 style="font-size: 28px; color: #2c3e50; margin-bottom: 20px;">Кому подходим</h2>
         <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); gap:20px;">
-            <div style="border:1px solid #dfe6ee; border-radius:10px; padding:20px;">
+            <a href="<?php echo SITE_URL; ?>/vyvoz-musora-dlya-uk-i-tszh/" style="display:block; text-decoration:none; color:#2c3e50; border:1px solid #dfe6ee; border-radius:10px; padding:20px; background:#fff;">
                 <h3 style="margin-top:0; color:#007bff;">УК и ТСЖ</h3>
                 <p style="margin:0; color:#555; line-height:1.6;">Регулярный вывоз мусора и замена контейнеров по графику.</p>
-            </div>
-            <div style="border:1px solid #dfe6ee; border-radius:10px; padding:20px;">
+            </a>
+            <a href="<?php echo SITE_URL; ?>/vyvoz-musora-dlya-zastroyshchikov/" style="display:block; text-decoration:none; color:#2c3e50; border:1px solid #dfe6ee; border-radius:10px; padding:20px; background:#fff;">
                 <h3 style="margin-top:0; color:#007bff;">Застройщики</h3>
                 <p style="margin:0; color:#555; line-height:1.6;">Контейнеры на объекте и оперативный вывоз строительных отходов.</p>
-            </div>
+            </a>
             <div style="border:1px solid #dfe6ee; border-radius:10px; padding:20px;">
                 <h3 style="margin-top:0; color:#007bff;">Подрядчики</h3>
                 <p style="margin:0; color:#555; line-height:1.6;">Разовые и регулярные выезды после демонтажа или ремонта.</p>
@@ -89,6 +89,20 @@ include '../includes/header.php';
             <li>Вывоз контейнера заказчика или установка нашего контейнера</li>
             <li>Документооборот: договор, акты, УПД, подтверждение утилизации</li>
         </ul>
+    </section>
+
+    <section style="margin-bottom: 50px;">
+        <h2 style="font-size: 28px; color: #2c3e50; margin-bottom: 20px;">Отраслевые B2B-страницы</h2>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:20px;">
+            <a href="<?php echo SITE_URL; ?>/vyvoz-musora-dlya-uk-i-tszh/" style="display:block; text-decoration:none; color:#2c3e50; border:1px solid #e0e7ef; border-radius:10px; padding:20px;">
+                <h3 style="margin:0 0 10px 0; color:#2c3e50;">Вывоз мусора для УК и ТСЖ</h3>
+                <p style="margin:0; color:#666; line-height:1.6;">Отдельная страница с условиями обслуживания жилфонда, графиками и документооборотом.</p>
+            </a>
+            <a href="<?php echo SITE_URL; ?>/vyvoz-musora-dlya-zastroyshchikov/" style="display:block; text-decoration:none; color:#2c3e50; border:1px solid #e0e7ef; border-radius:10px; padding:20px;">
+                <h3 style="margin:0 0 10px 0; color:#2c3e50;">Вывоз мусора для застройщиков</h3>
+                <p style="margin:0; color:#666; line-height:1.6;">Отдельная страница для стройплощадок: контейнеры, замены по графику и SLA по заявкам.</p>
+            </a>
+        </div>
     </section>
 
     <section style="margin-bottom: 50px;">
@@ -114,6 +128,7 @@ include '../includes/header.php';
         <div style="display:flex; flex-wrap:wrap; gap:15px;">
             <a href="<?php echo SITE_URL; ?>/dokumenty/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Пакет документов</a>
             <a href="<?php echo COMMERCIAL_PROPOSAL_PDF_URL; ?>" target="_blank" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Коммерческое предложение PDF</a>
+            <a href="<?php echo SITE_URL; ?>/rekvizity/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Реквизиты</a>
         </div>
     </section>
 

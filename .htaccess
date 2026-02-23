@@ -15,7 +15,7 @@ RewriteRule ^index(?:2)?\.php$ https://blagokirov.ru/ [R=301,L,NC]
 RewriteRule ^index\.htm(?:l)?$ https://blagokirov.ru/ [R=301,L,NC]
 
 # Для продвигаемых разделов закрепляем версию со слэшем в конце URL.
-RewriteRule ^(vyvoz-musora|demontazh-postroek|arenda-kontejnerov|raschistka-uchastka|uslugi|ceny|dlya-biznesa|dokumenty|rekvizity|vyvoz-stroitelnogo-musora-v-kirove|arenda-kontejnera-8m3-v-kirove|demontazh-i-vyvoz-musora)$ https://blagokirov.ru/$1/ [R=301,L,NC,NE]
+RewriteRule ^(vyvoz-musora|demontazh-postroek|arenda-kontejnerov|raschistka-uchastka|uslugi|ceny|dlya-biznesa|dokumenty|rekvizity|vyvoz-stroitelnogo-musora-v-kirove|arenda-kontejnera-8m3-v-kirove|demontazh-i-vyvoz-musora|vyvoz-musora-dlya-uk-i-tszh|vyvoz-musora-dlya-zastroyshchikov)$ https://blagokirov.ru/$1/ [R=301,L,NC,NE]
 
 # 301 редиректы для старых URL документов из корня в /docs/
 # Используем THE_REQUEST (ASCII-only), чтобы избежать проблем с декодированием URI.
