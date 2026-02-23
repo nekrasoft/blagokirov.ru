@@ -3,7 +3,6 @@ require_once '../includes/config.php';
 
 $pageTitle = 'Вывоз мусора для бизнеса в Кирове | УК, застройщики, подрядчики';
 $pageDescription = 'B2B-решения по вывозу мусора в Кирове: обслуживание УК и ТСЖ, стройплощадок и предприятий. Работаем по договору, с НДС и без НДС.';
-$pageKeywords = 'вывоз мусора для бизнеса Киров, вывоз мусора для УК и ТСЖ, контейнеры для застройщиков, b2b вывоз отходов';
 $canonicalUrl = get_canonical_url('dlya-biznesa');
 $ogImage = SITE_URL . '/assets/blago-truck-shacman-4.jpg';
 

@@ -6,7 +6,6 @@ header('X-Robots-Tag: noindex, nofollow', true);
 
 $pageTitle = '404 - Страница не найдена | БлагоСервис';
 $pageDescription = 'Запрошенная страница не найдена. Перейдите в основные разделы БлагоСервис.';
-$pageKeywords = '404, страница не найдена, благо сервис';
 $pageRobots = 'noindex, nofollow';
 $canonicalUrl = SITE_URL . '/404.php';
 $ogImage = TRUCK_IMAGE;

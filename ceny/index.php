@@ -3,7 +3,6 @@ require_once '../includes/config.php';
 
 $pageTitle = 'Цены на вывоз мусора и демонтаж в Кирове | БлагоСервис';
 $pageDescription = 'Актуальные цены БлагоСервис в Кирове: вывоз строительного мусора, аренда контейнера 8 м3, демонтаж и расчистка участка. Работаем по договору.';
-$pageKeywords = 'цены вывоз мусора Киров, стоимость контейнера 8 м3, цена демонтаж с вывозом, прайс благо сервис';
 $canonicalUrl = get_canonical_url('ceny');
 $ogImage = SITE_URL . '/assets/blago-truck-shacman-3.jpg';
 

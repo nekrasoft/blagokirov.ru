@@ -3,7 +3,6 @@ require_once '../includes/config.php';
 
 $pageTitle = 'Аренда контейнера 8 м3 в Кирове | БлагоСервис 42-45-23';
 $pageDescription = 'Аренда контейнера 8 м3 в Кирове для стройки, ремонта и бизнеса. Быстрая подача, замена контейнера по графику, вывоз и утилизация отходов.';
-$pageKeywords = 'аренда контейнера 8 м3 Киров, заказать контейнер для мусора, бункер 8 кубов, вывоз контейнера Киров';
 $canonicalUrl = get_canonical_url('arenda-kontejnera-8m3-v-kirove');
 $ogImage = SITE_URL . '/assets/blago-bunker4.jpg';
 

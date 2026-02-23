@@ -3,7 +3,6 @@ require_once '../includes/config.php';
 
 $pageTitle = 'Демонтаж и вывоз мусора в Кирове | БлагоСервис 42-45-23';
 $pageDescription = 'Комплексный демонтаж и вывоз мусора в Кирове: разборка построек, погрузка, вывоз и лицензированная утилизация отходов. Работаем под ключ.';
-$pageKeywords = 'демонтаж и вывоз мусора Киров, демонтаж построек с вывозом, снос и вывоз мусора, демонтаж под ключ';
 $canonicalUrl = get_canonical_url('demontazh-i-vyvoz-musora');
 $ogImage = SITE_URL . '/assets/demontazh.jpg';
 

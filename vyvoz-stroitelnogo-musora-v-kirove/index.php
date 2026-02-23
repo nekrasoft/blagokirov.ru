@@ -3,7 +3,6 @@ require_once '../includes/config.php';
 
 $pageTitle = 'Вывоз строительного мусора в Кирове | БлагоСервис 42-45-23';
 $pageDescription = 'Вывоз строительного мусора в Кирове после ремонта и демонтажа. Подача техники, погрузка и лицензированная утилизация. Оперативный выезд по заявке.';
-$pageKeywords = 'вывоз строительного мусора Киров, вывоз после ремонта, утилизация строймусора, заказать вывоз мусора';
 $canonicalUrl = get_canonical_url('vyvoz-stroitelnogo-musora-v-kirove');
 $ogImage = SITE_URL . '/assets/blago-truck-shacman-3.jpg';
 

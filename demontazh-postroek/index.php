@@ -4,7 +4,6 @@ require_once '../includes/config.php';
 // SEO настройки страницы
 $pageTitle = "Демонтаж построек в Кирове | 42-45-23 | БлагоСервис";
 $pageDescription = "Профессиональный демонтаж в Кирове с вывозом и утилизацией. Демонтажные работы оперативно. Звоните 42-45-23!";
-$pageKeywords = "демонтаж построек, снос зданий, демонтаж Киров, снос домов, демонтаж с вывозом, разборка построек";
 $canonicalUrl = get_canonical_url('demontazh-postroek');
 $ogImage = SITE_URL . '/assets/demontazh.jpg';
 
