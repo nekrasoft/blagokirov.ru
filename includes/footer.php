@@ -77,6 +77,12 @@
                             <a href="<?php echo SITE_URL; ?>/dlya-biznesa/" style="color: #ecf0f1; text-decoration: none;">Для бизнеса</a>
                         </li>
                         <li style="margin: 8px 0;">
+                            <a href="<?php echo SITE_URL; ?>/vyvoz-musora-dlya-podryadchikov/" style="color: #ecf0f1; text-decoration: none;">Для подрядчиков</a>
+                        </li>
+                        <li style="margin: 8px 0;">
+                            <a href="<?php echo SITE_URL; ?>/vyvoz-musora-dlya-predpriyatiy/" style="color: #ecf0f1; text-decoration: none;">Для предприятий</a>
+                        </li>
+                        <li style="margin: 8px 0;">
                             <a href="<?php echo SITE_URL; ?>/dokumenty/" style="color: #ecf0f1; text-decoration: none;">Документы</a>
                         </li>
                         <li style="margin: 8px 0;">

@@ -70,14 +70,14 @@ include '../includes/header.php';
                 <h3 style="margin-top:0; color:#007bff;">Застройщики</h3>
                 <p style="margin:0; color:#555; line-height:1.6;">Контейнеры на объекте и оперативный вывоз строительных отходов.</p>
             </a>
-            <div style="border:1px solid #dfe6ee; border-radius:10px; padding:20px;">
+            <a href="<?php echo SITE_URL; ?>/vyvoz-musora-dlya-podryadchikov/" style="display:block; text-decoration:none; color:#2c3e50; border:1px solid #dfe6ee; border-radius:10px; padding:20px; background:#fff;">
                 <h3 style="margin-top:0; color:#007bff;">Подрядчики</h3>
                 <p style="margin:0; color:#555; line-height:1.6;">Разовые и регулярные выезды после демонтажа или ремонта.</p>
-            </div>
-            <div style="border:1px solid #dfe6ee; border-radius:10px; padding:20px;">
+            </a>
+            <a href="<?php echo SITE_URL; ?>/vyvoz-musora-dlya-predpriyatiy/" style="display:block; text-decoration:none; color:#2c3e50; border:1px solid #dfe6ee; border-radius:10px; padding:20px; background:#fff;">
                 <h3 style="margin-top:0; color:#007bff;">Предприятия</h3>
                 <p style="margin:0; color:#555; line-height:1.6;">Вывоз накопленных отходов и обслуживание производственных площадок.</p>
-            </div>
+            </a>
         </div>
     </section>
 
@@ -101,6 +101,14 @@ include '../includes/header.php';
             <a href="<?php echo SITE_URL; ?>/vyvoz-musora-dlya-zastroyshchikov/" style="display:block; text-decoration:none; color:#2c3e50; border:1px solid #e0e7ef; border-radius:10px; padding:20px;">
                 <h3 style="margin:0 0 10px 0; color:#2c3e50;">Вывоз мусора для застройщиков</h3>
                 <p style="margin:0; color:#666; line-height:1.6;">Отдельная страница для стройплощадок: контейнеры, замены по графику и SLA по заявкам.</p>
+            </a>
+            <a href="<?php echo SITE_URL; ?>/vyvoz-musora-dlya-podryadchikov/" style="display:block; text-decoration:none; color:#2c3e50; border:1px solid #e0e7ef; border-radius:10px; padding:20px;">
+                <h3 style="margin:0 0 10px 0; color:#2c3e50;">Вывоз мусора для подрядчиков</h3>
+                <p style="margin:0; color:#666; line-height:1.6;">Отдельная страница для подрядных организаций: выезды после этапов работ и гибкий формат заявок.</p>
+            </a>
+            <a href="<?php echo SITE_URL; ?>/vyvoz-musora-dlya-predpriyatiy/" style="display:block; text-decoration:none; color:#2c3e50; border:1px solid #e0e7ef; border-radius:10px; padding:20px;">
+                <h3 style="margin:0 0 10px 0; color:#2c3e50;">Вывоз мусора для предприятий</h3>
+                <p style="margin:0; color:#666; line-height:1.6;">Отдельная страница для производственных и коммерческих объектов с регулярным графиком обслуживания.</p>
             </a>
         </div>
     </section>
