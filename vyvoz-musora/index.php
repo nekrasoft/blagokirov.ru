@@ -85,7 +85,7 @@ include '../includes/header.php';
         </h2>
         <div style="display: flex; gap: 30px; align-items: flex-start; flex-wrap: wrap;">
             <div style="flex: 0 0 300px; max-width: 300px; min-width: 220px;">
-                <img src="<?php echo SITE_URL; ?>/assets/vyvoz-musora.jpg" alt="Демонтаж построек"
+                <img src="<?php echo SITE_URL; ?>/assets/vyvoz-musora.jpg" alt="Вывоз мусора в Кирове"
                  style="width: 100%; max-width: 300px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
             </div>
 

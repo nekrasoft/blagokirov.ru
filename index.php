@@ -380,7 +380,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="elementor-element elementor-element-5tcb3u5z elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial elementor-widget elementor-widget-image" data-id="5tcb3u5z" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-                    <img width="1024" height="1024" src="assets/blago-truck-shacman-3.jpg" class="attachment-full size-full wp-image-103" alt="" srcset="assets/blago-truck-shacman-3.jpg 1024w, assets/blago-truck-shacman-3.jpg 300w, assets/blago-truck-shacman-3.jpg 150w, assets/blago-truck-shacman-3.jpg 768w, assets/blago-truck-shacman-3.jpg 600w" sizes="(max-width: 1024px) 100vw, 1024px">															</div>
+                    <img width="1024" height="1024" src="assets/blago-truck-shacman-3.jpg" class="attachment-full size-full wp-image-103" alt="Самосвал БлагоСервис для вывоза мусора" loading="lazy" decoding="async" srcset="assets/blago-truck-shacman-3.jpg 1024w, assets/blago-truck-shacman-3.jpg 300w, assets/blago-truck-shacman-3.jpg 150w, assets/blago-truck-shacman-3.jpg 768w, assets/blago-truck-shacman-3.jpg 600w" sizes="(max-width: 1024px) 100vw, 1024px">															</div>
 				</div>
 					</div>
 				</div>
@@ -390,7 +390,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		    <div class="elementor-element elementor-element-vmyswdfp e-con-full e-flex e-con e-child" data-id="vmyswdfp" data-element_type="container">
 				<div class="elementor-element elementor-element-m9gwciux elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial elementor-widget elementor-widget-heading animated fadeInUp" data-id="m9gwciux" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Наши услуги</div>
+					<h2 class="elementor-heading-title elementor-size-default">Наши услуги</h2>
 				</div>
 				<div class="elementor-element elementor-element-s1yo6rci elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial elementor-widget elementor-widget-text-editor animated fadeInUp" data-id="s1yo6rci" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
 				    <div class="elementor-widget-container"></div>
@@ -403,7 +403,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="twbb_cta-image-background-wrapper">
           <span class="twbb_cta-image-background-overlay"></span>
                             <div class="twbb_cta-image-html-tag">
-                                <img src="assets/vyvoz-musora3.jpg" alt="Вывоз мусора Киров">
+                                <img src="assets/vyvoz-musora3.jpg" alt="Вывоз мусора Киров" loading="lazy" decoding="async">
                             </div>
                     </div>
         <div class="twbb_cta-content-wrapper ">
@@ -431,7 +431,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="twbb_cta-image-background-wrapper">
           <span class="twbb_cta-image-background-overlay"></span>
                             <div class="twbb_cta-image-html-tag">
-                                            <img src="assets/demontazh.jpg" alt="Демонтаж зданий Киров">
+                                            <img src="assets/demontazh.jpg" alt="Демонтаж зданий Киров" loading="lazy" decoding="async">
                                     </div>
                     </div>
         <div class="twbb_cta-content-wrapper ">
@@ -458,7 +458,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="twbb_cta-image-background-wrapper">
           <span class="twbb_cta-image-background-overlay"></span>
                             <div class="twbb_cta-image-html-tag">
-                                            <img src="assets/blago-bunker3.jpg" alt="Бункер-накопители 8м3, мусорные контейнеры">
+                                            <img src="assets/blago-bunker3.jpg" alt="Бункер-накопители 8м3, мусорные контейнеры" loading="lazy" decoding="async">
                                     </div>
                     </div>
         <div class="twbb_cta-content-wrapper ">
@@ -485,7 +485,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="twbb_cta-image-background-wrapper">
           <span class="twbb_cta-image-background-overlay"></span>
                             <div class="twbb_cta-image-html-tag">
-                                            <img src="assets/raschistka.jpg" alt="Расчитска участков Киров">
+                                            <img src="assets/raschistka.jpg" alt="Расчитска участков Киров" loading="lazy" decoding="async">
                                     </div>
                     </div>
         <div class="twbb_cta-content-wrapper ">
@@ -736,7 +736,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="twbb-testimonial-avatar">
             <div class="twbb-testimonial-avatar-wrapper">
                             <div class="twbb-testimonial-avatar-image">
-                <img src="assets/thumbnail_female_u46Wc8xn.webp" alt="Анна Иванова">
+                <img src="assets/thumbnail_female_u46Wc8xn.webp" alt="Анна Иванова" loading="lazy" decoding="async">
             </div>
                             <div class="twbb-testimonial-avatar-content">
                     <div class="twbb-testimonial-text">Анна Иванова</div>
