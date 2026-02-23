@@ -77,6 +77,12 @@
                             <a href="<?php echo SITE_URL; ?>/dlya-biznesa/" style="color: #ecf0f1; text-decoration: none;">Для бизнеса</a>
                         </li>
                         <li style="margin: 8px 0;">
+                            <a href="<?php echo SITE_URL; ?>/vyvoz-musora-dlya-uk-i-tszh/" style="color: #ecf0f1; text-decoration: none;">Для УК и ТСЖ</a>
+                        </li>
+                        <li style="margin: 8px 0;">
+                            <a href="<?php echo SITE_URL; ?>/vyvoz-musora-dlya-zastroyshchikov/" style="color: #ecf0f1; text-decoration: none;">Для застройщиков</a>
+                        </li>
+                        <li style="margin: 8px 0;">
                             <a href="<?php echo SITE_URL; ?>/vyvoz-musora-dlya-podryadchikov/" style="color: #ecf0f1; text-decoration: none;">Для подрядчиков</a>
                         </li>
                         <li style="margin: 8px 0;">
@@ -203,44 +209,6 @@
         }
     });
     </script>
-
-    <!-- Блок hcard для структурированных данных -->
-    <div id="hcard" class="hcard" style="display: none">
-
-      <div class="fn n">
-        <div class="org"><a href="<?php echo SITE_URL; ?>/" title="Благосервис: Вывоз мусора и утилизация отходов">Вывоз мусора в Кирове</a></div>
-      </div>
-
-      <div class="tagline">Благосервис: Вывоз мусора и аренда контейнеров, демонтаж построек</div>
-
-      <div class="adr">
-        <span class="postal-code"><?php echo COMPANY_POSTAL_CODE; ?></span>,
-        <span class="country-name">Россия</span>,
-        <span class="region">Кировская область</span>,
-        <span class="locality">город <?php echo COMPANY_CITY; ?></span>,
-        <span class="street-address"><?php echo COMPANY_ADDRESS; ?></span>
-        <br />
-        <span>время работы: <span class="workhours"><?php echo WORKING_HOURS; ?></span></span>
-        <span class="tel"><i class="value"><?php echo PHONE_1; ?></i></span>
-        <span class="tel"><i class="value"><?php echo PHONE_2; ?></i></span>
-        <span class="tel"><i class="value"><?php echo PHONE_3; ?></i></span>
-      </div>
-
-      <div>
-        <span class="category">Вывоз мусора</span>,
-        <span class="category">Утилизация отходов</span>,
-        <span class="category">Контейнеры</span>
-      </div>
-      <div class="phone">
-        <span class="tel"><i class="value"><?php echo PHONE_1; ?></i></span>
-        <span class="tel"><i class="value"><?php echo PHONE_2; ?></i></span>
-        <span class="tel"><i class="value"><?php echo PHONE_3; ?></i></span>
-      </div>
-      <a class="url" href="<?php echo SITE_URL; ?>" title="Благосервис: Вывоз мусора и аренда контейнеров, демонтаж построек"><?php echo SITE_URL; ?></a>
-
-      <div class="tags"><a href="<?php echo SITE_URL; ?>" title="Благосервис: Вывоз мусора и аренда контейнеров">Благосервис: Вывоз мусора и аренда контейнеров</a></div>
-
-    </div>
 
     <script>
         (function(w,d,u){

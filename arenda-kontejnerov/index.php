@@ -118,8 +118,8 @@ include '../includes/header.php';
             </div>
 
             <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                <h3 style="color: #007bff; margin-bottom: 10px;">📡 Аренда: 0 рублей</h3>
-                <p style="color: #666; margin: 0;">Мы берём деньги только за вывоз мусора!</p>
+                <h3 style="color: #007bff; margin-bottom: 10px;">📡 Без отдельной платы за подачу</h3>
+                <p style="color: #666; margin: 0;">Оплата — за вывоз заполненного контейнера (от 10 000 ₽).</p>
             </div>
 
             <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
