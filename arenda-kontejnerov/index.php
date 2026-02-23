@@ -1,8 +1,8 @@
 <?php
 require_once '../includes/config.php';
 
-$pageTitle = "Бесплатная аренда контейнеров 8м³ в Кирове | 42-45-23 | БлагоСервис";
-$pageDescription = "Аренда бункер-накопителей 8м³ в Кирове. Гибкие сроки аренды, надёжная доставка и забор отходов. Умные контейнеры с датчиками уровня заполнения. Звоните 42-45-23!";
+$pageTitle = "Аренда контейнеров для мусора в Кирове | БлагоСервис 42-45-23";
+$pageDescription = "Аренда контейнеров для мусора в Кирове для стройки, ремонта и бизнеса. Подача и замена контейнера по графику, вывоз и лицензированная утилизация отходов.";
 $canonicalUrl = get_canonical_url('arenda-kontejnerov');
 $ogImage = SITE_URL . '/assets/blago-bunker3.jpg';
 
@@ -68,17 +68,17 @@ include '../includes/header.php';
 
     <!-- Заголовок страницы -->
     <h1 style="font-size: 36px; color: #2c3e50; margin-bottom: 20px; text-align: center;">
-        Бесплатная аренда контейнеров в Кирове
+        Аренда контейнеров для мусора в Кирове
     </h1>
 
     <p style="font-size: 18px; color: #555; text-align: center; margin-bottom: 40px;">
-        Аренда – <span style="color: #dc3545">0 руб.</span>, подача – <span style="color: #dc3545">0 руб.</span> Лицензия, договоры с полигонами, талоны, с НДС и без НДС, <span style="color: #dc3545">постоплата</span>.
+        Подберем формат обслуживания под объект: разовый вывоз или работа по графику. Базовый и самый востребованный вариант — контейнер 8 м3.
     </p>
 
     <!-- Основной контент -->
     <section style="margin-bottom: 50px;">
         <h2 style="font-size: 28px; color: #2c3e50; margin-bottom: 20px;">
-            Мусорные контейнеры 8 м³
+            Форматы аренды контейнеров
         </h2>
         <div style="display: flex; gap: 30px; align-items: flex-start; flex-wrap: wrap;">
             <div style="flex: 0 0 300px; max-width: 300px; min-width: 220px;">
@@ -87,13 +87,19 @@ include '../includes/header.php';
 
             <div style="flex: 1 1 480px; min-width: 280px;">
                 <p style="line-height: 1.8; color: #333; margin-bottom: 20px;">
-                    <strong>Благосервис</strong> предоставляет гибкие сроки бесплатной аренды контейнеров и бункеров объёмом 8 м³, обеспечивая надёжную доставку и забор различных типов отходов.
+                    <strong>Благосервис</strong> организует аренду контейнеров для стройки, ремонта, демонтажа и обслуживания
+                    коммерческих объектов. Работаем в разовом формате и на регулярной основе с заменой по согласованному графику.
                 </p>
 
                 <p style="line-height: 1.8; color: #333; margin-bottom: 20px;">
-                    Мы предлагаем долгосрочную аренду контейнеров объёмом 8 м³ и бункеров, оснащённых датчиками для мониторинга
-                    уровня заполнения. Это гарантирует своевременный забор и эффективное управление отходами, адаптированное
-                    к вашим конкретным потребностям и требованиям проекта.
+                    Основной рабочий формат — контейнер 8 м3: оптимален для большинства задач и доступен с оперативной подачей.
+                    Для этого формата у нас есть отдельная коммерческая страница с точечными условиями и тарифами.
+                </p>
+
+                <p style="margin: 0;">
+                    <a href="<?php echo SITE_URL; ?>/arenda-kontejnera-8m3-v-kirove/" style="display:inline-block; padding:10px 16px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none; font-weight:600;">
+                        Контейнер 8 м3
+                    </a>
                 </p>
             </div>
         </div>
@@ -102,13 +108,13 @@ include '../includes/header.php';
     <!-- Преимущества -->
     <section style="margin-bottom: 50px; background: #f8f9fa; padding: 30px; border-radius: 10px;">
         <h2 style="font-size: 28px; color: #2c3e50; margin-bottom: 25px;">
-            Преимущества наших контейнеров
+            Преимущества аренды контейнеров
         </h2>
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
             <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                <h3 style="color: #007bff; margin-bottom: 10px;">📦 Объём 8 м³</h3>
-                <p style="color: #666; margin: 0;">Оптимальный размер для большинства задач</p>
+                <h3 style="color: #007bff; margin-bottom: 10px;">📦 Базовый формат 8 м³</h3>
+                <p style="color: #666; margin: 0;">Самый востребованный объем для большинства объектов</p>
             </div>
 
             <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">

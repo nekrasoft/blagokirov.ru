@@ -124,7 +124,7 @@ include '../includes/header.php';
         <h2 style="font-size:28px; color:#2c3e50; margin-bottom:20px;">Связанные страницы</h2>
         <div style="display:flex; flex-wrap:wrap; gap:15px;">
             <a href="<?php echo SITE_URL; ?>/ceny/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Цены</a>
-            <a href="<?php echo SITE_URL; ?>/vyvoz-musora/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Общая страница услуги</a>
+            <a href="<?php echo SITE_URL; ?>/vyvoz-musora/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Вывоз мусора (все форматы)</a>
             <a href="<?php echo SITE_URL; ?>/arenda-kontejnera-8m3-v-kirove/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Контейнер 8 м3</a>
         </div>
     </section>

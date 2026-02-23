@@ -1,15 +1,15 @@
 <?php
 require_once '../includes/config.php';
 
-$pageTitle = 'Аренда контейнера 8 м3 в Кирове | БлагоСервис 42-45-23';
-$pageDescription = 'Аренда контейнера 8 м3 в Кирове для стройки, ремонта и бизнеса. Быстрая подача, замена контейнера по графику, вывоз и утилизация отходов.';
+$pageTitle = 'Контейнер 8 м3 в аренду в Кирове | Подача и вывоз | БлагоСервис';
+$pageDescription = 'Заказать контейнер 8 м3 в Кирове: быстрая подача, замена по графику, вывоз и лицензированная утилизация отходов. Подходит для стройки, ремонта и B2B-объектов.';
 $canonicalUrl = get_canonical_url('arenda-kontejnera-8m3-v-kirove');
 $ogImage = SITE_URL . '/assets/blago-bunker4.jpg';
 
 $serviceSchema = [
     '@context' => 'https://schema.org',
     '@type' => 'Service',
-    'serviceType' => 'Аренда контейнера 8 м3',
+    'serviceType' => 'Аренда контейнера 8 м3 для мусора',
     'provider' => [
         '@type' => 'LocalBusiness',
         'name' => COMPANY_NAME,
@@ -75,11 +75,11 @@ include '../includes/header.php';
     </nav>
 
     <h1 style="font-size: 36px; color: #2c3e50; margin-bottom: 20px; text-align: center;">
-        Аренда контейнера 8 м3 в Кирове
+        Контейнер 8 м3 в аренду в Кирове
     </h1>
 
     <p style="font-size: 18px; color: #555; text-align: center; margin-bottom: 40px;">
-        Контейнер для строительного мусора, КГО и смешанных отходов. Подача в день обращения и своевременная замена.
+        Точечная услуга под формат 8 м3: подача в день обращения, замена по графику и полный цикл вывоза отходов.
     </p>
 
     <section style="margin-bottom: 50px;">
@@ -95,6 +95,10 @@ include '../includes/header.php';
                     <li>Работаем с НДС и без НДС, доступна постоплата для юрлиц</li>
                     <li>По запросу подключаем обслуживание по графику</li>
                 </ul>
+                <p style="margin:18px 0 0;">
+                    Нужен другой формат? Смотрите
+                    <a href="<?php echo SITE_URL; ?>/arenda-kontejnerov/" style="color:#007bff; text-decoration:none; font-weight:600;">аренду контейнеров (все форматы)</a>.
+                </p>
             </div>
         </div>
     </section>
@@ -138,7 +142,7 @@ include '../includes/header.php';
         <div style="display:flex; flex-wrap:wrap; gap:15px;">
             <a href="<?php echo SITE_URL; ?>/ceny/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Цены</a>
             <a href="<?php echo SITE_URL; ?>/dlya-biznesa/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Для бизнеса</a>
-            <a href="<?php echo SITE_URL; ?>/arenda-kontejnerov/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Общая страница услуги</a>
+            <a href="<?php echo SITE_URL; ?>/arenda-kontejnerov/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Аренда контейнеров (все форматы)</a>
         </div>
     </section>
 

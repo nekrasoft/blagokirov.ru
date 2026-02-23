@@ -418,7 +418,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="twbb_cta-button-wrapper">
         <div class="twbb_cta-buttons">
                     <div class="twbb_cta-button-item twbb_cta-button-item__two twbb_cta-button-enable-yes">
-          <a href="/vyvoz-musora/" class="elementor-button twbb_cta-button elementor-size- sm twbb_cta-button__two">Узнать больше</a>
+          <a href="/vyvoz-musora/" aria-label="Узнать больше о вывозе мусора" class="elementor-button twbb_cta-button elementor-size- sm twbb_cta-button__two">Узнать больше</a>
         </div>
                   </div>
     </div>
@@ -445,7 +445,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="twbb_cta-button-wrapper">
         <div class="twbb_cta-buttons">
         <div class="twbb_cta-button-item twbb_cta-button-item__two twbb_cta-button-enable-yes">
-          <a href="/demontazh-postroek/" class="elementor-button twbb_cta-button elementor-size- twbb_cta-button__two">Узнать больше</a>
+          <a href="/demontazh-postroek/" aria-label="Узнать больше о демонтаже построек" class="elementor-button twbb_cta-button elementor-size- twbb_cta-button__two">Узнать больше</a>
         </div>
                         </div>
     </div>
@@ -472,7 +472,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="twbb_cta-button-wrapper">
         <div class="twbb_cta-buttons">
         <div class="twbb_cta-button-item twbb_cta-button-item__two twbb_cta-button-enable-yes">
-          <a href="/arenda-kontejnerov/" class="elementor-button twbb_cta-button elementor-size- twbb_cta-button__two">Узнать больше</a>
+          <a href="/arenda-kontejnerov/" aria-label="Узнать больше об аренде контейнеров" class="elementor-button twbb_cta-button elementor-size- twbb_cta-button__two">Узнать больше</a>
         </div>
                         </div>
     </div>
@@ -498,7 +498,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="twbb_cta-button-wrapper">
         <div class="twbb_cta-buttons">
         <div class="twbb_cta-button-item twbb_cta-button-item__two twbb_cta-button-enable-yes">
-          <a href="/raschistka-uchastka/" class="elementor-button twbb_cta-button elementor-size- twbb_cta-button__two">Узнать больше</a>
+          <a href="/raschistka-uchastka/" aria-label="Узнать больше о расчистке участка" class="elementor-button twbb_cta-button elementor-size- twbb_cta-button__two">Узнать больше</a>
         </div>
         </div>
     </div>
