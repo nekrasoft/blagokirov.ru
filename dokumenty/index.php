@@ -59,6 +59,11 @@ include '../includes/header.php';
                 <p style="margin:0; color:#555; line-height:1.6;">PDF с условиями работы, тарифами и вариантами обслуживания.</p>
             </a>
 
+            <a href="<?php echo LICENSE_PDF_URL; ?>" target="_blank" style="display:block; text-decoration:none; color:#2c3e50; border:1px solid #dfe6ee; border-radius:10px; padding:22px;">
+                <h2 style="font-size:22px; margin:0 0 10px 0; color:#007bff;">Лицензия</h2>
+                <p style="margin:0; color:#555; line-height:1.6;">Действующая лицензия на деятельность по обращению с отходами.</p>
+            </a>
+
             <a href="<?php echo SITE_URL; ?>/<?php echo SERVICES_PRESENTATION_PDF; ?>" target="_blank" style="display:block; text-decoration:none; color:#2c3e50; border:1px solid #dfe6ee; border-radius:10px; padding:22px;">
                 <h2 style="font-size:22px; margin:0 0 10px 0; color:#007bff;">Мини-презентация</h2>
                 <p style="margin:0; color:#555; line-height:1.6;">Краткая презентация услуг и преимуществ для внутреннего согласования.</p>

@@ -42,6 +42,8 @@ define('TRUCK_IMAGE', SITE_URL . '/assets/blago-truck.png');
 // Документы
 define('COMMERCIAL_PROPOSAL_PDF', 'КП Благосервис.pdf');
 define('SERVICES_PRESENTATION_PDF', 'Мини-презентация Благосервис.pdf');
+define('LICENSE_PDF_FILENAME', 'Лицензия Благосервис.pdf');
+define('LICENSE_PDF_URL', SITE_URL . '/docs/' . rawurlencode(LICENSE_PDF_FILENAME));
 
 // Ссылки
 define('REQUISITES_URL', 'https://blagokirov.tb.ru/');
@@ -74,4 +76,3 @@ function get_canonical_url($path = '') {
     }
     return $url;
 }
-

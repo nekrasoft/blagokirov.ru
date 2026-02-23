@@ -294,7 +294,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-element elementor-element-vty0gtmr elementor-align-left elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="vty0gtmr" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" title="" target="_blank" href="/docs/Лицензия Благосервис.pdf">
+					<a class="elementor-button elementor-button-link elementor-size-sm" title="" target="_blank" href="<?php echo LICENSE_PDF_URL; ?>">
 						<span class="elementor-button-content-wrapper">
 									<span class="elementor-button-text">Лицензия</span>
 					</span>
