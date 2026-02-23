@@ -32,10 +32,43 @@ $serviceSchema = [
     "description" => $pageDescription
 ];
 
+$breadcrumbSchema = [
+    "@context" => "https://schema.org",
+    "@type" => "BreadcrumbList",
+    "itemListElement" => [
+        [
+            "@type" => "ListItem",
+            "position" => 1,
+            "name" => "Главная",
+            "item" => SITE_URL . "/"
+        ],
+        [
+            "@type" => "ListItem",
+            "position" => 2,
+            "name" => "Услуги",
+            "item" => get_canonical_url("uslugi")
+        ],
+        [
+            "@type" => "ListItem",
+            "position" => 3,
+            "name" => "Вывоз мусора",
+            "item" => $canonicalUrl
+        ]
+    ]
+];
+
 include '../includes/header.php';
 ?>
 
 <main style="max-width: 1200px; margin: 0 auto; padding: 40px 20px;">
+    <nav aria-label="Хлебные крошки" style="font-size:14px; color:#6c757d; margin-bottom:18px;">
+        <a href="<?php echo SITE_URL; ?>/" style="color:#007bff; text-decoration:none;">Главная</a>
+        <span style="margin:0 6px;">/</span>
+        <a href="<?php echo SITE_URL; ?>/uslugi/" style="color:#007bff; text-decoration:none;">Услуги</a>
+        <span style="margin:0 6px;">/</span>
+        <span>Вывоз мусора</span>
+    </nav>
+
     <!-- Заголовок страницы -->
     <h1 style="font-size: 36px; color: #2c3e50; margin-bottom: 20px; text-align: center;">
         Вывоз мусора в Кирове
