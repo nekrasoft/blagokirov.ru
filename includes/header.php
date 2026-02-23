@@ -10,6 +10,7 @@
     $pageTitle = isset($pageTitle) ? $pageTitle : 'БлагоСервис: Вывоз мусора и утилизация отходов в Кирове';
     $pageDescription = isset($pageDescription) ? $pageDescription : 'БлагоСервис – профессиональный вывоз мусора, аренда контейнеров, демонтаж построек в Кирове. Честность, надёжность, оперативность.';
     $pageKeywords = isset($pageKeywords) ? $pageKeywords : 'вывоз мусора, утилизация отходов, аренда контейнеров, демонтаж построек, Киров';
+    $pageRobots = isset($pageRobots) ? $pageRobots : 'index, follow';
     $canonicalUrl = isset($canonicalUrl) ? $canonicalUrl : get_canonical_url();
     $ogImage = isset($ogImage) ? $ogImage : TRUCK_IMAGE;
     ?>
@@ -17,7 +18,7 @@
     <title><?php echo htmlspecialchars($pageTitle); ?></title>
     <meta name="description" content="<?php echo htmlspecialchars($pageDescription); ?>">
     <meta name="keywords" content="<?php echo htmlspecialchars($pageKeywords); ?>">
-    <meta name="robots" content="index, follow">
+    <meta name="robots" content="<?php echo htmlspecialchars($pageRobots); ?>">
 
     <link rel="canonical" href="<?php echo htmlspecialchars($canonicalUrl); ?>">
 

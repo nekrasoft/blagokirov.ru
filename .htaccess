@@ -3,6 +3,7 @@ Options +FollowSymlinks
 Options -Indexes
 
 RewriteEngine On
+ErrorDocument 404 /404.php
 
 # Единая каноническая версия: HTTPS + основной хост.
 RewriteCond %{HTTPS} !=on [OR]
