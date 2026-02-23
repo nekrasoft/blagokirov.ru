@@ -392,6 +392,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-widget-container">
 					<h2 class="elementor-heading-title elementor-size-default">Наши услуги</h2>
 				</div>
+				</div>
 				<div class="elementor-element elementor-element-s1yo6rci elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial elementor-widget elementor-widget-text-editor animated fadeInUp" data-id="s1yo6rci" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
 				    <div class="elementor-widget-container"></div>
 				</div>
