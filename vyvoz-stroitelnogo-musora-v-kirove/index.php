@@ -140,7 +140,7 @@ include '../includes/header.php';
                     <a href="<?php echo format_phone_link(PHONE_2); ?>" style="display:inline-block; background:#fff; color:#007bff; padding:14px 34px; text-decoration:none; border-radius:5px; font-weight:bold;"><?php echo PHONE_2; ?></a>
                 </div>
                 <div style="text-align:center;">
-                    <a href="<?php echo SITE_URL; ?>/<?php echo COMMERCIAL_PROPOSAL_PDF; ?>" target="_blank" style="display:inline-block; padding:10px 20px; background:rgba(255,255,255,0.2); color:#fff; text-decoration:none; border-radius:5px; border:2px solid #fff;">Коммерческое предложение</a>
+                    <a href="<?php echo COMMERCIAL_PROPOSAL_PDF_URL; ?>" target="_blank" style="display:inline-block; padding:10px 20px; background:rgba(255,255,255,0.2); color:#fff; text-decoration:none; border-radius:5px; border:2px solid #fff;">Коммерческое предложение</a>
                 </div>
             </div>
             <div>

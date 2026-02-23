@@ -287,7 +287,7 @@ include '../includes/header.php';
                     </div>
                     <!-- Кнопка КП на мобильных -->
                     <div style="text-align: center;">
-                        <a href="<?php echo SITE_URL; ?>/<?php echo COMMERCIAL_PROPOSAL_PDF; ?>"
+                        <a href="<?php echo COMMERCIAL_PROPOSAL_PDF_URL; ?>"
                            target="_blank"
                            title="Скачать коммерческое предложение"
                            class="header-btn-kp header-btn-kp-mobile"

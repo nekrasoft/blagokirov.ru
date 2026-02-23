@@ -42,6 +42,8 @@ define('TRUCK_IMAGE', SITE_URL . '/assets/blago-truck.png');
 // Документы
 define('COMMERCIAL_PROPOSAL_PDF', 'КП Благосервис.pdf');
 define('SERVICES_PRESENTATION_PDF', 'Мини-презентация Благосервис.pdf');
+define('COMMERCIAL_PROPOSAL_PDF_URL', SITE_URL . '/' . rawurlencode(COMMERCIAL_PROPOSAL_PDF));
+define('SERVICES_PRESENTATION_PDF_URL', SITE_URL . '/' . rawurlencode(SERVICES_PRESENTATION_PDF));
 define('LICENSE_PDF_FILENAME', 'Лицензия Благосервис.pdf');
 define('LICENSE_PDF_URL', SITE_URL . '/docs/' . rawurlencode(LICENSE_PDF_FILENAME));
 

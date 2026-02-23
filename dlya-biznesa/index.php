@@ -114,7 +114,7 @@ include '../includes/header.php';
         <h2 style="font-size: 28px; color: #2c3e50; margin-bottom: 20px;">Документы</h2>
         <div style="display:flex; flex-wrap:wrap; gap:15px;">
             <a href="<?php echo SITE_URL; ?>/dokumenty/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Пакет документов</a>
-            <a href="<?php echo SITE_URL; ?>/<?php echo COMMERCIAL_PROPOSAL_PDF; ?>" target="_blank" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Коммерческое предложение PDF</a>
+            <a href="<?php echo COMMERCIAL_PROPOSAL_PDF_URL; ?>" target="_blank" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Коммерческое предложение PDF</a>
         </div>
     </section>
 

@@ -214,7 +214,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-element elementor-element-iqpvtptd elementor-hidden-tablet elementor-hidden-mobile elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="iqpvtptd" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" title="Скачать коммерческое предложение" target="_blank" href="КП Благосервис.pdf">
+					<a class="elementor-button elementor-button-link elementor-size-sm" title="Скачать коммерческое предложение" target="_blank" href="<?php echo COMMERCIAL_PROPOSAL_PDF_URL; ?>">
 						<span class="elementor-button-content-wrapper">
                             <span class="elementor-button-text">Коммерческое предложение</span>
 					    </span>
@@ -273,7 +273,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="elementor-element elementor-element-8412l7vr elementor-align-left elementor-hidden-desktop elementor-hidden-laptop elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="8412l7vr" data-element_type="widget" data-widget_type="button.default">
                     <div class="elementor-widget-container">
                         <div class="elementor-button-wrapper">
-                            <a class="elementor-button elementor-button-link elementor-size-sm" title="Скачать коммерческое предложение" target="_blank" href="КП Благосервис.pdf">
+                            <a class="elementor-button elementor-button-link elementor-size-sm" title="Скачать коммерческое предложение" target="_blank" href="<?php echo COMMERCIAL_PROPOSAL_PDF_URL; ?>">
                                 <span class="elementor-button-content-wrapper">
                                     <span class="elementor-button-text">Коммерческое предложение</span>
                                 </span>
@@ -285,7 +285,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="elementor-element elementor-element-vty0gtmr elementor-align-left elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="vty0gtmr" data-element_type="widget" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" title="Услуги" target="_blank" href="Мини-презентация Благосервис.pdf">
+					<a class="elementor-button elementor-button-link elementor-size-sm" title="Услуги" target="_blank" href="<?php echo SERVICES_PRESENTATION_PDF_URL; ?>">
 						<span class="elementor-button-content-wrapper">
 									<span class="elementor-button-text">Почему у нас выгоднее?</span>
 					</span>

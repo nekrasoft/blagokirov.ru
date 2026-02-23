@@ -247,7 +247,7 @@
                     <a href="<?php echo format_phone_link(PHONE_3); ?>"><?php echo PHONE_3; ?></a>
                 </div>
                 <div class="header-buttons">
-                    <a href="<?php echo SITE_URL; ?>/<?php echo COMMERCIAL_PROPOSAL_PDF; ?>"
+                    <a href="<?php echo COMMERCIAL_PROPOSAL_PDF_URL; ?>"
                        target="_blank"
                        title="Скачать коммерческое предложение"
                        class="header-btn-kp header-btn-kp-desktop">
