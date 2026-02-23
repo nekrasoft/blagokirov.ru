@@ -79,6 +79,9 @@
                         <li style="margin: 8px 0;">
                             <a href="<?php echo SITE_URL; ?>/dokumenty/" style="color: #ecf0f1; text-decoration: none;">Документы</a>
                         </li>
+                        <li style="margin: 8px 0;">
+                            <a href="<?php echo REQUISITES_URL; ?>" style="color: #ecf0f1; text-decoration: none;">Реквизиты</a>
+                        </li>
                     </ul>
                     <div style="margin-top: 20px;">
                         <a href="<?php echo VK_URL; ?>" target="_blank" style="color: #ecf0f1; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
@@ -125,7 +128,7 @@
                     © <?php echo date('Y'); ?> <a href="<?php echo SITE_URL; ?>/" style="color: #95a5a6; text-decoration: none;"><?php echo COMPANY_FULL_NAME; ?></a>, <?php echo COMPANY_REQUISITES; ?>. Все права защищены. Киров.
                 </p>
                 <p style="margin: 10px 0 0 0;">
-                    <a href="https://blagokirov.tb.ru/" target="_blank" style="color: #95a5a6; text-decoration: none; margin-right: 15px;">Наши реквизиты</a>
+                    <a href="<?php echo REQUISITES_URL; ?>" style="color: #95a5a6; text-decoration: none; margin-right: 15px;">Наши реквизиты</a>
                     <a href="<?php echo SITE_URL; ?>/policy.php" style="color: #95a5a6; text-decoration: none;">Политика конфиденциальности</a>
                 </p>
             </div>

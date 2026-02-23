@@ -48,7 +48,7 @@ define('SERVICES_PRESENTATION_PDF_URL', SITE_URL . '/docs/' . rawurlencode(SERVI
 define('LICENSE_PDF_URL', SITE_URL . '/docs/' . rawurlencode(LICENSE_PDF_FILENAME));
 
 // Ссылки
-define('REQUISITES_URL', 'https://blagokirov.tb.ru/');
+define('REQUISITES_URL', SITE_URL . '/rekvizity/');
 
 // Изображения для контента
 define('MISSION_IMAGE', SITE_URL . '/assets/mission-image.jpg');

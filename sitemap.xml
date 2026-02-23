@@ -52,6 +52,11 @@
   <changefreq>weekly</changefreq>
   <priority>0.85</priority>
 </url>
+<url>
+  <loc>https://blagokirov.ru/rekvizity/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
 <!-- Новые коммерческие посадочные -->
 <url>
   <loc>https://blagokirov.ru/vyvoz-stroitelnogo-musora-v-kirove/</loc>
