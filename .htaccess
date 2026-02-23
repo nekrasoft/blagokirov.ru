@@ -7,10 +7,10 @@ RewriteEngine On
 # 301 редиректы для старых URL документов из корня в /docs/
 # Используем THE_REQUEST (ASCII-only), чтобы избежать проблем с декодированием URI.
 RewriteCond %{THE_REQUEST} \s/+%D0%9A%D0%9F%20%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81\.pdf(?:\s|\?) [NC]
-RewriteRule ^ https://blagokirov.ru/docs/%D0%9A%D0%9F%20%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81.pdf [R=301,L,NE]
+RewriteRule ^ https://blagokirov.ru/docs/КП-Благосервис.pdf [R=301,L,NE]
 
 RewriteCond %{THE_REQUEST} \s/+%D0%9C%D0%B8%D0%BD%D0%B8-%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81\.pdf(?:\s|\?) [NC]
-RewriteRule ^ https://blagokirov.ru/docs/%D0%9C%D0%B8%D0%BD%D0%B8-%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81.pdf [R=301,L,NE]
+RewriteRule ^ https://blagokirov.ru/docs/Мини-презентация-Благосервис.pdf [R=301,L,NE]
 
 # Базовый путь
 RewriteBase /
