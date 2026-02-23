@@ -58,33 +58,28 @@ include '../includes/header.php';
                     <th style="padding: 14px; text-align: left; border: 1px solid #dfe6ee;">Услуга</th>
                     <th style="padding: 14px; text-align: left; border: 1px solid #dfe6ee;">Цена от</th>
                     <th style="padding: 14px; text-align: left; border: 1px solid #dfe6ee;">Что включено</th>
-                    <th style="padding: 14px; text-align: left; border: 1px solid #dfe6ee;">Ссылка</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td style="padding: 14px; border: 1px solid #dfe6ee;">Вывоз мусора</td>
+                    <td style="padding: 14px; border: 1px solid #dfe6ee;"><a href="<?php echo SITE_URL; ?>/vyvoz-stroitelnogo-musora-v-kirove/" style="color:#007bff; text-decoration:none; font-weight:600;">Вывоз мусора</a></td>
                     <td style="padding: 14px; border: 1px solid #dfe6ee;">1 200 ₽ / м3</td>
                     <td style="padding: 14px; border: 1px solid #dfe6ee;">Подача техники, вывоз, утилизация</td>
-                    <td style="padding: 14px; border: 1px solid #dfe6ee;"><a href="<?php echo SITE_URL; ?>/vyvoz-stroitelnogo-musora-v-kirove/">подробнее</a></td>
                 </tr>
                 <tr style="background: #f8f9fa;">
-                    <td style="padding: 14px; border: 1px solid #dfe6ee;">Аренда контейнера 8 м3</td>
+                    <td style="padding: 14px; border: 1px solid #dfe6ee;"><a href="<?php echo SITE_URL; ?>/arenda-kontejnera-8m3-v-kirove/" style="color:#007bff; text-decoration:none; font-weight:600;">Аренда контейнера 8 м3</a></td>
                     <td style="padding: 14px; border: 1px solid #dfe6ee;">10 000 ₽ / вывоз</td>
                     <td style="padding: 14px; border: 1px solid #dfe6ee;">Контейнер, доставка, забор заполненного контейнера</td>
-                    <td style="padding: 14px; border: 1px solid #dfe6ee;"><a href="<?php echo SITE_URL; ?>/arenda-kontejnera-8m3-v-kirove/">подробнее</a></td>
                 </tr>
                 <tr>
-                    <td style="padding: 14px; border: 1px solid #dfe6ee;">Демонтаж и вывоз мусора</td>
+                    <td style="padding: 14px; border: 1px solid #dfe6ee;"><a href="<?php echo SITE_URL; ?>/demontazh-i-vyvoz-musora/" style="color:#007bff; text-decoration:none; font-weight:600;">Демонтаж и вывоз мусора</a></td>
                     <td style="padding: 14px; border: 1px solid #dfe6ee;">30 000 ₽ / объект</td>
                     <td style="padding: 14px; border: 1px solid #dfe6ee;">Демонтаж, погрузка, вывоз, утилизация</td>
-                    <td style="padding: 14px; border: 1px solid #dfe6ee;"><a href="<?php echo SITE_URL; ?>/demontazh-i-vyvoz-musora/">подробнее</a></td>
                 </tr>
                 <tr style="background: #f8f9fa;">
-                    <td style="padding: 14px; border: 1px solid #dfe6ee;">Расчистка участка</td>
+                    <td style="padding: 14px; border: 1px solid #dfe6ee;"><a href="<?php echo SITE_URL; ?>/raschistka-uchastka/" style="color:#007bff; text-decoration:none; font-weight:600;">Расчистка участка</a></td>
                     <td style="padding: 14px; border: 1px solid #dfe6ee;">24 000 ₽ / объект</td>
                     <td style="padding: 14px; border: 1px solid #dfe6ee;">Расчистка, вывоз грунта и отходов, подготовка площадки</td>
-                    <td style="padding: 14px; border: 1px solid #dfe6ee;"><a href="<?php echo SITE_URL; ?>/raschistka-uchastka/">подробнее</a></td>
                 </tr>
             </tbody>
         </table>
