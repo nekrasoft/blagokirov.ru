@@ -153,6 +153,33 @@
             background: #0056b3;
             color: #fff !important;
         }
+        .section-nav {
+            border-top: 1px solid #ecf0f4;
+            background: #fff;
+        }
+        .section-nav-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px 20px;
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .section-nav a {
+            color: #2c3e50;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: background 0.2s, color 0.2s;
+        }
+        .section-nav a:hover {
+            color: #0056b3;
+            background: #eef5ff;
+        }
         @media (max-width: 768px) {
             .nav-menu {
                 flex-direction: column;
@@ -168,6 +195,9 @@
             .header-btn-kp {
                 width: 100%;
                 text-align: center;
+            }
+            .section-nav-inner {
+                justify-content: flex-start;
             }
         }
         /* Скрыть кнопку КП на мобильных в шапке, но показать отдельную версию ниже */
@@ -219,5 +249,15 @@
                 </div>
             </div>
         </nav>
+        <div class="section-nav">
+            <div class="section-nav-inner">
+                <a href="<?php echo SITE_URL; ?>/uslugi/">Услуги</a>
+                <a href="<?php echo SITE_URL; ?>/ceny/">Цены</a>
+                <a href="<?php echo SITE_URL; ?>/dlya-biznesa/">Для бизнеса</a>
+                <a href="<?php echo SITE_URL; ?>/dokumenty/">Документы</a>
+                <a href="<?php echo SITE_URL; ?>/vyvoz-stroitelnogo-musora-v-kirove/">Вывоз строймусора</a>
+                <a href="<?php echo SITE_URL; ?>/arenda-kontejnera-8m3-v-kirove/">Контейнер 8 м3</a>
+                <a href="<?php echo SITE_URL; ?>/demontazh-i-vyvoz-musora/">Демонтаж + вывоз</a>
+            </div>
+        </div>
     </header>
-

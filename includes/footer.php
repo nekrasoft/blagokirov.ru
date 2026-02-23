@@ -47,6 +47,9 @@
                     <h3 style="color: #fff; margin-bottom: 15px; font-size: 18px;">Наши услуги</h3>
                     <ul style="list-style: none; padding: 0; margin: 0;">
                         <li style="margin: 8px 0;">
+                            <a href="<?php echo SITE_URL; ?>/uslugi/" style="color: #ecf0f1; text-decoration: none;">Все услуги</a>
+                        </li>
+                        <li style="margin: 8px 0;">
                             <a href="<?php echo SITE_URL; ?>/vyvoz-musora/" style="color: #ecf0f1; text-decoration: none;">Вывоз мусора в Кирове</a>
                         </li>
                         <li style="margin: 8px 0;">
@@ -57,6 +60,24 @@
                         </li>
                         <li style="margin: 8px 0;">
                             <a href="<?php echo SITE_URL; ?>/raschistka-uchastka/" style="color: #ecf0f1; text-decoration: none;">Расчистка участка</a>
+                        </li>
+                        <li style="margin: 8px 0;">
+                            <a href="<?php echo SITE_URL; ?>/vyvoz-stroitelnogo-musora-v-kirove/" style="color: #ecf0f1; text-decoration: none;">Вывоз строительного мусора</a>
+                        </li>
+                        <li style="margin: 8px 0;">
+                            <a href="<?php echo SITE_URL; ?>/arenda-kontejnera-8m3-v-kirove/" style="color: #ecf0f1; text-decoration: none;">Контейнер 8 м3</a>
+                        </li>
+                        <li style="margin: 8px 0;">
+                            <a href="<?php echo SITE_URL; ?>/demontazh-i-vyvoz-musora/" style="color: #ecf0f1; text-decoration: none;">Демонтаж и вывоз мусора</a>
+                        </li>
+                        <li style="margin: 8px 0;">
+                            <a href="<?php echo SITE_URL; ?>/ceny/" style="color: #ecf0f1; text-decoration: none;">Цены</a>
+                        </li>
+                        <li style="margin: 8px 0;">
+                            <a href="<?php echo SITE_URL; ?>/dlya-biznesa/" style="color: #ecf0f1; text-decoration: none;">Для бизнеса</a>
+                        </li>
+                        <li style="margin: 8px 0;">
+                            <a href="<?php echo SITE_URL; ?>/dokumenty/" style="color: #ecf0f1; text-decoration: none;">Документы</a>
                         </li>
                     </ul>
                     <div style="margin-top: 20px;">

@@ -1,6 +1,6 @@
 <?php require_once 'includes/config.php'; ?>
 <!DOCTYPE html>
-<html lang="en-US" class="twbb"><head>
+<html lang="ru" class="twbb"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta charset="UTF-8">
   <title>Вывоз мусора в Кирове | 42-45-23 | БлагоСервис | Аренда контейнеров, демонтаж</title>
@@ -54,13 +54,13 @@
     "@type": "PostalAddress",
     "streetAddress": "ул. Садаковская, 2",
     "addressLocality": "Киров",
-    "postalCode": "610000",
+    "postalCode": "610050",
     "addressCountry": "RU"
   },
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-    "opens": "09:00",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+    "opens": "07:00",
     "closes": "21:00"
   },
   "sameAs": [

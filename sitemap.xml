@@ -31,6 +31,43 @@
   <changefreq>monthly</changefreq>
   <priority>0.90</priority>
 </url>
+<!-- Хаб-страницы -->
+<url>
+  <loc>https://blagokirov.ru/uslugi/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://blagokirov.ru/ceny/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://blagokirov.ru/dlya-biznesa/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://blagokirov.ru/dokumenty/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.85</priority>
+</url>
+<!-- Новые коммерческие посадочные -->
+<url>
+  <loc>https://blagokirov.ru/vyvoz-stroitelnogo-musora-v-kirove/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://blagokirov.ru/arenda-kontejnera-8m3-v-kirove/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://blagokirov.ru/demontazh-i-vyvoz-musora/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.90</priority>
+</url>
 <!-- Дополнительные страницы -->
 <url>
   <loc>https://blagokirov.ru/%D0%9A%D0%9F%20%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81.pdf</loc>

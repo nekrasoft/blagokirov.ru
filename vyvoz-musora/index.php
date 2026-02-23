@@ -215,6 +215,18 @@ include '../includes/header.php';
     }
     ?>
 
+    <section style="margin-bottom: 50px;">
+        <h2 style="font-size: 28px; color: #2c3e50; margin-bottom: 20px;">
+            Смотрите также
+        </h2>
+        <div style="display:flex; flex-wrap:wrap; gap:15px;">
+            <a href="<?php echo SITE_URL; ?>/uslugi/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Все услуги</a>
+            <a href="<?php echo SITE_URL; ?>/ceny/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Цены</a>
+            <a href="<?php echo SITE_URL; ?>/vyvoz-stroitelnogo-musora-v-kirove/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Вывоз строительного мусора</a>
+            <a href="<?php echo SITE_URL; ?>/dlya-biznesa/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Для бизнеса</a>
+        </div>
+    </section>
+
     <!-- Призыв к действию -->
     <section style="background: linear-gradient(135deg, #007bff 0%, #0056b3 100%); color: #fff; padding: 40px 20px;
                     border-radius: 10px; margin-bottom: 50px;">
@@ -274,4 +286,3 @@ include '../includes/header.php';
 </main>
 
 <?php include '../includes/footer.php'; ?>
-
