@@ -245,6 +245,16 @@
     </noscript>
     <!-- /Yandex.Metrika counter -->
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L6NJ6NWM3R"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-L6NJ6NWM3R');
+    </script>
+
     <!-- Cookie notice banner -->
     <style>
     /* Minimal cookie banner styles */

@@ -227,16 +227,6 @@
     })(window,document,'script','dataLayer','GTM-KCJQ2RK9');</script>
     <!-- End Google Tag Manager -->
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L6NJ6NWM3R"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-L6NJ6NWM3R');
-    </script>
-
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
