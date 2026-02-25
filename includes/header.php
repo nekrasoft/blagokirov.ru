@@ -91,6 +91,7 @@
     <link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/frontend.min_002.css">
     <link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/styles.min.css">
     <link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/post-149.css">
+    <link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/css/site-header.css">
 
     <!-- Google Fonts - Montserrat -->
     <link rel="stylesheet" id="elementor-gf-local-montserrat-css" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" type="text/css" media="all">
@@ -106,117 +107,6 @@
             font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
         }
 
-        /* Дополнительные стили для PHP-версии */
-        .header-container {
-            background: #fff;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        .nav-menu {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .logo img {
-            height: 80px;
-        }
-        .contact-phones {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        .contact-phones a {
-            color: #333;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 16px;
-        }
-        .contact-phones a:hover {
-            color: #007bff;
-        }
-        .header-buttons {
-            display: flex;
-            gap: 15px;
-            align-items: center;
-        }
-        .header-btn-kp {
-            display: inline-block;
-            padding: 10px 20px;
-            background: #007bff;
-            color: #fff !important;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: 600;
-            font-size: 14px;
-            transition: background 0.3s;
-        }
-        .header-btn-kp:hover {
-            background: #0056b3;
-            color: #fff !important;
-        }
-        .section-nav {
-            border-top: 1px solid #ecf0f4;
-            background: #fff;
-        }
-        .section-nav-inner {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 10px 20px;
-            display: flex;
-            gap: 14px;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: center;
-        }
-        .section-nav a {
-            color: #2c3e50;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: 600;
-            padding: 8px 12px;
-            border-radius: 6px;
-            transition: background 0.2s, color 0.2s;
-        }
-        .section-nav a:hover {
-            color: #0056b3;
-            background: #eef5ff;
-        }
-        @media (max-width: 768px) {
-            .nav-menu {
-                flex-direction: column;
-                gap: 15px;
-            }
-            .contact-phones {
-                justify-content: center;
-            }
-            .header-buttons {
-                flex-direction: column;
-                width: 100%;
-            }
-            .header-btn-kp {
-                width: 100%;
-                text-align: center;
-            }
-            .section-nav-inner {
-                justify-content: flex-start;
-            }
-        }
-        /* Скрыть кнопку КП на мобильных в шапке, но показать отдельную версию ниже */
-        @media (max-width: 1024px) {
-            .header-btn-kp-desktop {
-                display: none;
-            }
-        }
-        @media (min-width: 1025px) {
-            .header-btn-kp-mobile {
-                display: none;
-            }
-        }
     </style>
 
     <!-- Google Tag Manager -->
@@ -233,38 +123,4 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCJQ2RK9"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <header class="header-container">
-        <nav class="nav-menu">
-            <div class="logo">
-                <a href="<?php echo SITE_URL; ?>/" title="<?php echo COMPANY_NAME; ?>">
-                    <img src="<?php echo LOGO_URL; ?>" alt="<?php echo COMPANY_NAME; ?>">
-                </a>
-            </div>
-            <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
-                <div class="contact-phones">
-                    <a href="<?php echo format_phone_link(PHONE_1); ?>"><?php echo PHONE_1; ?></a>
-                    <a href="<?php echo format_phone_link(PHONE_2); ?>"><?php echo PHONE_2; ?></a>
-                    <a href="<?php echo format_phone_link(PHONE_3); ?>"><?php echo PHONE_3; ?></a>
-                </div>
-                <div class="header-buttons">
-                    <a href="<?php echo COMMERCIAL_PROPOSAL_PDF_URL; ?>"
-                       target="_blank"
-                       title="Скачать коммерческое предложение"
-                       class="header-btn-kp header-btn-kp-desktop">
-                        Коммерческое предложение
-                    </a>
-                </div>
-            </div>
-        </nav>
-        <div class="section-nav">
-            <div class="section-nav-inner">
-                <a href="<?php echo SITE_URL; ?>/uslugi/">Услуги</a>
-                <a href="<?php echo SITE_URL; ?>/ceny/">Цены</a>
-                <a href="<?php echo SITE_URL; ?>/dlya-biznesa/">Для бизнеса</a>
-                <a href="<?php echo SITE_URL; ?>/dokumenty/">Документы</a>
-                <a href="<?php echo SITE_URL; ?>/vyvoz-stroitelnogo-musora-v-kirove/">Вывоз строймусора</a>
-                <a href="<?php echo SITE_URL; ?>/arenda-kontejnera-8m3-v-kirove/">Контейнер 8 м3</a>
-                <a href="<?php echo SITE_URL; ?>/demontazh-i-vyvoz-musora/">Демонтаж + вывоз</a>
-            </div>
-        </div>
-    </header>
+    <?php include __DIR__ . '/partials/site-header.php'; ?>

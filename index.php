@@ -113,6 +113,7 @@
 <!-- <link rel="stylesheet" id="widget-google_maps-css" href="assets/widget-google_maps.min.css" type="text/css" media="all"> -->
 <link rel="stylesheet" id="elementor-post-125-css" href="assets/post-125.css" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-gf-local-montserrat-css" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" type="text/css" media="all">
+<link rel="stylesheet" href="<?php echo SITE_URL; ?>/assets/css/site-header.css" type="text/css" media="all">
 <script type="text/javascript" src="assets/jquery.min.js" id="jquery-core-js"></script>
 <script type="text/javascript" src="assets/jquery-migrate.min.js" id="jquery-migrate-js"></script>
 <script type="text/javascript" id="tenweb_scripts_cache-js-extra">
@@ -180,52 +181,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 /* ]]> */
 </script>
 
-				<div data-elementor-type="twbb_header" data-elementor-id="149" class="elementor elementor-149">
-				<div class="elementor-element elementor-element-a66kd5g5 twbb_section e-flex e-con-boxed e-con e-parent e-lazyloaded elementor-sticky elementor-sticky--active elementor-section--handles-inside elementor-sticky--effects" data-id="a66kd5g5" data-element_type="container" id="header" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;tenweb_sticky&quot;:&quot;top&quot;,&quot;tenweb_sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;tenweb_sticky_offset&quot;:0,&quot;tenweb_sticky_effects_offset&quot;:0}" style="">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-zcau6li7 elementor-widget elementor-widget-image" data-id="zcau6li7" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-																<a title="БлагоСервис ДримБлаго" href="https://blagokirov.ru/">
-							<img style="height: 100px" src="assets/logo_transparent.png" class="attachment-full size-full wp-image-163634" alt="ДримБлаго БлагоСервис">
-                        </a>
-															</div>
-				</div>
-				<div class="elementor-element elementor-element-4wgdhh7x twbb-nav-menu__align-center twbb-responsive-nav-menu--horizontal twbb-responsive-nav-menu--tablet-dropdown twbb-responsive-nav-menu--mobile-dropdown twbb-nav-menu--indicator-classic twbb-nav-menu--toggle twbb-nav-menu--burger twbb-nav-menu--stretch yes twbb-nav-menu__text-align-center elementor-widget elementor-widget-twbb-nav-menu" data-id="4wgdhh7x" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;layout_tablet&quot;:&quot;dropdown&quot;,&quot;layout_mobile&quot;:&quot;dropdown&quot;,&quot;toggle&quot;:&quot;burger&quot;,&quot;full_width&quot;:&quot; yes&quot;}" data-widget_type="twbb-nav-menu.default">
-				<div class="elementor-widget-container">
-					        <nav class="twbb-nav-menu--main twbb-nav-menu__container e--pointer-none">
-            <ul id="menu-1-4wgdhh7x" class="twbb-nav-menu twbb-menu_term_id-17" data-smartmenus-id="17507900414554792"><li class="a:1:{i:0;s:0:&quot;&quot;;} menu-item menu-item-type-post_type menu-item-object-page menu-item-135"><a href="tel:+79229057494" class="twbb-item">+7 (922) 905-74-94</a></li>
-<li class="a:1:{i:0;s:0:&quot;&quot;;} menu-item menu-item-type-post_type menu-item-object-page menu-item-136"><a href="tel:+79229424523" class="twbb-item">+7 (922) 942-45-23</a></li>
-<li class="a:1:{i:0;s:0:&quot;&quot;;} menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="tel:+78332424523" class="twbb-item">+7 (8332) 42-45-23</a></li>
-</ul>        </nav>
-            <div class="twbb-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false" style="">
-            <!--svg aria-hidden="true" role="presentation" class="twbb-menu-toggle__icon--open e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z"></path></svg><svg aria-hidden="true" role="presentation" class="twbb-menu-toggle__icon--close e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"></path></svg-->
-            &nbsp;<a href="tel:+79229424523" class="twbb-item">42-45-23</a>
-        </div>
-            <!--nav class="twbb-nav-menu--dropdown twbb-nav-menu__container" style="">
-        <ul id="menu-2-4wgdhh7x" class="twbb-nav-menu twbb-menu_term_id-17" data-smartmenus-id="1750790041456898">
-            <li class="a:1:{i:0;s:0:&quot;&quot;;} menu-item menu-item-type-post_type menu-item-object-page menu-item-135"><a href="tel:+79229057494" class="twbb-item">+7 (922) 905-74-94</a></li>
-            <li class="a:1:{i:0;s:0:&quot;&quot;;} menu-item menu-item-type-post_type menu-item-object-page menu-item-136"><a href="tel:+79229424523" class="twbb-item">+7 (922) 942-45-23</a></li>
-            <li class="a:1:{i:0;s:0:&quot;&quot;;} menu-item menu-item-type-post_type menu-item-object-page menu-item-137"><a href="tel:+78332424523" class="twbb-item">+7 (8332) 42-45-23</a></li>
-        </ul>    </nav-->
-          <style>
-          .twbb-nav-menu ul {display: none;}      </style>
-    				</div>
-				</div>
-				<div class="elementor-element elementor-element-iqpvtptd elementor-hidden-tablet elementor-hidden-mobile elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="iqpvtptd" data-element_type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" title="Скачать коммерческое предложение" target="_blank" href="<?php echo COMMERCIAL_PROPOSAL_PDF_URL; ?>">
-						<span class="elementor-button-content-wrapper">
-                            <span class="elementor-button-text">Коммерческое предложение</span>
-					    </span>
-					</a>
-				</div>
-								</div>
-				</div>
-					</div>
-				</div>
-				</div>
-				<div data-elementor-type="wp-page" data-elementor-id="125" class="elementor elementor-125">
+<?php include __DIR__ . '/includes/partials/site-header.php'; ?>
+					<div data-elementor-type="wp-page" data-elementor-id="125" class="elementor elementor-125">
 						<section class="elementor-section elementor-top-section elementor-element elementor-element-7f979378 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="7f979378" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}" style="">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-74a2142f" data-id="74a2142f" data-element_type="column">
