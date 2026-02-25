@@ -79,7 +79,7 @@ include '../includes/header.php';
     </h1>
 
     <p style="font-size: 18px; color: #555; text-align: center; margin-bottom: 40px;">
-        Точечная услуга под формат 8 м3: подача в день обращения, замена по графику и полный цикл вывоза отходов.
+        Аренда контейнера – <span style="color: #dc3545">0 руб.</span>, подача контейнера – <span style="color: #dc3545">0 руб.</span>, оплата только за вывоз заполненного контейнера. Быстро, удобно и по договору.
     </p>
 
     <section style="margin-bottom: 50px;">
@@ -95,6 +95,9 @@ include '../includes/header.php';
                     <li>Работаем с НДС и без НДС, доступна постоплата для юрлиц</li>
                     <li>По запросу подключаем обслуживание по графику</li>
                 </ul>
+                <p style="margin:18px 0 0;">
+                    Точечная услуга под формат 8 м3: подача в день обращения, замена по графику и полный цикл вывоза отходов.
+                </p>
                 <p style="margin:18px 0 0;">
                     Нужен другой формат? Смотрите
                     <a href="<?php echo SITE_URL; ?>/arenda-kontejnerov/" style="color:#007bff; text-decoration:none; font-weight:600;">аренду контейнеров (все форматы)</a>.
