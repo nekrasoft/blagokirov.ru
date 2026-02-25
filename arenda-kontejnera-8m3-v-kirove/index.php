@@ -79,7 +79,7 @@ include '../includes/header.php';
     </h1>
 
     <p style="font-size: 18px; color: #555; text-align: center; margin-bottom: 40px;">
-        Аренда контейнера – <span style="color: #dc3545">0 руб.</span>, подача контейнера – <span style="color: #dc3545">0 руб.</span>, оплата только за вывоз заполненного контейнера. Быстро, удобно и по договору.
+        Аренда контейнера – <span style="color: #dc3545">0 руб.</span>, подача контейнера – <span style="color: #dc3545">0 руб.</span>, оплата только за вывоз.
     </p>
 
     <section style="margin-bottom: 50px;">
@@ -90,7 +90,7 @@ include '../includes/header.php';
             <div style="flex:1 1 480px; min-width:280px;">
                 <h2 style="font-size:28px; color:#2c3e50; margin-top:0; margin-bottom:16px;">Условия аренды</h2>
                 <ul style="margin:0; padding-left:20px; color:#333; line-height:1.9;">
-                    <li>Подача контейнера без отдельной платы, оплата за вывоз</li>
+                    <li>Подача контейнера без отдельной платы, оплата только за вывоз</li>
                     <li>Объем 8 м3 - универсальный формат для большинства задач</li>
                     <li>Работаем с НДС и без НДС, доступна постоплата для юрлиц</li>
                     <li>По запросу подключаем обслуживание по графику</li>
