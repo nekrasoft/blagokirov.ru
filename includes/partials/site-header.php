@@ -20,7 +20,13 @@ $sectionNavItems = [
     [
         'href' => SITE_URL . '/uslugi/',
         'label' => 'Услуги',
-        'match' => ['uslugi']
+        'match' => [
+            'uslugi',
+            'vyvoz-musora',
+            'arenda-kontejnerov',
+            'demontazh-postroek',
+            'raschistka-uchastka',
+        ]
     ],
     [
         'href' => SITE_URL . '/ceny/',
@@ -41,7 +47,7 @@ $sectionNavItems = [
     [
         'href' => SITE_URL . '/dokumenty/',
         'label' => 'Документы',
-        'match' => ['dokumenty']
+        'match' => ['dokumenty', 'rekvizity']
     ],
     [
         'href' => SITE_URL . '/vyvoz-stroitelnogo-musora-v-kirove/',
