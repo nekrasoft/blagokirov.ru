@@ -96,7 +96,7 @@
 </url>
 <!-- Дополнительные страницы -->
 <url>
-  <loc>https://blagokirov.ru/policy.php</loc>
+  <loc>https://blagokirov.ru/policy/</loc>
   <changefreq>yearly</changefreq>
   <priority>0.30</priority>
 </url>

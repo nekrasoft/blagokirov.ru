@@ -47,7 +47,7 @@ $sectionNavItems = [
     [
         'href' => SITE_URL . '/dokumenty/',
         'label' => 'Документы',
-        'match' => ['dokumenty', 'rekvizity']
+        'match' => ['dokumenty', 'rekvizity', 'policy']
     ],
     [
         'href' => SITE_URL . '/vyvoz-stroitelnogo-musora-v-kirove/',

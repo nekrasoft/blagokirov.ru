@@ -73,7 +73,7 @@ include '../includes/header.php';
                 <p style="margin:0; color:#555; line-height:1.6;">Актуальные реквизиты для договора, счета и оплаты услуг.</p>
             </a>
 
-            <a href="<?php echo SITE_URL; ?>/policy.php" style="display:block; text-decoration:none; color:#2c3e50; border:1px solid #dfe6ee; border-radius:10px; padding:22px;">
+            <a href="<?php echo SITE_URL; ?>/policy/" style="display:block; text-decoration:none; color:#2c3e50; border:1px solid #dfe6ee; border-radius:10px; padding:22px;">
                 <h2 style="font-size:22px; margin:0 0 10px 0; color:#007bff;">Политика конфиденциальности</h2>
                 <p style="margin:0; color:#555; line-height:1.6;">Условия обработки персональных данных на сайте.</p>
             </a>

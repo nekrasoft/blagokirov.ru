@@ -161,7 +161,7 @@ include '../includes/header.php';
         <div style="display:flex; flex-wrap:wrap; gap:15px;">
             <a href="<?php echo SITE_URL; ?>/dokumenty/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Документы</a>
             <a href="<?php echo SITE_URL; ?>/dlya-biznesa/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Для бизнеса</a>
-            <a href="<?php echo SITE_URL; ?>/policy.php" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Политика конфиденциальности</a>
+            <a href="<?php echo SITE_URL; ?>/policy/" style="display:inline-block; padding:10px 18px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none;">Политика конфиденциальности</a>
         </div>
     </section>
 </main>

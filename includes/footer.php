@@ -141,7 +141,7 @@
                 </p>
                 <p style="margin: 10px 0 0 0;">
                     <a href="<?php echo REQUISITES_URL; ?>" style="color: #95a5a6; text-decoration: none; margin-right: 15px;">Наши реквизиты</a>
-                    <a href="<?php echo SITE_URL; ?>/policy.php" style="color: #95a5a6; text-decoration: none;">Политика конфиденциальности</a>
+                    <a href="<?php echo SITE_URL; ?>/policy/" style="color: #95a5a6; text-decoration: none;">Политика конфиденциальности</a>
                 </p>
             </div>
         </div>
@@ -288,7 +288,7 @@
 
     <div id="cookie-banner" style="display: none;">
         <p><?php echo COOKIE_NOTICE_TEXT; ?>
-            <a href="<?php echo SITE_URL; ?>/policy.php" target="_blank">Политика конфиденциальности</a>
+            <a href="<?php echo SITE_URL; ?>/policy/" target="_blank">Политика конфиденциальности</a>
         </p>
         <div style="margin-left: auto;">
             <button id="cookie-accept"><?php echo COOKIE_ACCEPT_TEXT; ?></button>
