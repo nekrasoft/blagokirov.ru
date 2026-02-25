@@ -94,6 +94,11 @@
     background: #eef5ff;
 }
 
+.section-nav a.is-active {
+    color: #0056b3;
+    background: #eef5ff;
+}
+
 @media (max-width: 768px) {
     .nav-menu {
         flex-direction: column;

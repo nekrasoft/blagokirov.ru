@@ -1,3 +1,65 @@
+<?php
+$currentRequestPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH);
+$currentRequestPath = rawurldecode($currentRequestPath ?: '/');
+$currentRequestPath = trim($currentRequestPath, '/');
+
+$isMenuItemActive = static function ($currentPath, $matchPaths) {
+    foreach ($matchPaths as $matchPath) {
+        $normalizedMatchPath = trim((string) $matchPath, '/');
+        if ($normalizedMatchPath === '') {
+            continue;
+        }
+        if ($currentPath === $normalizedMatchPath || strpos($currentPath, $normalizedMatchPath . '/') === 0) {
+            return true;
+        }
+    }
+    return false;
+};
+
+$sectionNavItems = [
+    [
+        'href' => SITE_URL . '/uslugi/',
+        'label' => 'Услуги',
+        'match' => ['uslugi']
+    ],
+    [
+        'href' => SITE_URL . '/ceny/',
+        'label' => 'Цены',
+        'match' => ['ceny']
+    ],
+    [
+        'href' => SITE_URL . '/dlya-biznesa/',
+        'label' => 'Для бизнеса',
+        'match' => [
+            'dlya-biznesa',
+            'vyvoz-musora-dlya-uk-i-tszh',
+            'vyvoz-musora-dlya-zastroyshchikov',
+            'vyvoz-musora-dlya-podryadchikov',
+            'vyvoz-musora-dlya-predpriyatiy'
+        ]
+    ],
+    [
+        'href' => SITE_URL . '/dokumenty/',
+        'label' => 'Документы',
+        'match' => ['dokumenty']
+    ],
+    [
+        'href' => SITE_URL . '/vyvoz-stroitelnogo-musora-v-kirove/',
+        'label' => 'Вывоз строймусора',
+        'match' => ['vyvoz-stroitelnogo-musora-v-kirove']
+    ],
+    [
+        'href' => SITE_URL . '/arenda-kontejnera-8m3-v-kirove/',
+        'label' => 'Контейнер 8 м3',
+        'match' => ['arenda-kontejnera-8m3-v-kirove']
+    ],
+    [
+        'href' => SITE_URL . '/demontazh-i-vyvoz-musora/',
+        'label' => 'Демонтаж + вывоз',
+        'match' => ['demontazh-i-vyvoz-musora']
+    ]
+];
+?>
 <header class="header-container">
     <nav class="nav-menu">
         <div class="logo">
@@ -23,13 +85,12 @@
     </nav>
     <div class="section-nav">
         <div class="section-nav-inner">
-            <a href="<?php echo SITE_URL; ?>/uslugi/">Услуги</a>
-            <a href="<?php echo SITE_URL; ?>/ceny/">Цены</a>
-            <a href="<?php echo SITE_URL; ?>/dlya-biznesa/">Для бизнеса</a>
-            <a href="<?php echo SITE_URL; ?>/dokumenty/">Документы</a>
-            <a href="<?php echo SITE_URL; ?>/vyvoz-stroitelnogo-musora-v-kirove/">Вывоз строймусора</a>
-            <a href="<?php echo SITE_URL; ?>/arenda-kontejnera-8m3-v-kirove/">Контейнер 8 м3</a>
-            <a href="<?php echo SITE_URL; ?>/demontazh-i-vyvoz-musora/">Демонтаж + вывоз</a>
+            <?php foreach ($sectionNavItems as $item): ?>
+                <?php $isActive = $isMenuItemActive($currentRequestPath, $item['match']); ?>
+                <a href="<?php echo htmlspecialchars($item['href']); ?>"<?php echo $isActive ? ' class="is-active" aria-current="page"' : ''; ?>>
+                    <?php echo htmlspecialchars($item['label']); ?>
+                </a>
+            <?php endforeach; ?>
         </div>
     </div>
 </header>
