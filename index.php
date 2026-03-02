@@ -3,7 +3,7 @@
 <html lang="ru" class="twbb"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta charset="UTF-8">
-  <title>Вывоз мусора в Кирове | 42-45-23 | БлагоСервис | Аренда контейнеров, демонтаж</title>
+  <title>Вывоз мусора в Кирове | 42-45-23 | БлагоСервис</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
       content="БлагоСервис – профессиональный вывоз мусора, аренда контейнеров, демонтаж построек в Кирове. Честность, надёжность, оперативность. Звоните!">
