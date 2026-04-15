@@ -12,6 +12,11 @@
         footer a { color: #ecf0f1; }
     </style>
 <?php } ?>
+<?php
+$footer_contact_email_parts = explode('@', CONTACT_EMAIL, 2);
+$footer_contact_email_user_encoded = strrev(base64_encode($footer_contact_email_parts[0] ?? ''));
+$footer_contact_email_domain_encoded = strrev(base64_encode($footer_contact_email_parts[1] ?? ''));
+?>
 
     <footer style="background: #2c3e50; color: #ecf0f1; padding: 40px 20px; margin-top: 60px;">
         <div style="max-width: 1200px; margin: 0 auto;">
@@ -34,6 +39,19 @@
                         <a href="<?php echo format_phone_link(PHONE_3); ?>" style="color: #ecf0f1; text-decoration: none;">
                             <?php echo PHONE_3; ?>
                         </a>
+                    </p>
+                    <p style="margin: 5px 0;">
+                        <a
+                            id="footer-email-link"
+                            href="#"
+                            data-user="<?php echo htmlspecialchars($footer_contact_email_user_encoded, ENT_QUOTES, 'UTF-8'); ?>"
+                            data-domain="<?php echo htmlspecialchars($footer_contact_email_domain_encoded, ENT_QUOTES, 'UTF-8'); ?>"
+                            style="color: #ecf0f1; text-decoration: none;"
+                            rel="nofollow"
+                        >Email</a>
+                        <noscript>
+                            <span style="color: #bdc3c7;">Email: blagoservice [at] mail [dot] ru</span>
+                        </noscript>
                     </p>
                     <p style="margin-top: 15px; color: #bdc3c7;">
                         <?php echo COMPANY_ADDRESS; ?><br>
@@ -158,6 +176,24 @@
     <!-- Обработка формы подписки на рассылку -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
+        const footerEmailLink = document.getElementById('footer-email-link');
+        if (footerEmailLink) {
+            const userEncoded = footerEmailLink.dataset.user || '';
+            const domainEncoded = footerEmailLink.dataset.domain || '';
+            try {
+                const user = atob(userEncoded.split('').reverse().join(''));
+                const domain = atob(domainEncoded.split('').reverse().join(''));
+                if (user && domain) {
+                    const email = `${user}@${domain}`;
+                    footerEmailLink.href = `mailto:${email}`;
+                    footerEmailLink.textContent = email;
+                    footerEmailLink.setAttribute('aria-label', `Написать на ${email}`);
+                }
+            } catch (error) {
+                footerEmailLink.textContent = 'Написать на почту';
+            }
+        }
+
         const newsletterForm = document.getElementById('newsletter-form');
         const messageDiv = document.getElementById('newsletter-message');
         const submitBtn = document.getElementById('newsletter-submit');
