@@ -90,7 +90,7 @@ include '../includes/header.php';
         <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:20px;">
             <div style="background:#fff; border-radius:8px; padding:20px; border:1px solid #e7edf3;">
                 <h3 style="margin:0 0 10px 0; color:#007bff;">Контейнер 8 м3</h3>
-                <p style="margin:0 0 8px 0; font-size:28px; font-weight:700; color:#2c3e50;">от 10 000 ₽</p>
+                <p style="margin:0 0 8px 0; font-size:28px; font-weight:700; color:#2c3e50;">от 11 000 ₽</p>
                 <p style="margin:0; color:#666;">за вывоз заполненного контейнера</p>
             </div>
             <div style="background:#fff; border-radius:8px; padding:20px; border:1px solid #e7edf3;">

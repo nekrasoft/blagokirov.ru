@@ -68,7 +68,7 @@ include '../includes/header.php';
                 </tr>
                 <tr style="background: #f8f9fa;">
                     <td style="padding: 14px; border: 1px solid #dfe6ee;"><a href="<?php echo SITE_URL; ?>/arenda-kontejnera-8m3-v-kirove/" style="color:#007bff; text-decoration:none; font-weight:600;">Аренда контейнера 8 м3</a></td>
-                    <td style="padding: 14px; border: 1px solid #dfe6ee;">10 000 ₽ / вывоз</td>
+                    <td style="padding: 14px; border: 1px solid #dfe6ee;">11 000 ₽ / вывоз</td>
                     <td style="padding: 14px; border: 1px solid #dfe6ee;">Контейнер, доставка, забор заполненного контейнера</td>
                 </tr>
                 <tr>

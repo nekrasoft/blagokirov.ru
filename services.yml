@@ -50,7 +50,7 @@
       <offer id="blago-001">
         <name>Вывоз мусора за куб (код blago-001)</name>
         <url>https://blagokirov.ru/vyvoz-musora/</url>
-        <price from="true">1200</price>
+        <price from="true">1300</price>
         <currencyId>RUB</currencyId>
         <categoryId>1</categoryId>
         <picture>https://blagokirov.ru/assets/blago-truck.png</picture>
@@ -88,7 +88,7 @@
       <offer id="blago-003">
         <name>Аренда контейнера 8 м3 (код blago-003)</name>
         <url>https://blagokirov.ru/arenda-kontejnerov/</url>
-        <price from="true">9000</price>
+        <price from="true">11000</price>
         <currencyId>RUB</currencyId>
         <categoryId>2</categoryId>
         <picture>https://blagokirov.ru/assets/blago-bunker4.jpg</picture>

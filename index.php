@@ -285,7 +285,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="elementor-counter">
 			<div class="elementor-counter-title">минимальные цены на услуги</div>			<div class="elementor-counter-number-wrapper">
 				<span class="elementor-counter-number-prefix">от </span>
-				<span class="elementor-counter-number" data-duration="2000" data-to-value="1200" data-from-value="0">1200</span>
+				<span class="elementor-counter-number" data-duration="2000" data-to-value="1300" data-from-value="0">1300</span>
 				<span class="elementor-counter-number-suffix"> ₽</span>
 			</div>
 		</div>
@@ -630,7 +630,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 				<div class="elementor-element elementor-element-d8jr4g6h elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial elementor-widget elementor-widget-heading animated fadeInUp" data-id="d8jr4g6h" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h4 class="elementor-heading-title elementor-size-default">10 000 ₽</h4>				</div>
+					<h4 class="elementor-heading-title elementor-size-default">11 000 ₽</h4>				</div>
 				</div>
 				<div class="elementor-element elementor-element-7v3e9rv0 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-widget-tablet__width-initial elementor-widget elementor-widget-text-editor animated fadeInUp" data-id="7v3e9rv0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">

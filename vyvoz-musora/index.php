@@ -110,7 +110,7 @@ include '../includes/header.php';
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
             <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                 <h3 style="color: #007bff; margin-bottom: 10px;">💰 Минимальные цены</h3>
-                <p style="color: #666; margin: 0;">от 1200 ₽ за куб</p>
+                <p style="color: #666; margin: 0;">от 1300 ₽ за куб</p>
             </div>
 
             <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">

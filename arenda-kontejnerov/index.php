@@ -119,7 +119,7 @@ include '../includes/header.php';
 
             <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                 <h3 style="color: #007bff; margin-bottom: 10px;">📡 Без отдельной платы за подачу</h3>
-                <p style="color: #666; margin: 0;">Оплата — за вывоз заполненного контейнера (от 10 000 ₽).</p>
+                <p style="color: #666; margin: 0;">Оплата — за вывоз заполненного контейнера (от 11 000 ₽).</p>
             </div>
 
             <div style="background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
@@ -166,7 +166,7 @@ include '../includes/header.php';
 
         <div style="max-width: 400px; margin: 0 auto; border: 2px solid #007bff; padding: 30px; border-radius: 10px; background: #fff;">
             <h3 style="color: #007bff; font-size: 22px; margin-bottom: 15px;">Контейнер 8 м³</h3>
-            <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-bottom: 10px;">10 000 ₽</p>
+            <p style="font-size: 24px; font-weight: bold; color: #2c3e50; margin-bottom: 10px;">11 000 ₽</p>
             <p style="color: #666; margin-bottom: 15px;">за 1 вывоз</p>
             <ul style="text-align: left; color: #333; margin-bottom: 20px; list-style: none; padding: 0;">
                 <li style="margin: 10px 0;">✓ Контейнер 8 м³</li>
