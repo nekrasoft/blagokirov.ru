@@ -63,7 +63,7 @@ include '../includes/header.php';
             <tbody>
                 <tr>
                     <td style="padding: 14px; border: 1px solid #dfe6ee;"><a href="<?php echo SITE_URL; ?>/vyvoz-stroitelnogo-musora-v-kirove/" style="color:#007bff; text-decoration:none; font-weight:600;">Вывоз мусора</a></td>
-                    <td style="padding: 14px; border: 1px solid #dfe6ee;">1 200 ₽ / м3</td>
+                    <td style="padding: 14px; border: 1px solid #dfe6ee;">1 300 ₽ / м3</td>
                     <td style="padding: 14px; border: 1px solid #dfe6ee;">Подача техники, вывоз, утилизация</td>
                 </tr>
                 <tr style="background: #f8f9fa;">

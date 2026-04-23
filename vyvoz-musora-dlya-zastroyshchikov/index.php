@@ -95,7 +95,7 @@ include '../includes/header.php';
             </div>
             <div style="background:#fff; border-radius:8px; padding:20px; border:1px solid #e7edf3;">
                 <h3 style="margin:0 0 10px 0; color:#007bff;">По объему</h3>
-                <p style="margin:0 0 8px 0; font-size:28px; font-weight:700; color:#2c3e50;">от 1 200 ₽</p>
+                <p style="margin:0 0 8px 0; font-size:28px; font-weight:700; color:#2c3e50;">от 1 300 ₽</p>
                 <p style="margin:0; color:#666;">за 1 м3 для точечных задач</p>
             </div>
             <div style="background:#fff; border-radius:8px; padding:20px; border:1px solid #e7edf3;">
