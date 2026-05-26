@@ -33,7 +33,7 @@ define('WORKING_HOURS', 'пн-сб 07:00-21:00');
 define('EMAIL', 'info@blagokirov.ru');
 
 // Социальные сети
-define('VK_URL', 'https://vk.com/dreamblago');
+define('VK_URL', 'https://vk.com/blagoservice');
 
 // Изображения
 define('LOGO_URL', SITE_URL . '/assets/logo_300.png');
