@@ -36,7 +36,7 @@ define('EMAIL', 'info@blagokirov.ru');
 define('VK_URL', 'https://vk.com/dreamblago');
 
 // Изображения
-define('LOGO_URL', SITE_URL . '/assets/logo_transparent.png');
+define('LOGO_URL', SITE_URL . '/assets/logo_300.png');
 define('TRUCK_IMAGE', SITE_URL . '/assets/blago-truck.png');
 
 // Документы
