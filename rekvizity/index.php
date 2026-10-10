@@ -89,9 +89,13 @@ include '../includes/header.php';
         Реквизиты ООО «БлагоСервис»
     </h1>
 
-    <p style="font-size: 18px; color: #555; text-align: center; margin-bottom: 40px;">
+    <p style="font-size: 18px; color: #555; text-align: center; margin-bottom: 20px;">
         Данные для договора, выставления счета и безналичной оплаты.
     </p>
+
+    <div style="text-align: center; margin-bottom: 40px;">
+        <a href="/docs/Карточка-Благосервис.pdf" download style="display:inline-block; padding:12px 24px; border-radius:6px; background:#007bff; color:#fff; text-decoration:none; font-size:18px;">Скачать реквизиты (PDF)</a>
+    </div>
 
     <section style="margin-bottom: 50px; overflow-x: auto;">
         <table style="width: 100%; border-collapse: collapse; min-width: 760px;">
